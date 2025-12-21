@@ -6,14 +6,14 @@ namespace main
 {
     class Product
     {
-        public Product(string name, int price, string type)
+        public Product(string name, int price, string brand)
         {
             Name = name;
             Price = price;
-            Type = type;
+            Brand = brand;
         }
         public string Name { get; set; }
+        public string Brand { get; set; }
         public int Price { get; set; }
-        public string Type { get; set; }
     }
 }
