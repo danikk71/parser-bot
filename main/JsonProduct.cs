@@ -4,7 +4,9 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Text.Unicode;
+using main.Models;
 
 namespace main
 {
@@ -12,7 +14,7 @@ namespace main
     {
         private static string GetDirectoryPath()
         {
-            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), "DataJSON");
+            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), $"DataJSON/{DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year}/{DateTime.Now.Hour}-Hour");
             if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath);
@@ -21,7 +23,7 @@ namespace main
         }
         public static async Task Serialize(string key,List<Product> products)
         {
-            string fileName = Path.Combine(GetDirectoryPath(), $"{DateTime.UtcNow.Year}.{DateTime.UtcNow.Month}.{DateTime.UtcNow.Day}-{DateTime.Now.Hour}-{key}.json");
+            string fileName = Path.Combine(GetDirectoryPath(), $"{key}.json");
             
             var options = new JsonSerializerOptions
             {

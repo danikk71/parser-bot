@@ -2,7 +2,9 @@
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
 using HtmlAgilityPack;
+using main.Models;
 
 namespace main
 {
@@ -50,6 +52,78 @@ namespace main
                 semaphore.Release();
             }
         }
+        static string SearchAttribute(string attribute,HtmlNodeCollection? htmlNodes) //також можна буде добавити якийсь Regex аргумент , щоб наприклад брати пам'ять в ГБ/ТБ
+        {
+            if (htmlNodes == null) return "htmlNodes пустий";
+            foreach(var row in htmlNodes)
+            {
+                var labelNode = row.SelectSingleNode(".//span[contains(@class,'product-short-char__item__label')]");
+                if (labelNode != null && labelNode.InnerText.Contains(attribute, StringComparison.OrdinalIgnoreCase))
+                {
+                    var valueNode = row.SelectSingleNode(".//span[contains(@class,'product-short-char__item__value')]");
+
+                    if (valueNode != null)
+                    {
+                        return valueNode.InnerText.Trim();
+                    }
+                }
+            }
+            return $"{attribute} Атрибут не знайдено";
+        }
+        static int GetIntAttribule(string attribute,HtmlNodeCollection? htmlNodes)
+        {
+            string value = SearchAttribute(attribute, htmlNodes);
+            string intvalue = Regex.Replace(value, @"[^\d]", "");
+            return string.IsNullOrEmpty(intvalue) ? 0 : int.Parse(intvalue);
+        }
+        static Product? CreateProduct(HtmlNode? productNode)
+        {
+            if (productNode == null)
+            {
+                Console.WriteLine("Предмет не знайдено");
+                return null;
+            }
+            string name = productNode.GetAttributeValue("data-prod-name", "Назву не знайдено");
+            string brand = productNode.GetAttributeValue("data-prod-brand", "Назву не знайдено");
+            int price = productNode.GetAttributeValue("data-prod-price", 0);
+            int type = productNode.GetAttributeValue("data-hd-id_category", 0);
+
+            var attributes = productNode.SelectNodes(".//div[contains(@class, 'product-short-char__item')]");
+
+            switch (type)
+            {
+                case 397:
+                    return new GPU(name, price, brand,
+                        GetIntAttribule("обсяг", attributes),
+                        SearchAttribute("тип", attributes));
+                case 398:
+                    return new CPU(name, price, brand,
+                        GetIntAttribule("кількість", attributes),
+                        SearchAttribute("роз'єм", attributes));
+                case 399:
+                    return new HDD(name, price, brand,
+                        GetIntAttribule("обсяг", attributes),
+                        SearchAttribute("форм-фактор", attributes));
+                case 400:
+                    return new Motherboard(name, price, brand,
+                        SearchAttribute("форм-фактор", attributes),
+                        SearchAttribute("роз'єм", attributes),
+                        SearchAttribute("тип", attributes),
+                        SearchAttribute("сумісні", attributes));
+                case 403:
+                    return new RAM(name, price, brand,
+                        GetIntAttribule("Обсяг одного модуля", attributes), 
+                        SearchAttribute("тип", attributes),
+                        GetIntAttribule("частота",attributes));
+                case 407:
+                    return new HDD(name, price, brand,
+                        GetIntAttribule("обсяг", attributes),
+                        SearchAttribute("форм-фактор", attributes));
+                default:
+                    return null;
+            }
+        }
+        
         static async Task<List<Product>> GetProductsFromPage(HttpClient httpClient,string url,string key)
         {
             List<Product> products = new List<Product>();
@@ -78,23 +152,15 @@ namespace main
                             Console.WriteLine($"End of parse - {key}");
                             break;
                         }
-                        if (productNodes != null)
+                        foreach (var productNode in productNodes)
                         {
-                            foreach (var productNode in productNodes)
-                            {
-                                string name = productNode.GetAttributeValue("data-prod-name", "Назву не знайдено");
-                                string brand = productNode.GetAttributeValue("data-prod-brand", "Назву не знайдено");
-                                int price = productNode.GetAttributeValue("data-prod-price", 0);
-                                int type = productNode.GetAttributeValue("data-hd-id_category", 0);
-
-                                products.Add(new Product(name, price, brand, type));
-                            }
+                            products.Add(CreateProduct(productNode) ?? new RAM("1",1,"1",1,"1",1));  //заглушка тимчасова на випадок null
                         }
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    Console.WriteLine($"oh shit , error : {ex.Message}");
                 }
                 pageCount++;
                 await Task.Delay(1000);
