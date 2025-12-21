@@ -1,9 +1,11 @@
-﻿using main;
+﻿using System.Collections.Concurrent;
+using main;
 
 class Program {
     static async Task Main()
     {
-        Dictionary<string, List<Product>> products = await Parser.GetProductsFromPage("https://telemart.ua/ua/city-1482/ram/");
+        ConcurrentDictionary<string, List<Product>> products = new ConcurrentDictionary<string, List<Product>>();
+        await Parser.CreateTasks("https://telemart.ua/ua/city-1482/",products);
         foreach (var productKey in products.Values)
         {
             ListSorter.SortByPriceAscending(productKey);

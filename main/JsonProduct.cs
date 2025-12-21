@@ -21,7 +21,7 @@ namespace main
         }
         public static async Task Serialize(string key,List<Product> products)
         {
-            string fileName = Path.Combine(GetDirectoryPath(), $"{key}-{DateTime.UtcNow.Year}.{DateTime.UtcNow.Month}.{DateTime.UtcNow.Day}-{DateTime.UtcNow.Hour}.json");
+            string fileName = Path.Combine(GetDirectoryPath(), $"{DateTime.UtcNow.Year}.{DateTime.UtcNow.Month}.{DateTime.UtcNow.Day}-{DateTime.Now.Hour}-{key}.json");
             
             var options = new JsonSerializerOptions
             {
