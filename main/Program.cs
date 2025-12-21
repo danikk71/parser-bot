@@ -1,21 +1,27 @@
-﻿using System;
-using System.Text.Json;
-using HtmlAgilityPack;
+﻿using System.Collections.Concurrent;
 using main;
 
 class Program {
     static async Task Main()
     {
-        List<Product> products = await Parser.GetProducts();
-        foreach (var product in products)
+        ConcurrentDictionary<string, List<Product>> products = new ConcurrentDictionary<string, List<Product>>();
+        await Parser.CreateTasks("https://telemart.ua/ua/city-1482/",products);
+        foreach (var productKey in products.Values)
         {
-            Console.WriteLine($"Name: {product.Name}, Price: {product.Price} , Type: {product.Type}");
+            ListSorter.SortByPriceAscending(productKey);
+            foreach(var product in productKey)
+            {
+                Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+            }
         }
-        await JSONProduct.Serialize(products);
-        List<Product> newProducts = await JSONProduct.Deserialize();
-        foreach (var product in newProducts)
+        foreach(var product in products)
         {
-            Console.WriteLine($"Name: {product.Name}, Price: {product.Price} , Type: {product.Type}");
+            await JSONProduct.Serialize(product.Key,product.Value);
         }
+        //List<Product> newProducts = await JSONProduct.Deserialize();
+        //foreach (var product in newProducts)
+        //{
+        //    Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
+        //}
     }
 }
