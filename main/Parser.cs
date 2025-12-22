@@ -94,13 +94,15 @@ namespace main
                 Console.WriteLine("Предмет не знайдено");
                 return null;
             }
-            string name = productNode.GetAttributeValue("data-prod-name", "Назву не знайдено");
-            string brand = productNode.GetAttributeValue("data-prod-brand", "Назву не знайдено");
-            int price = productNode.GetAttributeValue("data-prod-price", 0);
-            int type = productNode.GetAttributeValue("data-hd-id_category", 0);
-            bool isAvailable = !productNode.ParentNode.GetAttributeValue("class","").Contains("product-item--not-available");
+            bool isAvailable = !productNode.GetAttributeValue("class", "").Contains("product-item--not-available");
 
-            var attributes = productNode.SelectNodes(".//div[contains(@class, 'product-short-char__item')]");
+            var dataNode = productNode.SelectSingleNode(".//div[contains(@class,'product-item__inner')]");
+            string name = dataNode.GetAttributeValue("data-prod-name", "Назву не знайдено");
+            string brand = dataNode.GetAttributeValue("data-prod-brand", "Назву не знайдено");
+            int price = dataNode.GetAttributeValue("data-prod-price", 0);
+            int type = dataNode.GetAttributeValue("data-hd-id_category", 0);
+
+            var attributes = dataNode.SelectNodes(".//div[contains(@class, 'product-short-char__item')]");
 
             switch (type)
             {
@@ -156,7 +158,7 @@ namespace main
                         var html = await response.Content.ReadAsStringAsync();
                         var htmlDoc = new HtmlDocument();
                         htmlDoc.LoadHtml(html);
-                        var productNodes = htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'product-item__inner')]");
+                        var productNodes = htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'product-item col-lg-3')]");
 
                         if (productNodes == null || productNodes.Count == 0)
                         {
