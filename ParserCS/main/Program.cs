@@ -9,20 +9,12 @@ class Program {
         await Parser.CreateTasks("https://telemart.ua/ua/city-1482/",products);
         foreach (var productKey in products.Values)
         {
-            //ListSorter.SortByPriceAscending(productKey);
             foreach(var product in productKey)
             {
                 Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
             }
         }
-        foreach(var product in products)
-        {
-            await JSONProduct.Serialize(product.Key,product.Value);
-        }
-        //List<Product> newProducts = await JSONProduct.Deserialize();
-        //foreach (var product in newProducts)
-        //{
-        //    Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
-        //}
+        List<Product> allProducts = products.Values.SelectMany(x => x).ToList();
+        await JSONProduct.Serialize(allProducts);
     }
 }
