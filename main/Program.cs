@@ -9,7 +9,7 @@ class Program {
         await Parser.CreateTasks("https://telemart.ua/ua/city-1482/",products);
         foreach (var productKey in products.Values)
         {
-            ListSorter.SortByPriceAscending(productKey);
+            //ListSorter.SortByPriceAscending(productKey);
             foreach(var product in productKey)
             {
                 Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
