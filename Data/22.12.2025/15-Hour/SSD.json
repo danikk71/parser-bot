@@ -1,0 +1,5162 @@
+[
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV3 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SNV3S/1000G)",
+    "Brand": "Kingston",
+    "Price": 5719,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/659314-814483-category_page/kingston-nv3-3d-nand-1tb-m2-2280-pci-e-nvme-x4-snv3s1000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND 3-bit MLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P1T0BW)",
+    "Brand": "Samsung",
+    "Price": 8749,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/445260-588761-category_page/samsung-990-pro-v-nand-3-bit-mlc-1tb-m2-2280-pci-e-nvme-20-mz-v9p1t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston KC3000 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SKC3000S/1024G)",
+    "Brand": "Kingston",
+    "Price": 8639,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/390090-542534-category_page/kingston-kc3000-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-skc3000s1024g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND 3-bit MLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P2T0BW)",
+    "Brand": "Samsung",
+    "Price": 14499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/445261-588773-category_page/samsung-990-pro-v-nand-3-bit-mlc-2tb-m2-2280-pci-e-nvme-20-mz-v9p2t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV3 3D NAND 500GB M.2 (2280 PCI-E) NVMe x4 (SNV3S/500G)",
+    "Brand": "Kingston",
+    "Price": 3679,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/659313-814492-category_page/kingston-nv3-3d-nand-500gb-m2-2280-pci-e-nvme-x4-snv3s500g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV3 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (SNV3S/2000G)",
+    "Brand": "Kingston",
+    "Price": 10879,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/659315-814486-category_page/kingston-nv3-3d-nand-2tb-m2-2280-pci-e-nvme-x4-snv3s2000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Kingston SSDNow A400 TLC 480GB 2.5\\'\\' (SA400S37/480G)",
+    "Brand": "Kingston",
+    "Price": 3459,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/67022-425930-category_page/kingston-ssdnow-a400-tlc-480gb-25-sa400s37480g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN7100 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T4X0E)",
+    "Brand": "Western Digital",
+    "Price": 7499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762637-950354-category_page/western-digital-black-sn7100-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-wds100t4x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade G5 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (SFYR2S/2T0)",
+    "Brand": "Kingston",
+    "Price": 17689,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/754925-936926-category_page/kingston-fury-renegade-g5-3d-tlc-nand-2tb-m2-2280-pci-e-nvme-x4-sfyr2s2t0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade with Heatsink 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SFYRSK/1000G)",
+    "Brand": "Kingston",
+    "Price": 9789,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/446792-589426-category_page/kingston-fury-renegade-with-heatsink-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-sfyrsk1000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P400 Lite 1TB M.2 (2280 PCI-E) NVMe x4 (P400LP1KGM28H)",
+    "Brand": "Patriot",
+    "Price": 6089,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/487293-626221-category_page/patriot-p400-lite-1tb-m2-2280-pci-e-nvme-x4-p400lp1kgm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CX400 Gen.2 3D NAND TLC 128GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 1139,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320863-477300-category_page/goodram-cx400-gen2-3d-nand-tlc-128gb-25-ssdpr-cx400-128-g2.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T500 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CT1000T500SSD8)",
+    "Brand": "Crucial",
+    "Price": 9499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627357-774057-category_page/crucial-t500-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-ct1000t500ssd8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 980 V-NAND MLC 500GB M.2 (2280 PCI-E) NVMe 1.4 (MZ-V8V500BW)",
+    "Brand": "Samsung",
+    "Price": 8971,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/352791-497890-category_page/samsung-980-v-nand-mlc-500gb-m2-2280-pci-e-nvme-14-mz-v8v500bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 1TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 8599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467625-604518-category_page/samsung-870-evo-v-nand-1tb-25-mz-77e1t0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX700 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX700-01T-80)",
+    "Brand": "GoodRAM",
+    "Price": 6999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591668-735520-category_page/goodram-px700-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ssdpr-px700-01t-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston KC3000 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (SKC3000S/512G)",
+    "Brand": "Kingston",
+    "Price": 5319,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/390089-542543-category_page/kingston-kc3000-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-skc3000s512g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Lexar NQ100 3D NAND TLC 480GB 2.5\\",
+    "Brand": "Lexar",
+    "Price": 2099,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627126-773545-category_page/lexar-nq100-3d-nand-tlc-480gb-25-lnq100x480g-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4X 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (AP512GAS2280P4X-1)",
+    "Brand": "Apacer",
+    "Price": 3719,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467610-604436-category_page/apacer-as2280p4x-3d-nand-512gb-m2-2280-pci-e-nvme-x4-ap512gas2280p4x-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM710 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (LNM710X002T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 10899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627272-773707-category_page/lexar-nm710-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-lnm710x002t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 960 3D NAND 1TB M.2 (2280 PCI-E) (ALEG-960-1TCS)",
+    "Brand": "ADATA",
+    "Price": 7599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/817721-1046784-category_page/adata-legend-960-3d-nand-1tb-m2-2280-pci-e-aleg-960-1tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "Kingston A400 TLC 960GB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 5419,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/84337-425933-category_page/kingston-a400-tlc-960gb-25-sa400s37960g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "Kioxia Exceria 960GB 2.5\\",
+    "Brand": "Kioxia",
+    "Price": 4399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/822613-1055665-category_page/kioxia-exceria-960gb-25-ltc10z960gg8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "KLEVV CRAS C910 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (K01TBM2SP0-C91)",
+    "Brand": "KLEVV",
+    "Price": 5999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/829567-1067749-category_page/klevv-cras-c910-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-k01tbm2sp0-c91.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM620 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (LNM620X002T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 9999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627268-773675-category_page/lexar-nm620-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-lnm620x002t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "KLEVV CRAS C910G 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (K02TBM2SP0-10G)",
+    "Brand": "KLEVV",
+    "Price": 11999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/829582-1067767-category_page/klevv-cras-c910g-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-k02tbm2sp0-10g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SFYRS/1000G)",
+    "Brand": "Kingston",
+    "Price": 9399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/390094-542522-category_page/kingston-fury-renegade-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-sfyrs1000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Green SN3000 3D NAND QLC 1TB (2280 PCI-E) NVMe x4 (WDS100T4G0E-00CPS0)",
+    "Brand": "Western Digital",
+    "Price": 4899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745460-920977-category_page/western-digital-green-sn3000-3d-nand-qlc-1tb-2280-pci-e-nvme-x4-wds100t4g0e-00cps0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P300 512GB M.2 (2280 PCI-E) NVMe x4 (P300P512GM28)",
+    "Brand": "Patriot",
+    "Price": 3839,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/243281-427376-category_page/patriot-p300-512gb-m2-2280-pci-e-nvme-x4-p300p512gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P300 256GB M.2 (2280 PCI-E) NVMe x4 (P300P256GM28)",
+    "Brand": "Patriot",
+    "Price": 2449,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/243280-427366-category_page/patriot-p300-256gb-m2-2280-pci-e-nvme-x4-p300p256gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P210 256GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 1799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288552-457077-category_page/patriot-p210-256gb-25-p210s256g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M371 3D NAND TLC 500GB M.2 (2280 PCI-E) (S78-440K160-P83)",
+    "Brand": "MSI",
+    "Price": 3599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480984-618568-category_page/msi-spatium-m371-3d-nand-tlc-500gb-m2-2280-pci-e-s78-440k160-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX500 Gen.3 3D NAND 256GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX500-256-80-G3)",
+    "Brand": "GoodRAM",
+    "Price": 2699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/760076-945617-category_page/goodram-px500-gen3-3d-nand-256gb-m2-2280-pci-e-nvme-x4-ssdpr-px500-256-80-g3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN850X 2TB M.2 (2280 PCI-E) NVMe x4 (WDS200T2X0E)",
+    "Brand": "Western Digital",
+    "Price": 12999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480997-618430-category_page/western-digital-black-sn850x-2tb-m2-2280-pci-e-nvme-x4-wds200t2x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN580 WDC TLC 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T3B0E)",
+    "Brand": "Western Digital",
+    "Price": 6219,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550305-699051-category_page/western-digital-blue-sn580-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-wds100t3b0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN5000 3D NAND TLC 500GB (2280 PCI-E) NVMe x4 (WDS500G4B0E)",
+    "Brand": "Western Digital",
+    "Price": 4299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762643-950387-category_page/western-digital-blue-sn5000-3d-nand-tlc-500gb-2280-pci-e-nvme-x4-wds500g4b0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN7100 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (WDS200T4X0E)",
+    "Brand": "Western Digital",
+    "Price": 13199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762641-950364-category_page/western-digital-black-sn7100-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-wds200t4x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX500 Gen.3 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX500-512-80-G3)",
+    "Brand": "GoodRAM",
+    "Price": 3899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/702918-870758-category_page/goodram-px500-gen3-3d-nand-512gb-m2-2280-pci-e-nvme-x4-ssdpr-px500-512-80-g3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4X 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (AP1TBAS2280P4X-1)",
+    "Brand": "Apacer",
+    "Price": 4999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467608-604434-category_page/apacer-as2280p4x-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ap1tbas2280p4x-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung Portable SSD T7 Shield 1TB USB 3.2 Type-C (MU-PE1T0K/EU) Beige",
+    "Brand": "Samsung",
+    "Price": 7279,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/486870-625744-category_page/samsung-portable-ssd-t7-shield-1tb-usb-32-type-c-mu-pe1t0keu-beige.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "mSATA",
+    "Name": "Kingston KC600 3D NAND TLC 512GB mSATA (SKC600MS/512G)",
+    "Brand": "Kingston",
+    "Price": 4459,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/369875-515643-category_page/kingston-kc600-3d-nand-tlc-512gb-msata-skc600ms512g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS340 Panther TLC 480GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 2799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/88971-308868-category_page/apacer-as340-panther-tlc-480gb-25-ap480gas340g-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SA510 1TB M.2 (2280 SATA) (WDS100T3B0B)",
+    "Brand": "Western Digital",
+    "Price": 6999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467663-604171-category_page/western-digital-blue-sa510-1tb-m2-2280-sata-wds100t3b0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston KC3000 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (SKC3000D/2048G)",
+    "Brand": "Kingston",
+    "Price": 14489,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/399716-552513-category_page/kingston-kc3000-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-skc3000d2048g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 EVO Plus V-NAND TLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9S2T0BW)",
+    "Brand": "Samsung",
+    "Price": 13299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/706014-873156-category_page/samsung-990-evo-plus-v-nand-tlc-2tb-m2-2280-pci-e-nvme-20-mz-v9s2t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 EVO Plus V-NAND TLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9S1T0BW)",
+    "Brand": "Samsung",
+    "Price": 8489,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/706013-873151-category_page/samsung-990-evo-plus-v-nand-tlc-1tb-m2-2280-pci-e-nvme-20-mz-v9s1t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Kingston SSDNow A400 TLC 240GB 2.5\\'\\' (SA400S37/240G)",
+    "Brand": "Kingston",
+    "Price": 2329,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/67021-425924-category_page/kingston-ssdnow-a400-tlc-240gb-25-sa400s37240g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M450 V1 3D NAND 1TB M.2 (2280 PCI-E) (S78-440L0M0-P83)",
+    "Brand": "MSI",
+    "Price": 4999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/768512-960875-category_page/msi-spatium-m450-3d-nand-tlc-1tb-m2-2280-pci-e-s78-440l0m0-p83.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 980 V-NAND MLC 1TB M.2 (2280 PCI-E) NVMe 1.4 (MZ-V8V1T0BW)",
+    "Brand": "Samsung",
+    "Price": 7579,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/352792-497874-category_page/samsung-980-v-nand-mlc-1tb-m2-2280-pci-e-nvme-14-mz-v8v1t0bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP1T0BW)",
+    "Brand": "Samsung",
+    "Price": 10579,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/747475-924043-category_page/samsung-9100-pro-v-nand-tlc-1tb-m2-2280-pci-e-nvme-20-mz-vap1t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP2T0BW)",
+    "Brand": "Samsung",
+    "Price": 19599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/747476-924056-category_page/samsung-9100-pro-v-nand-tlc-2tb-m2-2280-pci-e-nvme-20-mz-vap2t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Golden Memory 128GB 2.5\\'\\' (GMSSD128GB)",
+    "Brand": "Golden Memory",
+    "Price": 899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/837534-1077513-category_page/golden-memory-128gb-25-gmssd128gb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P410 1TB M.2 (2280 PCI-E) NVMe x4 (P410P1TBM28H)",
+    "Brand": "Patriot",
+    "Price": 5749,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/838343-1080106-category_page/patriot-p410-1tb-m2-2280-pci-e-nvme-x4-p410p1tbm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND TLC 4TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P4T0BW)",
+    "Brand": "Samsung",
+    "Price": 20999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/611867-757415-category_page/samsung-990-pro-v-nand-tlc-4tb-m2-2280-pci-e-nvme-20-mz-v9p4t0bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M450 3D NAND TLC 500GB M.2 (2280 PCI-E) (S78-440K220-P83)",
+    "Brand": "MSI",
+    "Price": 3359,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/564644-712739-category_page/msi-spatium-m450-3d-nand-tlc-500gb-m2-2280-pci-e-s78-440k220-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX600 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX600-1K0-80)",
+    "Brand": "GoodRAM",
+    "Price": 7999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516834-664416-category_page/goodram-px600-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ssdpr-px600-1k0-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 250GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 2999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467623-604523-category_page/samsung-870-evo-v-nand-250gb-25-mz-77e250b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial E100 1TB M.2 (2280 PCI-E) NVMe x4 (CT1000E100SSD8)",
+    "Brand": "Crucial",
+    "Price": 4999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/815268-1042751-category_page/crucial-e100-1tb-m2-2280-pci-e-nvme-x4-ct1000e100ssd8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN5100 3D NAND QLC 500GB (2280 PCI-E) NVMe x4 (WDS500G5B0E-00CPE0)",
+    "Brand": "Western Digital",
+    "Price": 3899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/822014-1054153-category_page/western-digital-blue-sn5100-3d-nand-qlc-500gb-2280-pci-e-nvme-x4-wds500g5b0e-00cpe0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "MSI SPATIUM S270 3D NAND 240GB SATA 2.5\\",
+    "Brand": "MSI",
+    "Price": 1499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/435473-579706-category_page/msi-spatium-s270-3d-nand-240gb-sata-25-s78-440n070-p83.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P300 1TB M.2 (2280 PCI-E) NVMe x4 (P300P1TBM28)",
+    "Brand": "Patriot",
+    "Price": 5059,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/298936-1047797-category_page/patriot-p300-1tb-m2-2280-pci-e-nvme-x4-p300p1tbm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 900 Pro 3D NAND 1TB M.2 (2280 PCI-E) (SLEG-900P-1TCS)",
+    "Brand": "ADATA",
+    "Price": 6099,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/790895-997690-category_page/adata-legend-900-pro-3d-nand-1tb-m2-2280-pci-e-sleg-900p-1tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND TLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P1T0CW)",
+    "Brand": "Samsung",
+    "Price": 9199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/445262-588767-category_page/samsung-990-pro-v-nand-3-bit-mlc-1tb-m2-2280-pci-e-nvme-20-mz-v9p1t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P210 512GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 3169,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288553-457080-category_page/patriot-p210-512gb-25-p210s512g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 500GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 5499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/389937-584710-category_page/samsung-870-evo-v-nand-500gb-25-mz-77e500b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade G5 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (SFYR2S/1T0)",
+    "Brand": "Kingston",
+    "Price": 12259,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/754924-936917-category_page/kingston-fury-renegade-g5-3d-tlc-nand-1tb-m2-2280-pci-e-nvme-x4-sfyr2s1t0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P220 TLC 512GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 3209,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480973-618410-category_page/patriot-p220-tlc-512gb-25-p220s512g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P310 480GB M.2 (2280 PCI-E) NVMe x4 (P310P480GM28)",
+    "Brand": "Patriot",
+    "Price": 3939,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/419510-568828-category_page/patriot-p310-480gb-m2-2280-pci-e-nvme-x4-p310p480gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade with Heatsink 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (SFYRDK/2000G)",
+    "Brand": "Kingston",
+    "Price": 15859,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/446793-589433-category_page/kingston-fury-renegade-with-heatsink-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-sfyrsk2000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "MSI SPATIUM S270 3D NAND 480GB SATA 2.5\\",
+    "Brand": "MSI",
+    "Price": 2799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516839-664808-category_page/msi-spatium-s270-3d-nand-480gb-sata-25-s78-440e350-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX600 3D NAND 500GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX600-500-80)",
+    "Brand": "GoodRAM",
+    "Price": 3989,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516837-664425-category_page/goodram-px600-3d-nand-500gb-m2-2280-pci-e-nvme-x4-ssdpr-px600-500-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX500 Gen.3 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX500-01T-80-G3)",
+    "Brand": "GoodRAM",
+    "Price": 5599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/760077-945609-category_page/goodram-px500-gen3-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ssdpr-px500-01t-80-g3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 4TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP4T0BW)",
+    "Brand": "Samsung",
+    "Price": 30339,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/747477-924069-category_page/samsung-9100-pro-v-nand-tlc-4tb-m2-2280-pci-e-nvme-20-mz-vap4t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM620 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (LNM620X001T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 5999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627267-773659-category_page/lexar-nm620-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-lnm620x001t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CX400 Gen.2 3D NAND TLC 512GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 3219,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320820-477314-category_page/goodram-cx400-gen2-3d-nand-tlc-512gb-25-ssdpr-cx400-512-g2.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 256GB USB + USB Type-C (TS256GESD310C) Black",
+    "Brand": "Transcend",
+    "Price": 2729,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550291-699022-category_page/transcend-esd310-3d-nand-256gb-usb-usb-type-c-ts256gesd310c-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M480 Pro 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe 1.4 (S78-440L1G0-P83)",
+    "Brand": "MSI",
+    "Price": 6699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/517569-664437-category_page/msi-spatium-m480-pro-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-14-s78-440l1g0-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P210 128GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 1139,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/297145-462511-category_page/patriot-p210-128gb-25-p210s128g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U Pro 3D NAND 256GB M.2 (2280 PCI-E) NVMe x4 (AP256GAS2280P4UPRO-1)",
+    "Brand": "Apacer",
+    "Price": 2699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480966-618381-category_page/apacer-as2280p4u-pro-3d-nand-256gb-m2-2280-pci-e-nvme-x4-ap256gas2280p4upro-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 900 3D NAND 1TB M.2 (2280 PCI-E) (SLEG-900-1TCS)",
+    "Brand": "ADATA",
+    "Price": 6099,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591639-735466-category_page/adata-legend-900-3d-nand-1tb-m2-2280-pci-e-sleg-900-1tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Crucial BX500 3D NAND 240GB 2.5\\",
+    "Brand": "Crucial",
+    "Price": 2419,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/88977-308889-category_page/crucial-bx500-3d-nand-240gb-25-ct240bx500ssd1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN8100 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T1X0M)",
+    "Brand": "Western Digital",
+    "Price": 10299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/776591-976612-category_page/western-digital-black-sn8100-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-wds100t1x0m.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 120GB 2.5\\",
+    "Brand": "AMD",
+    "Price": 899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811385-1031165-category_page/amd-radeon-r3-3d-nand-120gb-25-r3sl0120g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 PRO NH 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F1000GBMP600PNH)",
+    "Brand": "Corsair",
+    "Price": 6199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/518444-664640-category_page/corsair-mp600-pro-nh-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-cssd-f1000gbmp600pnh.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte Gen4 4000E 3D NAND 250GB M.2 (2280 PCI-E) NVMe 1.4 (G440E250G)",
+    "Brand": "Gigabyte",
+    "Price": 2229,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/659852-815429-category_page/gigabyte-gen4-4000e-3d-nand-250gb-m2-2280-pci-e-nvme-14-g440e250g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG SX8200 Pro 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe 1.3 (ASX8200PNP-512GT-C)",
+    "Brand": "ADATA",
+    "Price": 4099,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/116023-378935-category_page/adata-xpg-sx8200-pro-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-13-asx8200pnp-512gt-c.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 EVO Plus V-NAND TLC 4TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9S4T0BW)",
+    "Brand": "Samsung",
+    "Price": 19969,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/706015-873163-category_page/samsung-990-evo-plus-v-nand-tlc-4tb-m2-2280-pci-e-nvme-20-mz-v9s4t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen4 3D NAND 512GB M.2 (2280 PCI-E) (R3MP40512G8)",
+    "Brand": "AMD",
+    "Price": 3199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811398-1031197-category_page/amd-radeon-r3-gen4-3d-nand-512gb-m2-2280-pci-e-r3mp40512g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2230",
+    "Name": "Kingston NV3 3D NAND 1TB M.2 (2230 PCI-E) NVMe x4 (SNV3SM3/1T0)",
+    "Brand": "Kingston",
+    "Price": 5979,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/786534-991781-category_page/kingston-nv3-3d-nand-1tb-m2-2230-pci-e-nvme-x4-snv3sm31t0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston KC3000 3D NAND TLC 4TB M.2 (2280 PCI-E) (SKC3000D/4096G)",
+    "Brand": "Kingston",
+    "Price": 27659,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/400208-563685-category_page/kingston-kc3000-3d-nand-tlc-4tb-m2-2280-pci-e-skc3000d4096g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN850X 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T2X0E)",
+    "Brand": "Western Digital",
+    "Price": 8999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444258-586827-category_page/western-digital-black-sn850x-1tb-m2-2280-pci-e-nvme-x4-wds100t2x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CX400 Gen.2 3D NAND TLC 256GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 2229,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320864-477307-category_page/goodram-cx400-gen2-3d-nand-tlc-256gb-25-ssdpr-cx400-256-g2.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO MKX V-NAND MLC 4TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 20999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591678-735586-category_page/samsung-870-evo-mkx-v-nand-mlc-4tb-25-mz-77e4t0beu.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV3 3D NAND 4TB M.2 (2280 PCI-E) NVMe x4 (SNV3S/4000G)",
+    "Brand": "Kingston",
+    "Price": 21929,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/659316-814489-category_page/kingston-nv3-3d-nand-4tb-m2-2280-pci-e-nvme-x4-snv3s4000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Patriot Burst Elite 3D NAND TLC 240GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 1979,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339968-489732-category_page/patriot-burst-elite-3d-nand-tlc-240gb-25-pbe240gs25ssdr.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 960 MAX 3D NAND 1TB M.2 (2280 PCI-E) (ALEG-960M-1TCS)",
+    "Brand": "ADATA",
+    "Price": 7999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550254-698469-category_page/adata-legend-960-max-3d-nand-1tb-m2-2280-pci-e-aleg-960m-1tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot Viper VP4300 Lite 1TB M.2 (2280 PCI-E) NVMe x4 (VP4300L1TBM28H)",
+    "Brand": "Patriot",
+    "Price": 7389,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/564647-712773-category_page/patriot-viper-vp4300-lite-1tb-m2-2280-pci-e-nvme-x4-vp4300l1tbm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P310 960GB M.2 (2280 PCI-E) NVMe x4 (P310P960GM28)",
+    "Brand": "Patriot",
+    "Price": 4899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/425756-573607-category_page/patriot-p310-960gb-m2-2280-pci-e-nvme-x4-p310p960gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 PRO LPX 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F2000GBMP600PLP)",
+    "Brand": "Corsair",
+    "Price": 11499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/487282-626208-category_page/corsair-mp600-pro-lpx-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-cssd-f2000gbmp600plp.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen3 3D NAND 128GB M.2 (2280 PCI-E) (R3MP30128G8)",
+    "Brand": "AMD",
+    "Price": 1249,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811393-1031186-category_page/amd-radeon-r3-gen3-3d-nand-128gb-m2-2280-pci-e-r3mp30128g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CL100 Gen.3 3D NAND TLC 480GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 2899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320826-477293-category_page/goodram-cl100-gen3-3d-nand-tlc-480gb-25-ssdpr-cl100-480-g3.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte Gen4 4000E 3D NAND 500GB M.2 (2280 PCI-E) NVMe 1.4 (G440E500G)",
+    "Brand": "Gigabyte",
+    "Price": 3799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/659851-815434-category_page/gigabyte-gen4-4000e-3d-nand-500gb-m2-2280-pci-e-nvme-14-g440e500g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Team CX2 512GB 2.5\\",
+    "Brand": "Team",
+    "Price": 2899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320833-477422-category_page/team-cx2-512gb-25-t253x6512g0c101.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "ADATA Ultimate SU630 3D QLC 480GB 2.5\\",
+    "Brand": "ADATA",
+    "Price": 2329,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/116031-347932-category_page/adata-ultimate-su631-3d-qlc-480gb-25-asu630ss-480gq-r.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P300 128GB M.2 (2280 PCI-E) NVMe x4 (P300P128GM28)",
+    "Brand": "Patriot",
+    "Price": 1589,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320829-555963-category_page/patriot-p300-128gb-m2-2280-pci-e-nvme-x4-p300p128gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM620 3D NAND TLC 256GB M.2 (2280 PCI-E) NVMe x4 (LNM620X256G-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 2299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627269-773667-category_page/lexar-nm620-3d-nand-tlc-256gb-m2-2280-pci-e-nvme-x4-lnm620x256g-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P220 TLC 256GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 1779,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480972-618407-category_page/patriot-p220-tlc-256gb-25-p220s256g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN5000 3D NAND TLC 1TB (2280 PCI-E) NVMe x4 (WDS100T4B0E-00CNZ0)",
+    "Brand": "Western Digital",
+    "Price": 6399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745462-920967-category_page/western-digital-blue-sn5000-3d-nand-tlc-1tb-2280-pci-e-nvme-x4-wds100t4b0e-00cnz0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Patriot Burst Elite 3D NAND TLC 480GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 2699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339969-489740-category_page/patriot-burst-elite-3d-nand-tlc-480gb-25-pbe480gs25ssdr.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Apacer Panther AS350 3D NAND TLC 128GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1229,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320836-477321-category_page/apacer-panther-as350-3d-nand-tlc-128gb-25-ap128gas350-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Kingston KC600 3D NAND TLC 512GB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 4459,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/199428-408515-category_page/kingston-kc600-3d-nand-tlc-512gb-25-skc600512g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "2.5″",
+    "Name": "Crucial BX500 3D NAND 500GB 2.5\\",
+    "Brand": "Crucial",
+    "Price": 3299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444205-586612-category_page/crucial-bx500-3d-nand-500gb-25-ct500bx500ssd1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial P3 Plus 3D NAND 2TB M.2 (2280 PCI-E) (CT2000P3PSSD8)",
+    "Brand": "Crucial",
+    "Price": 11899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467612-604457-category_page/crucial-p3-plus-3d-nand-2tb-m2-2280-pci-e-ct2000p3pssd8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P220 TLC 128GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 1179,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480971-618401-category_page/patriot-p220-tlc-128gb-25-p220s128g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston XS1000 BoC 1TB USB 3.2 (SXS1000/1000GA) Black",
+    "Brand": "Kingston",
+    "Price": 6979,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779623-980605-category_page/kingston-xs1000-boc-1tb-usb-32-sxs10001000ga-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CL100 Gen.3 3D NAND TLC 240GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 2199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288548-457047-category_page/goodram-cl100-gen3-3d-nand-tlc-240gb-25-ssdpr-cl100-240-g3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P320 512GB M.2 (2280 PCI-E) NVMe x4 (P320P512GM28)",
+    "Brand": "Patriot",
+    "Price": 3249,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/763938-951735-category_page/patriot-p320-512gb-m2-2280-pci-e-nvme-x4-p320p512gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Kingston KC600 3D NAND TLC 256GB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 2659,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/199426-407619-category_page/kingston-kc600-3d-nand-tlc-256gb-25-skc600256g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Crucial BX500 3D NAND 1TB 2.5\\",
+    "Brand": "Crucial",
+    "Price": 5809,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/238215-425124-category_page/crucial-bx500-3d-nand-1tb-25-ct1000bx500ssd1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Kingston KC600 3D NAND TLC 1TB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 7789,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/199427-408510-category_page/kingston-kc600-3d-nand-tlc-1tb-25-skc6001024g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CX400 gen.2 3D NAND TLC 1TB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 5599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339961-489672-category_page/goodram-cx400-gen2-3d-nand-tlc-1tb-25-ssdpr-cx400-01t-g2.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "GoodRAM Move Ridge 512GB USB 3.2 Gen 2 (SSDR-GMRE-512-K0) Black",
+    "Brand": "GoodRAM",
+    "Price": 3599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/796666-1008214-category_page/goodram-move-ridge-512gb-usb-32-gen-2-ssdr-gmre-512-k0-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Kioxia Exceria 480GB 2.5\\",
+    "Brand": "Kioxia",
+    "Price": 2699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/360734-504066-category_page/toshiba-kioxia-exceria-tlc-480gb-25-ltc10z480gg8.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4 3D NAND TLC 256GB M.2 (2280 PCI-E) NVMe x4 (AP256GAS2280P4-1)",
+    "Brand": "Apacer",
+    "Price": 2399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288537-1025072-category_page/apacer-as2280p4-3d-nand-tlc-256gb-m2-2280-pci-e-nvme-x4-ap256gas2280p4-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade G5 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (SFYR2S/4T0)",
+    "Brand": "Kingston",
+    "Price": 33539,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/754926-936935-category_page/kingston-fury-renegade-g5-3d-tlc-nand-4tb-m2-2280-pci-e-nvme-x4-sfyr2s4t0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (AP512GAS2280P4-1)",
+    "Brand": "Apacer",
+    "Price": 3999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288538-457935-category_page/apacer-as2280p4-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-ap512gas2280p4-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kioxia Exceria Plus G4 3D BiCS FLASH TLC 1TB M.2 (2280 PCI-E) NVMe x4 (LVD10Z001TG8)",
+    "Brand": "Kioxia",
+    "Price": 7999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745493-920949-category_page/kioxia-exceria-plus-g4-3d-bics-flash-tlc-1tb-m2-2280-pci-e-nvme-x4-lvd10z001tg8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P210 1TB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 5299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288554-457074-category_page/patriot-p210-1tb-25-p210s1tb25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS350X 3D NAND TLC 1TB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 5049,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/400205-563644-category_page/apacer-as350x-3d-nand-tlc-1tb-25-ap1tbas350xr-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T705 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CT1000T705SSD3)",
+    "Brand": "Crucial",
+    "Price": 8899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745737-920919-category_page/crucial-t705-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-ct1000t705ssd3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 QVO V-NAND MLC 1TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 7749,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288556-515710-category_page/samsung-870-qvo-3d-nand-mlc-1tb-25-mz-77q1t0bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Apacer Panther AS350 3D NAND TLC 512GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 3409,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320798-477336-category_page/apacer-panther-as350-3d-nand-tlc-512gb-25-ap512gas350-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 2TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 14199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444216-586780-category_page/samsung-870-evo-v-nand-2tb-25-mz-77e2t0beu.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston SXS2000 BoC 500GB USB 3.2 (SXS2000/500GA)",
+    "Brand": "Kingston",
+    "Price": 5229,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779627-980595-category_page/kingston-sxs2000-boc-500gb-usb-32-sxs2000500ga.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Mars 980 Storm 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (SMAR-980S-2TCI)",
+    "Brand": "ADATA",
+    "Price": 18779,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/803130-1016630-category_page/adata-xpg-mars-980-storm-3d-nand-2tb-m2-2280-pci-e-nvme-x4-smar-980s-2tci.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 2TB USB 3.2 (MU-PC2T0T/WW) Grey",
+    "Brand": "Samsung",
+    "Price": 10386,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/289326-457427-category_page/samsung-t7-2tb-usb-32-mu-pc2t0tww-grey.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston SXS2000 BoC 1TB USB 3.2 (SXS2000/1000GA)",
+    "Brand": "Kingston",
+    "Price": 8009,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779628-980565-category_page/kingston-sxs2000-boc-1tb-usb-32-sxs20001000ga.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Kingston KC600 3D NAND TLC 2TB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 14329,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/199425-460614-category_page/kingston-kc600-3d-nand-tlc-2tb-25-skc6002048g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 900 Pro 3D NAND 2TB M.2 (2280 PCI-E) (SLEG-900P-2TCS)",
+    "Brand": "ADATA",
+    "Price": 12309,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/800603-1013058-category_page/adata-legend-900-pro-3d-nand-2tb-m2-2280-pci-e-sleg-900p-2tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Patriot Burst Elite 3D NAND TLC 120GB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 1109,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339967-489724-category_page/patriot-burst-elite-3d-nand-tlc-120gb-25-pbe120gs25ssdr.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 GS 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F1000GBMP600GS)",
+    "Brand": "Corsair",
+    "Price": 5999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/487285-626115-category_page/corsair-mp600-gs-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-cssd-f1000gbmp600gs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 710 3D NAND 1TB M.2 (2280 PCI-E) (ALEG-710-1TCS)",
+    "Brand": "ADATA",
+    "Price": 5399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467606-604420-category_page/adata-legend-710-3d-nand-1tb-m2-2280-pci-e-aleg-710-1tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "GoodRAM Move Ridge 1TB USB 3.2 Gen 2 (SSDR-GMRE-01T-K0) Black",
+    "Brand": "GoodRAM",
+    "Price": 5879,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/796667-1008192-category_page/goodram-move-ridge-1tb-usb-32-gen-2-ssdr-gmre-01t-k0-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS340X 3D NAND 120GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1139,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/369853-515608-category_page/apacer-as350x-3d-nand-120gb-25-ap120gas340xc-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial E100 480GB M.2 (2280 PCI-E) NVMe x4 (CT480E100SSD8)",
+    "Brand": "Crucial",
+    "Price": 3399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/822016-1054147-category_page/crucial-e100-480gb-m2-2280-pci-e-nvme-x4-ct480e100ssd8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Gammix S60 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS60-1T-CS)",
+    "Brand": "ADATA",
+    "Price": 6499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627335-773970-category_page/adata-xpg-gammix-s60-3d-nand-1tb-m2-2280-pci-e-nvme-x4-agammixs60-1t-cs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Gammix S70 Blade 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS70B-512G-CS)",
+    "Brand": "ADATA",
+    "Price": 4499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627340-774008-category_page/adata-xpg-gammix-s70-blade-3d-nand-512gb-m2-2280-pci-e-nvme-x4-agammixs70b-2t-cs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 ELITE 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F1000GBMP600EHS)",
+    "Brand": "Corsair",
+    "Price": 6899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762602-949077-category_page/corsair-mp600-elite-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-cssd-f1000gbmp600ehs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Apacer Panther AS350 3D NAND TLC 1TB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 5089,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320815-477326-category_page/apacer-panther-as350-3d-nand-tlc-1tb-25-ap1tbas350-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX600 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX600-2K0-80)",
+    "Brand": "GoodRAM",
+    "Price": 12359,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516835-664422-category_page/goodram-px600-3d-nand-2tb-m2-2280-pci-e-nvme-x4-ssdpr-px600-2k0-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung Portable SSD T7 Shield 2TB USB 3.2 Type-C (MU-PE2T0K/EU) Beige",
+    "Brand": "Samsung",
+    "Price": 12799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/486872-625767-category_page/samsung-portable-ssd-t7-shield-2tb-usb-32-type-c-mu-pe2t0keu-beige.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen3 3D NAND 256GB M.2 (2280 PCI-E) (R3MP30256G8)",
+    "Brand": "AMD",
+    "Price": 1999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811394-1031190-category_page/amd-radeon-r3-gen3-3d-nand-256gb-m2-2280-pci-e-r3mp30256g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CL100 Gen.3 3D NAND TLC 960GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 4999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288549-457050-category_page/goodram-3d-nand-tlc-960gb-25-ssdpr-cl100-960-g3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM790 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (LNM790X001T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 8469,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627276-773733-category_page/lexar-nm790-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-lnm790x001t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P320 256GB M.2 (2280 PCI-E) NVMe x4 (P320P256GM28)",
+    "Brand": "Patriot",
+    "Price": 2489,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/763937-951731-category_page/patriot-p320-256gb-m2-2280-pci-e-nvme-x4-p320p256gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston XS1000 BoC 1TB USB 3.2 (SXS1000R/1000GA) Red",
+    "Brand": "Kingston",
+    "Price": 6979,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779625-980615-category_page/kingston-xs1000-boc-1tb-usb-32-sxs1000r1000ga-red.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Green SN3000 3D NAND QLC 2TB (2280 PCI-E) NVMe x4 (WDS200T4G0E-00CPS0)",
+    "Brand": "Western Digital",
+    "Price": 10999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745461-920982-category_page/western-digital-green-sn3000-3d-nand-qlc-2tb-2280-pci-e-nvme-x4-wds200t4g0e-00cps0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Kioxia Exceria Plus G4 3D BiCS FLASH TLC 2TB M.2 (2280 PCI-E) NVMe x4 (LVD10Z002TG8)",
+    "Brand": "Kioxia",
+    "Price": 13599,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745494-920955-category_page/kioxia-exceria-plus-g4-3d-bics-flash-tlc-2tb-m2-2280-pci-e-nvme-x4-lvd10z002tg8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CL100 Gen.3 3D NAND TLC 120GB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 1139,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/298925-463440-category_page/goodram-cl100-tlc-120gb-25-ssdpr-cl100-120-g3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade with Heatsink 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (SFYRDK/4000G)",
+    "Brand": "Kingston",
+    "Price": 30859,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/446794-589440-category_page/kingston-fury-renegade-with-heatsink-3d-nand-tlc-4tb-m2-2280-pci-e-nvme-x4-sfyrsk4000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P400 Lite 250GB M.2 (2280 PCI-E) NVMe x4 (P400LP250GM28H)",
+    "Brand": "Patriot",
+    "Price": 2499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591674-735581-category_page/patriot-p400-lite-250gb-m2-2280-pci-e-nvme-x4-p400lp250gm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Apacer Panther TLC 120GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1149,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/71620-353782-category_page/apacer-panther-120gb-tlc-25-ap120gas340g-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Apacer Panther AS350 3D NAND TLC 256GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320762-477331-category_page/apacer-panther-as350-3d-nand-tlc-256gb-25-ap256gas350-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM790 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (LNM790X002T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 14899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627278-773757-category_page/lexar-nm790-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-lnm790x002t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Mars 980 Blade 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SMAR-980B-1TCS)",
+    "Brand": "ADATA",
+    "Price": 8799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/803127-1016591-category_page/adata-xpg-mars-980-blade-3d-nand-1tb-m2-2280-pci-e-nvme-x4-smar-980b-1tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte 2500E 500GB M.2 (2280 PCI-E) NVMe 1.3 x4 (G325E500G)",
+    "Brand": "Gigabyte",
+    "Price": 3699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467620-604481-category_page/gigabyte-2500e-500gb-m2-2280-pci-e-nvme-13-x4-g325e500g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Gammix S70 Blade 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS70B-1T-CS)",
+    "Brand": "ADATA",
+    "Price": 8030,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627338-773994-category_page/adata-xpg-gammix-s70-blade-3d-nand-1tb-m2-2280-pci-e-nvme-x4-agammixs70b-1t-cs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 EVO V-NAND TLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9E2T0BW)",
+    "Brand": "Samsung",
+    "Price": 12769,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/611868-757410-category_page/samsung-990-evo-v-nand-tlc-2tb-m2-2280-pci-e-nvme-20-mz-v9e2t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T705 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (CT2000T705SSD3)",
+    "Brand": "Crucial",
+    "Price": 18399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/647835-801053-category_page/crucial-t705-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-ct2000t705ssd3.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND MLC 250GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 3799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/342198-490934-category_page/samsung-870-evo-v-nand-mlc-250gb-25-mz-77e250bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 3D NAND 128GB M.2 (2280 SATA) (R3MS0128G8)",
+    "Brand": "AMD",
+    "Price": 979,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811400-1031542-category_page/amd-radeon-r3-3d-nand-128gb-m2-2280-sata-r3ms0128g8.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 1TB USB 3.2 (MU-PC1T0T/WW) Grey",
+    "Brand": "Samsung",
+    "Price": 7837,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/289324-457412-category_page/samsung-t7-1tb-usb-32-mu-pc1t0tww-grey.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung Portable SSD T7 Shield 2TB USB 3.2 Type-C (MU-PE2T0R/EU) Blue",
+    "Brand": "Samsung",
+    "Price": 12949,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/486873-625779-category_page/samsung-portable-ssd-t7-shield-2tb-usb-32-type-c-mu-pe2t0reu-blue.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS350X 3D NAND 512GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 3269,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/400206-563641-category_page/apacer-as350x-3d-nand-512gb-25-ap512gas350xr-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 512GB USB + USB Type-C (TS512GESD310C) Black",
+    "Brand": "Transcend",
+    "Price": 4965,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550293-699030-category_page/transcend-esd310-3d-nand-512gb-usb-usb-type-c-ts512gesd310c-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P400 Lite 2TB M.2 (2280 PCI-E) NVMe x4 (P400LP2KGM28H)",
+    "Brand": "Patriot",
+    "Price": 10999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/517566-664453-category_page/patriot-p400-lite-2tb-m2-2280-pci-e-nvme-x4-p400lp2kgm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX600 3D NAND 250GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX600-250-80)",
+    "Brand": "GoodRAM",
+    "Price": 3219,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516836-664419-category_page/goodram-px600-3d-nand-250gb-m2-2280-pci-e-nvme-x4-ssdpr-px600-250-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "mSATA",
+    "Name": "Kingston KC600 3D NAND TLC 256GB mSATA (SKC600MS/256G)",
+    "Brand": "Kingston",
+    "Price": 2659,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/369874-515640-category_page/kingston-kc600-3d-nand-tlc-256gb-msata-skc600ms256g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX700 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX700-02T-80)",
+    "Brand": "GoodRAM",
+    "Price": 16230,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/577896-724461-category_page/goodram-px700-3d-nand-2tb-m2-2280-pci-e-nvme-x4-ssdpr-px700-02t-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung Portable SSD T7 Shield 1TB USB 3.2 Type-C (MU-PE1T0R/EU) Blue",
+    "Brand": "Samsung",
+    "Price": 7555,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/486871-625756-category_page/samsung-portable-ssd-t7-shield-1tb-usb-32-type-c-mu-pe1t0reu-blue.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Gigabyte V-NAND TLC 240GB 2.5\\",
+    "Brand": "Gigabyte",
+    "Price": 2059,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/89290-408462-category_page/gigabyte-v-nand-tlc-240gb-25-gp-gstfs31240gntd.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 1TB USB + USB Type-C (TS1TESD310C) Black",
+    "Brand": "Transcend",
+    "Price": 8875,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550289-699013-category_page/transcend-esd310-3d-nand-1tb-usb-usb-type-c-ts1tesd310c-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 710 3D NAND 256GB M.2 (2280 PCI-E) (ALEG-710-256GCS)",
+    "Brand": "ADATA",
+    "Price": 2699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/487275-626091-category_page/adata-legend-710-3d-nand-256gb-m2-2280-pci-e-aleg-710-256gcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 2TB 2.5\\",
+    "Brand": "AMD",
+    "Price": 8899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811392-1031174-category_page/amd-radeon-r3-3d-nand-2tb-25-r3sl2048g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "ADATA Ultimate SU650 3D NAND TLC 256GB 2.5\\",
+    "Brand": "ADATA",
+    "Price": 2085,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/349203-495841-category_page/adata-ultimate-su650-3d-nand-tlc-256gb-25-asu650ss-256gt-r.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Corsair EX400U 1TB USB (CSSD-EX400U1TB)",
+    "Brand": "Corsair",
+    "Price": 7699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762600-949057-category_page/corsair-ex400u-1tb-usb-cssd-ex400u1tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte AORUS Gen4 7000E 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe 1.4 (AG470E2TB)",
+    "Brand": "Gigabyte",
+    "Price": 14959,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/810172-1029482-category_page/gigabyte-aorus-gen4-7000e-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-14-ag470e2tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston SXS2000 BoC 4TB USB 3.2 (SXS2000/4000GA)",
+    "Brand": "Kingston",
+    "Price": 23129,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779630-980585-category_page/kingston-sxs2000-boc-4tb-usb-32-sxs20004000ga.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 970 3D NAND 1TB M.2 (2280 PCI-E) (SLEG-970-1000GCI)",
+    "Brand": "ADATA",
+    "Price": 8969,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/564412-712790-category_page/adata-legend-970-3d-nand-1tb-m2-2280-pci-e-sleg-970-1000gci.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Team CX2 256GB 2.5\\",
+    "Brand": "Team",
+    "Price": 1739,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320835-477418-category_page/team-cx2-256gb-25-t253x6256g0c101.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Gigabyte 256GB 2.5\\",
+    "Brand": "Gigabyte",
+    "Price": 1999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/116042-408466-category_page/gigabyte-256gb-25-gp-gstfs31256gtnd.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Apacer 240GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1929,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/53524-165942-category_page/apacer-240gb-25-ap240gas340g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Corsair EX400U 2TB USB (CSSD-EX400U2TB)",
+    "Brand": "Corsair",
+    "Price": 12999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762601-949067-category_page/corsair-ex400u-2tb-usb-cssd-ex400u2tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P300 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (P300P2TBM28)",
+    "Brand": "Patriot",
+    "Price": 11999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339966-489756-category_page/patriot-p300-3d-nand-2tb-m2-2280-pci-e-nvme-x4-p300p2tbm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston SXS2000 BoC 2TB USB 3.2 (SXS2000/2000GA)",
+    "Brand": "Kingston",
+    "Price": 13719,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779629-980575-category_page/kingston-sxs2000-boc-2tb-usb-32-sxs20002000ga.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2230",
+    "Name": "Kingston NV3 3D NAND 500GB M.2 (2230 PCI-E) NVMe x4 (SNV3SM3/500G)",
+    "Brand": "Kingston",
+    "Price": 3799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/786533-991789-category_page/kingston-nv3-3d-nand-500gb-m2-2230-pci-e-nvme-x4-snv3sm3500g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston XS1000 BoC 2TB USB 3.2 (SXS1000/2000GA) Black",
+    "Brand": "Kingston",
+    "Price": 11689,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779624-980628-category_page/kingston-xs1000-boc-2tb-usb-32-sxs10002000ga-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P320 1TB M.2 (2280 PCI-E) NVMe x4 (P320P1TBM28)",
+    "Brand": "Patriot",
+    "Price": 6339,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762607-949007-category_page/patriot-p320-1tb-m2-2280-pci-e-nvme-x4-p320p1tbm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN850X 4TB M.2 (2280 PCI-E) NVMe x4 (WDS400T2X0E)",
+    "Brand": "Western Digital",
+    "Price": 28045,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/517578-664567-category_page/western-digital-black-sn850x-4tb-m2-2280-pci-e-nvme-x4-wds400t2x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P310 240GB M.2 (2280 PCI-E) NVMe x4 (P310P240GM28)",
+    "Brand": "Patriot",
+    "Price": 2595,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/419509-568820-category_page/patriot-p310-240gb-m2-2280-pci-e-nvme-x4-p310p240gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN850X 2TB M.2 (2280 PCI-E) NVMe x4 (WDS200T2XHE)",
+    "Brand": "Western Digital",
+    "Price": 19361,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467675-604168-category_page/western-digital-black-sn850x-2tb-m2-2280-pci-e-nvme-x4-wds200t2xhe.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 1TB USB 3.2 (MU-PC1T0H/WW) Blue",
+    "Brand": "Samsung",
+    "Price": 6999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/289323-457405-category_page/samsung-t7-1tb-usb-32-mu-pc1t0hww-blue.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme Pro Portable V2 2TB USB 3.2 (SDSSDE81-2T00-G25)",
+    "Brand": "Sandisk",
+    "Price": 16039,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/361004-507250-category_page/sandisk-extreme-pro-portable-v2-2tb-usb-32-sdssde81-2t00-g25.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T9 4TB USB 3.2 (MU-PG4T0B/EU)",
+    "Brand": "Samsung",
+    "Price": 23896,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/689760-854132-category_page/samsung-t9-4tb-usb-32-mu-pg4t0beu.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 1TB USB + USB Type-C (TS1TESD310P) Pink",
+    "Brand": "Transcend",
+    "Price": 8875,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627415-774494-category_page/transcend-esd310-3d-nand-1tb-usb-usb-type-c-ts1tesd310p-pink.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2242",
+    "Name": "Transcend 425S 3D NAND 250GB M.2 (2242 SATA) (TS250GMTS425S)",
+    "Brand": "Transcend",
+    "Price": 1629,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627428-774479-category_page/transcend-425s-3d-nand-250gb-m2-2242-sata-ts250gmts425s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "ADATA Ultimate SU650 3D NAND 1TB 2.5\\",
+    "Brand": "ADATA",
+    "Price": 4999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516808-664351-category_page/adata-ultimate-su650-3d-nand-1tb-25-asu650ss-1tt-r.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AST280 480GB M.2 (2280 SATA) (AP480GAST280-1)",
+    "Brand": "Apacer",
+    "Price": 3239,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/116037-348800-category_page/apacer-ast280-480gb-m2-2280-sata-ap480gast280-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T500 3D NAND TLC 2TB M.2 with heatsink (2280 PCI-E) NVMe x4 (CT2000T500SSD5)",
+    "Brand": "Crucial",
+    "Price": 18545,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627358-774079-category_page/crucial-t500-3d-nand-tlc-2tb-m2-with-heatsink-2280-pci-e-nvme-x4-ct2000t500ssd5.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P400 2TB M.2 (2280 PCI-E) NVMe x4 (P400P2TBM28H)",
+    "Brand": "Patriot",
+    "Price": 9459,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/564649-712755-category_page/patriot-p400-2tb-m2-2280-pci-e-nvme-x4-p400p2tbm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Lexar NS100 3D NAND TLC 2TB 2.5\\",
+    "Brand": "Lexar",
+    "Price": 8799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627294-773910-category_page/lexar-ns100-3d-nand-tlc-2tb-25-lns100-2trb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Green SN3000 3D NAND QLC 500GB (2280 PCI-E) NVMe x4 (WDS500G4G0E)",
+    "Brand": "Western Digital",
+    "Price": 4799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762644-950396-category_page/western-digital-green-sn3000-3d-nand-qlc-500gb-2280-pci-e-nvme-x4-wds500g4g0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "ADATA Ultimate SU650 3D NAND TLC 240GB 2.5\\",
+    "Brand": "ADATA",
+    "Price": 1969,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/89856-314144-category_page/adata-ultimate-su650-3d-nand-tlc-240gb-25-asu650ss-240gt-r.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX700 3D NAND 4TB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX700-04T-80)",
+    "Brand": "GoodRAM",
+    "Price": 31657,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591669-735526-category_page/goodram-px700-3d-nand-4tb-m2-2280-pci-e-nvme-x4-ssdpr-px700-04t-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS340X 3D NAND 240GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1869,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/369854-515612-category_page/apacer-as350x-3d-nand-240gb-25-ap240gas340xc-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston XS1000 BoC 2TB USB 3.2 (SXS1000R/2000GA) Red",
+    "Brand": "Kingston",
+    "Price": 11689,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/779626-980638-category_page/kingston-xs1000-boc-2tb-usb-32-sxs1000r2000ga-red.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme E61 V2 1TB USB 3.2 (SDSSDE61-1T00-G25)",
+    "Brand": "Sandisk",
+    "Price": 7719,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320856-477365-category_page/sandisk-extreme-e61-v2-1tb-usb-32-sdssde61-1t00-g25.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "ATRIA XT200 3D NAND TLC 128GB 2.5\\",
+    "Brand": "ATRIA",
+    "Price": 949,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627349-774037-category_page/atria-xt200-3d-nand-tlc-128gb-25-atsatxt200128.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD230S Premium TLC 512GB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 5015,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/77489-408591-category_page/transcend-ssd230s-premium-tlc-512gb-25-ts512gssd230s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 1TB with Heatsink M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP1T0CW)",
+    "Brand": "Samsung",
+    "Price": 13465,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/750569-931408-category_page/samsung-9100-pro-v-nand-tlc-1tb-with-heatsink-m2-2280-pci-e-nvme-20-mz-vap1t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Mars 980 Blade 3D NAND 4TB M.2 (2280 PCI-E) NVMe x4 (SMAR-980B-4TCS)",
+    "Brand": "ADATA",
+    "Price": 27919,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/803129-1016617-category_page/adata-xpg-mars-980-blade-3d-nand-4tb-m2-2280-pci-e-nvme-x4-smar-980b-4tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 3D NAND 256GB M.2 (2280 SATA) (R3MS0256G8)",
+    "Brand": "AMD",
+    "Price": 1849,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/811401-1031550-category_page/amd-radeon-r3-3d-nand-256gb-m2-2280-sata-r3ms0256g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U 3D NAND 256GB M.2 (2280 PCI-E) NVMe x4 (AP256GAS2280P4U-1)",
+    "Brand": "Apacer",
+    "Price": 2885,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516813-664359-category_page/apacer-as2280p4u-3d-nand-256gb-m2-2280-pci-e-nvme-x4-ap256gas2280p4u-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280Q4L 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (AP2TBAS2280Q4L-1)",
+    "Brand": "Apacer",
+    "Price": 10465,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591655-735489-category_page/apacer-as2280q4l-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-ap2tbas2280q4l-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 2TB USB 3.2 (MU-PC2T0H/WW) Blue",
+    "Brand": "Samsung",
+    "Price": 10386,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/289325-457420-category_page/samsung-t7-2tb-usb-32-mu-pc2t0hww-blue.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Gammix S60 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS60-512G-CS)",
+    "Brand": "ADATA",
+    "Price": 4885,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627337-773986-category_page/adata-xpg-gammix-s60-3d-nand-512gb-m2-2280-pci-e-nvme-x4-agammixs60-512g-cs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Gigabyte 3D NAND Flash 1TB 2.5\\",
+    "Brand": "Gigabyte",
+    "Price": 5979,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/149645-408457-category_page/gigabyte-3d-nand-flash-1tb-25-gp-gstfs31100tntd.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SA510 500GB M.2 (2280 SATA) (WDS500G3B0B)",
+    "Brand": "Western Digital",
+    "Price": 4549,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444265-586837-category_page/western-digital-blue-sa510-500gb-m2-sata-iii-2280-pci-e-wds500g3b0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Gammix S60 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS60-2T-CS)",
+    "Brand": "ADATA",
+    "Price": 14071,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627336-773978-category_page/adata-xpg-gammix-s60-3d-nand-2tb-m2-2280-pci-e-nvme-x4-agammixs60-2t-cs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS350X 3D NAND 256GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1899,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/400198-563638-category_page/apacer-as350x-3d-nand-256gb-25-ap256gas350xr-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP700 PRO 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F4000GBMP700PNH)",
+    "Brand": "Corsair",
+    "Price": 26999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762604-949094-category_page/corsair-mp700-pro-3d-nand-tlc-4tb-m2-2280-pci-e-nvme-x4-cssd-f4000gbmp700pnh.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P220 TLC 1TB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 6569,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/480974-618404-category_page/patriot-p220-tlc-1tb-25-p220s1tb25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme Portable E61 V2 4TB USB 3.2 (SDSSDE61-4T00-G25)",
+    "Brand": "Sandisk",
+    "Price": 20839,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467635-604096-category_page/sandisk-extreme-portable-v2-4tb-usb-32-sdssde61-4t00-g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme Pro Portable V2 1TB USB 3.2 (SDSSDE81-1T00-G25)",
+    "Brand": "Sandisk",
+    "Price": 10415,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/349353-496125-category_page/sandisk-extreme-portable-v2-1tb-25-usb-32-sdssde81-1t00-g25.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD260C 3D NAND 500GB USB Type-C (TS500GESD260C)",
+    "Brand": "Transcend",
+    "Price": 4459,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444247-586806-category_page/transcend-esd260c-3d-nand-500gb-usb-type-c-ts500gesd260c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston XS1000 2TB USB 3.2 (SXS1000R/2000G) Red",
+    "Brand": "Kingston",
+    "Price": 10399,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/669376-826249-category_page/kingston-xs1000-2tb-usb-32-sxs1000r2000g-red.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS340X 3D NAND 480GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 2905,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/360946-507420-category_page/apacer-as340x-3d-nand-480gb-25-ap480gas340xc-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T5 Evo 4TB USB 3.2 (MU-PH4T0S/EU)",
+    "Brand": "Samsung",
+    "Price": 26545,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/667772-996187-category_page/samsung-t5-evo-4tb-usb-32-mu-ph4t0seu.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD220S 3D NAND 960GB 2.5\\'\\' (TS960GSSD220S)",
+    "Brand": "Transcend",
+    "Price": 5059,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320822-477591-category_page/transcend-ssd220-3d-nand-960gb-25-ts960gssd220s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte AORUS Gen5 14000 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (AG514K2TB)",
+    "Brand": "Gigabyte",
+    "Price": 21499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/662400-817510-category_page/gigabyte-aorus-gen5-14000-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-20-ag514k2tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T705 3D NAND TLC 2TB M.2 with heatsink (2280 PCI-E) NVMe x4 (CT2000T705SSD5)",
+    "Brand": "Crucial",
+    "Price": 18799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745735-920931-category_page/crucial-t705-3d-nand-tlc-2tb-m2-with-heatsink-2280-pci-e-nvme-x4-ct2000t705ssd5.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P220 2TB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 13739,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516840-664812-category_page/patriot-p220-2tb-25-p220s2tb25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD230S Premium 128GB 2.5\\'\\' (TS128GSSD230S)",
+    "Brand": "Transcend",
+    "Price": 1765,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/59657-191969-category_page/transcend-ssd230s-premium-128gb-25-ts128gssd230s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "GoodRAM Move Ridge 2TB USB 3.2 Gen 2 (SSDR-GMRE-02T-K0) Black",
+    "Brand": "GoodRAM",
+    "Price": 10389,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/796668-1008203-category_page/goodram-move-ridge-2tb-usb-32-gen-2-ssdr-gmre-02t-k0-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2242",
+    "Name": "Transcend MTS430S 3D-NAND 256GB M.2 (2242 SATA) (TS256GMTS430S)",
+    "Brand": "Transcend",
+    "Price": 2755,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/139396-407925-category_page/transcend-mts830s-tlc-256gb-m2-2242-sata-ts256gmts430s.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 250S 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (TS2TMTE250S)",
+    "Brand": "Transcend",
+    "Price": 21745,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467652-604150-category_page/transcend-250s-3d-nand-2tb-m2-2280-pci-e-nvme-x4-ts2tmte250s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Blue SA510 2TB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 13699,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550307-699046-category_page/western-digital-blue-sa510-2tb-25-wds200t3b0a.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 710 3D NAND 512GB M.2 (2280 PCI-E) (ALEG-710-512GCS)",
+    "Brand": "ADATA",
+    "Price": 3885,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467607-604427-category_page/adata-legend-710-3d-nand-512gb-m2-2280-pci-e-aleg-710-512gcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 4TB USB 3.2 (MU-PC4T0T/WW) Grey",
+    "Brand": "Samsung",
+    "Price": 19637,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/684512-844059-category_page/samsung-t7-4tb-usb-32-mu-pc4t0tww-grey.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 220s 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (TS1TMTE220S)",
+    "Brand": "Transcend",
+    "Price": 10525,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/139392-413532-category_page/transcend-220s-tlc-1tb-m2-2280-nvme-x4-ts1tmte220s.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P320 2TB M.2 (2280 PCI-E) NVMe x4 (P320P2TBM28)",
+    "Brand": "Patriot",
+    "Price": 12499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762608-949011-category_page/patriot-p320-2tb-m2-2280-pci-e-nvme-x4-p320p2tbm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "ADATA Ultimate SU650 3D NAND TLC 512GB 2.5\\",
+    "Brand": "ADATA",
+    "Price": 3339,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/349199-495846-category_page/adata-ultimate-su650-3d-nand-tlc-asu650ss-512gt-r.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD260C 3D NAND 1TB USB Type-C (TS1TESD260C)",
+    "Brand": "Transcend",
+    "Price": 8069,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444243-586796-category_page/transcend-esd260c-3d-nand-1tb-usb-type-c-ts1tesd260c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD270C 3D NAND 500GB USB 3.1 (TS500GESD270C)",
+    "Brand": "Transcend",
+    "Price": 4559,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/369883-515776-category_page/transcend-esd270c-3d-nand-500gb-usb-31-ts500gesd270c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T9 2TB USB 3.2 (MU-PG2T0B/EU)",
+    "Brand": "Samsung",
+    "Price": 14765,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/592671-736672-category_page/samsung-t9-2tb-usb-32-mu-pg2t0beu.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 115S 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (TS1TMTE115S)",
+    "Brand": "Transcend",
+    "Price": 7969,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591693-736320-category_page/transcend-115s-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ts1tmte115s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Patriot P210 2TB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 13675,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/298935-463444-category_page/patriot-p210-2tb-25-p210s2tb25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD225S 3D NAND 500GB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 4185,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627427-774540-category_page/transcend-ssd225s-3d-nand-500gb-25-ts500gssd225s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Mars 980 Blade 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (SMAR-980B-2TCS)",
+    "Brand": "ADATA",
+    "Price": 17715,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/803128-1016604-category_page/adata-xpg-mars-980-blade-3d-nand-2tb-m2-2280-pci-e-nvme-x4-smar-980b-2tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 250S 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (TS1TMTE250S)",
+    "Brand": "Transcend",
+    "Price": 14479,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/467649-604147-category_page/transcend-250s-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ts1tmte250s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD220S 3D NAND 240GB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 2279,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/50933-409174-category_page/transcend-ssd220s-240gb-25-ts240gssd220s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T9 1TB USB 3.2 (MU-PG1T0B/EU)",
+    "Brand": "Samsung",
+    "Price": 8889,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/592670-736663-category_page/samsung-t9-1tb-usb-32-mu-pg1t0beu.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2242",
+    "Name": "Transcend 425S 3D NAND 500GB M.2 (2242 SATA) (TS500GMTS425S)",
+    "Brand": "Transcend",
+    "Price": 3859,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627429-774480-category_page/transcend-425s-3d-nand-500gb-m2-2242-sata-ts500gmts425s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2230",
+    "Name": "GoodRAM IRDM Pro NANO 3D NAND 2TB M.2 (2230 PCI-E) NVMe x4 (IRP-SSDPR-P44N-02T-30)",
+    "Brand": "GoodRAM",
+    "Price": 12715,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/763918-951710-category_page/goodram-irdm-pro-nano-3d-nand-2tb-m2-2230-pci-e-nvme-x4-irp-ssdpr-p44n-02t-30.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Red SA500 NAS 2TB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 15019,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762639-950403-category_page/western-digital-red-sa500-nas-2tb-25-wds200t2r0a.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 192,
+    "FormFactor": "2.5″",
+    "Name": "Patriot Burst Elite 3D NAND TLC 1,92TB 2.5\\",
+    "Brand": "Patriot",
+    "Price": 9999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339971-489716-category_page/patriot-burst-elite-3d-nand-tlc-192tb-25-pbe192ts25ssdr.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 825S 3D NAND 1TB M.2 (2280 SATA) (TS1TMTS825S)",
+    "Brand": "Transcend",
+    "Price": 7819,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627423-774481-category_page/transcend-825s-3d-nand-1tb-m2-2280-sata-ts1tmts825s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG GAMMIX S70 BLADE 3D NAND 4TB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS70B-4T-CS)",
+    "Brand": "ADATA",
+    "Price": 23925,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/517552-663785-category_page/adata-xpg-gammix-s70-blade-3d-nand-4tb-m2-2280-pci-e-nvme-x4-agammixs70b-4t-cs.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "mSATA",
+    "Name": "Transcend 230S 3D NAND 128GB mSATA (TS128GMSA230S)",
+    "Brand": "Transcend",
+    "Price": 1395,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/181171-407963-category_page/transcend-230s-3d-nand-128gb-msata-ts128gmsa230s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Transcend 230 TLC 256GB 2.5\\'\\' (TS256GSSD230S)",
+    "Brand": "Transcend",
+    "Price": 2885,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/64654-408587-category_page/transcend-230-tlc-256gb-25-ts256gssd230s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD265C 3D NAND 1TB USB 3.2 (TS1TESD265C) Iron Gray",
+    "Brand": "Transcend",
+    "Price": 8419,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627413-774486-category_page/transcend-esd265c-3d-nand-1tb-usb-32-ts1tesd265c-iron-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Red SA500 1TB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 7509,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/238259-425136-category_page/western-digital-red-sa500-1tb-25-wds100t1r0a.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T705 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (CT4000T705SSD3)",
+    "Brand": "Crucial",
+    "Price": 31835,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/745739-920937-category_page/crucial-t705-3d-nand-tlc-4tb-m2-2280-pci-e-nvme-x4-ct4000t705ssd3.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend MTS830S 3D NAND 512GB M.2 (2280 SATA) (TS512GMTS830S)",
+    "Brand": "Transcend",
+    "Price": 5215,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/116083-410244-category_page/transcend-mts830s-3d-nand-512gb-m2-2280-sata-ts512gmts830s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD360C 3D NAND 1TB USB (TS1TESD360C) Gray",
+    "Brand": "Transcend",
+    "Price": 8419,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627421-774526-category_page/transcend-esd360c-3d-nand-1tb-usb-ts1tesd360c-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Rugged 4TB USB (STHR4000800)",
+    "Brand": "LaCie",
+    "Price": 22999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/763925-952618-category_page/lacie-rugged-4tb-usb-sthr4000800.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS350X 3D NAND 128GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 1279,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/361186-507297-category_page/apacer-as350x-3d-nand-128gb-25-ap128gas350xr-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 Shield 2TB USB 3.2 (MU-PE2T0S/WW) Black",
+    "Brand": "Samsung",
+    "Price": 14469,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/760074-945767-category_page/samsung-t7-shield-2tb-usb-32-mu-pe2t0sww-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD220Q 3D NAND 1TB 2.5\\'\\' (TS1TSSD220Q)",
+    "Brand": "Transcend",
+    "Price": 7119,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320865-481006-category_page/transcend-ssd220q-3d-nand-1tb-25-ts1tssd220q.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T700 3D NAND TLC 4TB M.2 with heatsink (2280 PCI-E) NVMe x4 (CT4000T700SSD5)",
+    "Brand": "Crucial",
+    "Price": 31079,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627360-774087-category_page/crucial-t700-3d-nand-tlc-4tb-m2-with-heatsink-2280-pci-e-nvme-x4-ct4000t700ssd5.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD265C 3D NAND 500GB USB 3.2 (TS500GESD265C) Iron Gray",
+    "Brand": "Transcend",
+    "Price": 4659,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627414-774490-category_page/transcend-esd265c-3d-nand-500gb-usb-32-ts500gesd265c-iron-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD410C 3D NAND 1TB USB Type-C (TS1TESD410C)",
+    "Brand": "Transcend",
+    "Price": 9275,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/760069-945786-category_page/transcend-esd410c-3d-nand-1tb-usb-type-c-ts1tesd410c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD220S 3D NAND 120GB 2.5\\'\\' (TS120GSSD220S)",
+    "Brand": "Transcend",
+    "Price": 1439,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/67051-353827-category_page/transcend-ssd220-120gb-25-ts120gssd220s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA XPG Gammix S70 Blade 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (AGAMMIXS70B-2T-CS)",
+    "Brand": "ADATA",
+    "Price": 15686,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627339-774001-category_page/adata-xpg-gammix-s70-blade-3d-nand-2tb-m2-2280-pci-e-nvme-x4-agammixs70b-2t-cs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "Kingston DC600M 3D NAND TLC 960GB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 17295,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762617-949004-category_page/kingston-dc600m-3d-nand-tlc-960gb-25-sedc600m960g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD410C 3D NAND 2TB USB Type-C (TS2TESD410C)",
+    "Brand": "Transcend",
+    "Price": 18799,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/760070-945802-category_page/transcend-esd410c-3d-nand-2tb-usb-type-c-ts2tesd410c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red SN700 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T1R0C)",
+    "Brand": "Western Digital",
+    "Price": 9335,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/419539-568853-category_page/western-digital-red-sn700-1tb-m2-2280-pci-e-nvme-x4-wds100t1r0c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme E61 V2 2TB 2.5\\",
+    "Brand": "Sandisk",
+    "Price": 11365,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/339972-489773-category_page/sandisk-extreme-portable-v2-2tb-25-usb-32-sdssde61-2t00-g25.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme Portable Pro 4TB 2.5\\",
+    "Brand": "Sandisk",
+    "Price": 25049,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627397-774464-category_page/sandisk-extreme-portable-pro-4tb-25-usb-32-sdssde81-4t00-g25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red 1TB M.2 (2280 SATA) (WDS100T1R0B)",
+    "Brand": "Western Digital",
+    "Price": 8955,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/238254-425092-category_page/western-digital-red-1tb-m2-2280-wds100t1r0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Extreme E61 V2 500GB USB 3.2 (SDSSDE61-500G-G25)",
+    "Brand": "Sandisk",
+    "Price": 5959,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/320857-477375-category_page/sandisk-extreme-e61-v2-500gb-usb-32-sdssde61-500g-g25.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend MTE110S TLC 1TB M.2 (2280 PCI-E) NVMe x4 (TS1TMTE110S)",
+    "Brand": "Transcend",
+    "Price": 8715,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/116077-736363-category_page/transcend-mte110s-tlc-1tb-m2-2280-pci-e-nvme-x4-ts1tmte110s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD360C 3D NAND 2TB USB (TS2TESD360C) Gray",
+    "Brand": "Transcend",
+    "Price": 13285,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627422-774530-category_page/transcend-esd360c-3d-nand-2tb-usb-ts2tesd360c-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 240S 3D NAND 500GB M.2 (2280 PCI-E) NVMe x4 (TS500GMTE240S)",
+    "Brand": "Transcend",
+    "Price": 6155,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/444248-586791-category_page/transcend-240s-3d-nand-500gb-m2-2280-pci-e-nvme-x4-ts500gmte240s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "MICRON 5400 MAX 480GB 2.5\\",
+    "Brand": "MICRON",
+    "Price": 11029,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/487291-626220-category_page/micron-5400-max-480gb-25-sata-mtfddak480tgb-1bc1zabyyr.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Samsung V-NAND TLC PM893 480GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 9475,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627379-774461-category_page/samsung-v-nand-tlc-pm893-480gb-25-mz7l3480hchq-00a07.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280Q4L 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (AP1TBAS2280Q4L-1)",
+    "Brand": "Apacer",
+    "Price": 6501,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591651-735486-category_page/apacer-as2280q4l-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-ap1tbas2280q4l-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Kingston DC600M 3D NAND TLC 480GB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 11279,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762615-948998-category_page/kingston-dc600m-3d-nand-tlc-480gb-25-sedc600m480g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Transcend 230s 3D NAND 1TB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 9275,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/139393-357190-category_page/transcend-230-tlc-1tb-25-ts1tssd230s.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Portable E30 1TB USB 3.2 Type-C (SDSSDE30-1T00-G26)",
+    "Brand": "Sandisk",
+    "Price": 6159,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/550283-698973-category_page/sandisk-portable-e30-1tb-usb-32-type-c-sdssde30-1t00-g26.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280Q4L 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (AP512GAS2280Q4L-1)",
+    "Brand": "Apacer",
+    "Price": 4265,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591656-735492-category_page/apacer-as2280q4l-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-ap512gas2280q4l-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD220S 3D NAND 480GB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 4209,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/50934-410236-category_page/transcend-ssd220s-480gb-25-ts480gssd220s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend MTS820S TLC 480GB M.2 (2280 SATA) (TS480GMTS820S)",
+    "Brand": "Transcend",
+    "Price": 4109,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/83636-409178-category_page/transcend-mts820s-tlc-480gb-m2-2280-sata-ts480gmts820s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2242",
+    "Name": "Transcend 430S 3D NAND 512GB M.2 (2242 SATA) (TS512GMTS430S)",
+    "Brand": "Transcend",
+    "Price": 4509,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/288558-457096-category_page/transcend-430s-3d-nand-512gb-m2-2242-sata-ts512gmts430s.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 Shield 2TB USB 3.2 (MU-PE2T0R/WW) Blue",
+    "Brand": "Samsung",
+    "Price": 13675,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/760073-945748-category_page/samsung-t7-shield-2tb-usb-32-mu-pe2t0rww-blue.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD225S 3D NAND 1TB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 7869,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/627425-774534-category_page/transcend-ssd225s-3d-nand-1tb-25-ts1tssd225s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Patriot Transporter Lite 2TB USB Type-C (PTPL2TBPEC) Red",
+    "Brand": "Patriot",
+    "Price": 9839,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762344-949300-category_page/patriot-transporter-lite-2tb-usb-type-c-ptpl2tbpec-red.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD270C 3D NAND 1TB USB 3.1 (TS1TESD270C)",
+    "Brand": "Transcend",
+    "Price": 8419,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/369882-515772-category_page/transcend-esd270c-3d-nand-1tb-usb-31-ts1tesd270c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 830S 3D NAND 1TB M.2 (2280 SATA) (TS1TMTS830S)",
+    "Brand": "Transcend",
+    "Price": 8119,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/238252-425089-category_page/transcend-230s-3d-nand-1tb-msata-ts1tmts830s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4 3D TLC NAND 1TB M.2 (2280 PCI-E) NVMe x4 (AP1TBAS2280P4-1)",
+    "Brand": "Apacer",
+    "Price": 5199,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/289273-457209-category_page/apacer-as2280p4-3d-tlc-nand-1tb-m2-2280-pci-e-nvme-x4-ap1tbas2280p4-1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (AP512GAS2280P4U-1)",
+    "Brand": "Apacer",
+    "Price": 4219,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/516814-664361-category_page/apacer-as2280p4u-3d-nand-512gb-m2-2280-pci-e-nvme-x4-ap512gas2280p4u-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Patriot Transporter 512GB USB Type-C (PTP512GPEC)",
+    "Brand": "Patriot",
+    "Price": 3897,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762343-949288-category_page/patriot-transporter-512gb-usb-type-c-ptp512gpec.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD270C 3D NAND 2TB USB Type-C (TS2TESD270C) Black",
+    "Brand": "Transcend",
+    "Price": 13285,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/591710-736339-category_page/transcend-esd270c-3d-nand-2tb-usb-type-c-ts2tesd270c-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "mSATA",
+    "Name": "Transcend 230S 3D NAND 256GB mSATA (TS256GMSA230S)",
+    "Brand": "Transcend",
+    "Price": 2809,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/238251-425091-category_page/transcend-230s-3d-nand-256gb-msata-ts256gmsa230s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 0,
+    "FormFactor": "htmlNodes пустий",
+    "Name": "ADATA Ultimate SU800 TLC 1TB 2.5\\",
+    "Brand": "ADATA",
+    "Price": 5425,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/80302-268888-category_page/adata-ultimate-su800-tlc-1tb-25-asu800ss-1tt-c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AST280 TLC 120GB M.2 (2280 SATA) (AP120GAST280-1)",
+    "Brand": "Apacer",
+    "Price": 1209,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/70888-410523-category_page/apacer-ast280-tlc-120gb-m2-2260-sata-ap120gast280-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Mobile Secure 1TB USB (STKH1000800)",
+    "Brand": "LaCie",
+    "Price": 6299,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/762618-949111-category_page/lacie-mobile-secure-1tb-usb-stkh1000800.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 980 PRO V-NAND MLC 1TB M.2 (2280 PCI-E) NVMe 1.3c (MZ-V8P1T0BW) (Восстановлено продавцом, 839879)",
+    "Brand": "Samsung",
+    "Price": 5999,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/839879-1081571-category_page/samsung-980-pro-v-nand-mlc-1tb-m2-2280-pci-e-nvme-13c-mz-v8p1t0bw-839879.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV1 1TB M.2 (2280 PCI-E) NVMe x4 (SNVS/1000G) (Восстановлено продавцом, 839914)",
+    "Brand": "Kingston",
+    "Price": 4499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/839914-1081598-category_page/kingston-nv1-1tb-m2-2280-pci-e-nvme-x4-snvs1000g-839914.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston A2000 3D NAND 250GB M.2 (2280 PCI-E) NVMe x4 (SA2000M8/250G) (Восстановлено продавцом, 838682)",
+    "Brand": "Kingston",
+    "Price": 1499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/838682-1079655-category_page/kingston-a2000-3d-nand-250gb-m2-2280-pci-e-nvme-x4-sa2000m8250g-838682.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV1 500GB M.2 (2280 PCI-E) NVMe x4 (SNVS/500G) (Восстановлено продавцом, 839226)",
+    "Brand": "Kingston",
+    "Price": 2499,
+    "IsAvailable": true,
+    "URL": "https://img.telemart.ua/839226-1080680-category_page/kingston-nv1-500gb-m2-2280-pci-e-nvme-x4-snvs500g-839226.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T700 3D NAND 1TB M.2 (2280 PCI-E) (CT1000T700SSD3)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/516818-664396-category_page/crucial-t700-3d-nand-1tb-m2-2280-pci-e-ct1000t700ssd3.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX500 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX500-512-80)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/250518-434038-category_page/goodram-px500-3d-nand-512gb-m2-2280-pci-e-nvme-x4-ssdpr-px500-512-80.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kioxia Exceria Plus G3 1TB M.2 (2280 PCI-E) (LSD10Z001TG8)",
+    "Brand": "Kioxia",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/822611-1055667-category_page/kioxia-exceria-plus-g3-1tb-m2-2280-pci-e-lsd10z001tg8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Team CX2 1TB 2.5\\",
+    "Brand": "Team",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/339977-489787-category_page/team-cx2-1tb-25-t253x6001t0c101.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 8,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 8TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP8T0BW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/750568-931415-category_page/samsung-9100-pro-v-nand-tlc-8tb-m2-2280-pci-e-nvme-20-mz-vap8t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND MLC 500GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/342199-490958-category_page/samsung-870-evo-v-nand-mlc-500gb-25-mz-77e500bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial P3 Plus 3D NAND 1TB M.2 (2280 PCI-E) (CT1000P3PSSD8)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444202-586621-category_page/crucial-p3-plus-3d-nand-1tb-m2-2280-pci-e-ct1000p3pssd8.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 980 V-NAND MLC 250GB M.2 (2280 PCI-E) NVMe 1.4 (MZ-V8V250BW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/352789-497882-category_page/samsung-980-v-nand-mlc-250gb-m2-2280-pci-e-nvme-14-mz-v8v250bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN7100 3D NAND TLC 500GB M.2 (2280 PCI-E) NVMe x4 (WDS500G4X0E)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762645-950369-category_page/western-digital-black-sn7100-3d-nand-tlc-500gb-m2-2280-pci-e-nvme-x4-wds500g4x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NQ790 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (LNQ790X001T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/712173-880029-category_page/lexar-nq790-3d-nand-1tb-m2-2280-pci-e-nvme-x4-lnq790x001t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "GoodRAM HL100 3D NAND TLC 256GB USB 3.2 (SSDPR-HL100-256)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/360991-507439-category_page/goodram-hl100-3d-nand-tlc-256gb-usb-32-ssdpr-hl100-256.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 900 3D NAND 512GB M.2 (2280 PCI-E) (SLEG-900-512GCS)",
+    "Brand": "ADATA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/800602-1013046-category_page/adata-legend-900-3d-nand-512gb-m2-2280-pci-e-sleg-900-512gcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Silicon Power Slim A55 128Gb 2.5\\",
+    "Brand": "Silicon Power",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/71622-239595-category_page/silicon-power-slim-a55-128gb-25-sp128gbss3a55s25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M371 3D NAND TLC 1TB M.2 (2280 PCI-E) (S78-440L870-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/480985-618559-category_page/msi-spatium-m371-3d-nand-tlc-1tb-m2-2280-pci-e-s78-440l870-p83.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 3D NAND 1TB M.2 (2280 SATA) (R3MS1024G8)",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811402-1031546-category_page/amd-radeon-r3-3d-nand-1tb-m2-2280-sata-r3ms1024g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NQ790 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (LNQ790X002T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/712174-880033-category_page/lexar-nq790-3d-nand-2tb-m2-2280-pci-e-nvme-x4-lnq790x002t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Team MP33 1TB M.2 (2280 PCI-E) NVMe 1.3 (TM8FP6001T0C101)",
+    "Brand": "Team",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/298914-463495-category_page/team-mp33-1tb-m2-2280-pci-e-nvme-13-tm8fp6001t0c101.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Green 480GB M.2 (2280 SATA) (WDS480G3G0B)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444264-586848-category_page/western-digital-green-480gb-m2-sata-iii-2280-pci-e-wds480g3g0b.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM620 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (LNM620X512G-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627270-773691-category_page/lexar-nm620-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-lnm620x512g-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "MSI SPATIUM S270 3D NAND 960GB SATA 2.5\\",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/550267-698573-category_page/msi-spatium-s270-3d-nand-960gb-sata-25-s78-440p130-p83.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen3 3D NAND 2TB M.2 (2280 PCI-E) (R3MP32048G8)",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811396-1031192-category_page/amd-radeon-r3-gen3-3d-nand-2tb-m2-2280-pci-e-r3mp32048g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "Apacer Panther AS350 3D NAND TLC 256GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811345-1031142-category_page/apacer-panther-as350-3d-nand-tlc-256gb-25-ap256gas350-1-bulk.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND MLC 1TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/342195-490926-category_page/samsung-870-evo-v-nand-mlc-1tb-25-mz-77e1t0bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial P3 3D NAND 2TB M.2 (2280 PCI-E) (CT2000P3SSD8)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444204-586617-category_page/crucial-p3-3d-nand-2tb-m2-2280-pci-e-ct2000p3ssd8.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD270C 3D NAND TLC 250GB USB Type-C (TS250GESD270C)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/400191-563697-category_page/transcend-esd270c-3d-nand-tlc-250gb-usb-type-c-ts250gesd270c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 QVO V-NAND MLC 2TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/320804-477426-category_page/samsung-870-qvo-v-nand-mlc-2tb-25-mz-77q2t0bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot Viper VP4300 Lite 2TB M.2 (2280 PCI-E) NVMe x4 (VP4300L2TBM28H)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/564648-712760-category_page/patriot-viper-vp4300-lite-2tb-m2-2280-pci-e-nvme-x4-vp4300l2tbm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 1TB 2.5\\",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811391-1031167-category_page/amd-radeon-r3-3d-nand-1tb-25-r3sl1024g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Apacer AS725 1TB USB 3.2 (AP1TBAS725B-1) Black",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763905-951648-category_page/apacer-as725-1tb-usb-32-ap1tbas725b-1-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte 2500E 1TB M.2 (2280 PCI-E) NVMe 1.3 x4 (G325E1TB)",
+    "Brand": "Gigabyte",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467619-604477-category_page/gigabyte-2500e-1tb-m2-2280-pci-e-nvme-13-x4-g325e1tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "Silicon Power Ace A55 TLC 512GB 2.5\\",
+    "Brand": "Silicon Power",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/83384-280994-category_page/silicon-power-ace-a55-tlc-512gb-25-sp512gbss3a55s25.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen4 3D NAND 2TB M.2 (2280 PCI-E) (R3MP42048G8)",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811399-1031196-category_page/amd-radeon-r3-gen4-3d-nand-2tb-m2-2280-pci-e-r3mp42048g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston XS2000 1TB USB 3.2 (SXS2000/1000G)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/391212-543840-category_page/kingston-xs2000-1tb-usb-32-sxs20001000g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 480GB 2.5\\",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811388-1031177-category_page/amd-radeon-r3-3d-nand-480gb-25-r3sl0480g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 245S 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (TS1TMTE245S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591698-736329-category_page/transcend-245s-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ts1tmte245s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN770 2TB M.2 (2280 PCI-E) (WDS200T3X0E)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467667-604163-category_page/western-digital-black-sn770-2tb-m2-2280-pci-e-wds200t3x0e.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Apacer AS725 512GB USB 3.2 (AP1TBAS725B-1) Black",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763907-951657-category_page/apacer-as725-512gb-usb-32-ap1tbas725b-1-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung PM9A1 V-NAND 512GB M.2 (2280 PCI-E) (MZVL2512HCJQ-00B00)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467632-604552-category_page/samsung-pm9a1-v-nand-512gb-m2-2280-pci-e-mzvl2512hcjq-00b00.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO with Heatsink V-NAND TLC 4TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P4T0CW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591683-735613-category_page/samsung-990-pro-with-heatsink-v-nand-tlc-4tb-m2-2280-pci-e-nvme-20-mz-v9p4t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "ADATA SE760 512GB USB 3.2 (ASE760-512GU32G2-CTI) Titanium",
+    "Brand": "ADATA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/289259-457144-category_page/adata-se760-512gb-usb-32-ase760-512gu32g2-cti-titanium.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN8100 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (WDS200T1X0M)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/776592-976622-category_page/western-digital-black-sn8100-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-wds200t1x0m.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND 3-bit MLC 2TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P2T0CW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/445263-588779-category_page/samsung-990-pro-v-nand-3-bit-mlc-2tb-m2-2280-pci-e-nvme-20-mz-v9p2t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung Portable SSD T7 Shield 1TB USB 3.2 Type-C (MU-PE1T0S/EU) Black",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/550278-698739-category_page/samsung-portable-ssd-t7-shield-1tb-usb-32-type-c-mu-pe1t0seu-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte AORUS Gen5 14000 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (AG514K1TB)",
+    "Brand": "Gigabyte",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/662399-817500-category_page/gigabyte-aorus-gen5-14000-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-20-ag514k1tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX500 3D NAND 256GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX500-256-80)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/288547-457069-category_page/goodram-px500-3d-nand-256gb-m2-2280-pci-e-nvme-x4-ssdpr-px500-256-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Apacer 240GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/53525-165946-category_page/apacer-240gb-25-ap240gas340g-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Asus TUF Gaming AS1000 Plus 1TB USB 3.2 (90DD02W0-M09000) Black",
+    "Brand": "Asus",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/748290-926100-category_page/asus-tuf-gaming-as1000-plus-1tb-usb-32-90dd02w0-m09000-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (AP1TBAS2280P4U-1)",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/516811-664356-category_page/apacer-as2280p4u-3d-nand-1tb-m2-2280-pci-e-nvme-x4-ap1tbas2280p4u-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 2TB with Heatsink M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP2T0CW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/750570-931410-category_page/samsung-9100-pro-v-nand-tlc-2tb-with-heatsink-m2-2280-pci-e-nvme-20-mz-vap2t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO MKX V-NAND MLC 500GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591677-735591-category_page/samsung-870-evo-mkx-v-nand-mlc-500gb-25-mz-77e500b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend MTS820S TLC 240GB M.2 (2280 SATA) (TS240GMTS820S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/77182-407920-category_page/transcend-mts820s-tlc-240gb-m2-2280-sata-ts240gmts820s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 PRO LPX 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F1000GBMP600PLPW)",
+    "Brand": "Corsair",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/550275-698304-category_page/corsair-mp600-pro-lpx-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-cssd-f1000gbmp600plpw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM710 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (LNM710X001T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627271-773699-category_page/lexar-nm710-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-lnm710x001t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 4TB with Heatsink M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP4T0CW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/750571-931413-category_page/samsung-9100-pro-v-nand-tlc-4tb-with-heatsink-m2-2280-pci-e-nvme-20-mz-vap4t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T700 3D NAND 2TB M.2 (2280 PCI-E) (CT2000T700SSD3)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/516823-664404-category_page/crucial-t700-3d-nand-2tb-m2-2280-pci-e-ct2000t700ssd3.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND 3-bit MLC 2TB M.2 with Heatsink (2280 PCI-E) NVMe 2.0 (MZ-V9P2T0GW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/539916-689531-category_page/samsung-990-pro-v-nand-3-bit-mlc-2tb-m2-with-heatsink-2280-pci-e-nvme-20-mz-v9p2t0gw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T5 Evo 2TB USB 3.2 (MU-PH2T0S/EU)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/660265-815187-category_page/samsung-t5-evo-2tb-usb-32-mu-ph2t0seu.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "mSATA",
+    "Name": "Kingston KC600 3D NAND TLC 1TB mSATA (SKC600MS/1024G)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/369873-515637-category_page/kingston-kc600-3d-nand-tlc-1tb-msata-skc600ms1024g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 EVO V-NAND TLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9E1T0BW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/611869-757405-category_page/samsung-990-evo-v-nand-tlc-1tb-m2-2280-pci-e-nvme-20-mz-v9e1t0bw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2230",
+    "Name": "GoodRAM IRDM Pro NANO 3D NAND 512GB M.2 (2230 PCI-E) NVMe x4 (IRP-SSDPR-P44N-512-30)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763919-951714-category_page/goodram-irdm-pro-nano-3d-nand-512gb-m2-2230-pci-e-nvme-x4-irp-ssdpr-p44n-512-30.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M480 Pro 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe 1.4 (S78-440Q600-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/517570-664443-category_page/msi-spatium-m480-pro-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-14-s78-440q600-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "Dato DS700 240GB 2.5\\",
+    "Brand": "Dato",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/425791-573732-category_page/dato-ds700-240gb-25-ds700ssd-240gb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 384,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston IronKey Vault Privacy 80 3.84TB USB 3.2 Gen 1 (IKVP80ES/3840G)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763913-951721-category_page/kingston-ironkey-vault-privacy-80-384tb-usb-32-gen-1-ikvp80es3840g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM IRDM Pro 3D TLC 2TB M.2 (2280 PCI-E) NVMe 1.4 (IRP-SSDPR-P44A-2K0-80)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444210-586628-category_page/goodram-irdm-pro-3d-tlc-2tb-m2-2280-pci-e-nvme-14-irp-ssdpr-p44a-2k0-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Corsair EX100U 2TB Portable USB (CSSD-EX100U2TB)",
+    "Brand": "Corsair",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/518440-664600-category_page/corsair-ex100u-2tb-portable-usb-cssd-ex100u2tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2230",
+    "Name": "Crucial P310 3D NAND 2TB M.2 (2230 PCI-E) NVMe x4 (CT2000P310SSD2)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/745733-920895-category_page/crucial-p310-3d-nand-2tb-m2-2230-pci-e-nvme-x4-ct2000p310ssd2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial P310 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (CT2000P310SSD8)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/745731-920901-category_page/crucial-p310-3d-nand-2tb-m2-2280-pci-e-nvme-x4-ct2000p310ssd8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2242",
+    "Name": "Transcend 400S 3D NAND 1TB M.2 (2242 PCI-E) NVMe x4 (TS1TMTE400S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591691-736335-category_page/transcend-400s-3d-nand-1tb-m2-2242-pci-e-nvme-x4-ts1tmte400s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial P310 3D NAND 2TB M.2 with heatsink (2280 PCI-E) NVMe x4 (CT2000P310SSD5)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/745728-920907-category_page/crucial-p310-3d-nand-2tb-m2-with-heatsink-2280-pci-e-nvme-x4-ct2000p310ssd5.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung PM9A1 V-NAND 1TB M.2 (2280 PCI-E) (MZVL21T0HCLR-00B00)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467633-604543-category_page/samsung-pm9a1-v-nand-1tb-m2-2280-pci-e-mzvl21t0hclr-00b00.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "ADATA SE760 256GB USB 3.2 (ASE760-256GU32G2-CBK) Black",
+    "Brand": "ADATA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/320792-477486-category_page/adata-se760-256gb-usb-32-ase760-256gu32g2-cbk-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM IRDM Pro GEN 5 3D TLC 4TB M.2 (2280 PCI-E) NVMe 2.0 (IRP-SSDPR-P54S-4K0-80)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/695790-864256-category_page/goodram-irdm-pro-gen-5-3d-tlc-4tb-m2-2280-pci-e-nvme-20-irp-ssdpr-p54s-4k0-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Rugged Pro5 4TB USB (STNA4000400)",
+    "Brand": "LaCie",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762622-949183-category_page/lacie-rugged-pro5-4tb-usb-stna4000400.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Red SA500 NAS 1TB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/747485-924103-category_page/western-digital-red-sa500-nas-1tb-25-wds100t1r0a-68a4w0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 8,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 QVO V-NAND MLC 8TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/320843-477442-category_page/samsung-870-qvo-v-nand-mlc-8tb-25-mz-77q8t0bw.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial P3 Plus 3D NAND 4TB M.2 (2280 PCI-E) (CT4000P3PSSD8)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467613-604462-category_page/crucial-p3-plus-3d-nand-4tb-m2-2280-pci-e-ct4000p3pssd8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4X 3D NAND TLC 256GB M.2 (2280 PCI-E) NVMe x4 (AP256GAS2280P4X-1)",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591652-735483-category_page/apacer-as2280p4x-3d-nand-tlc-256gb-m2-2280-pci-e-nvme-x4-ap256gas2280p4x-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM IRDM Pro GEN 5 3D TLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (IRP-SSDPR-P54S-1K0-80)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/695788-864236-category_page/goodram-irdm-pro-gen-5-3d-tlc-1tb-m2-2280-pci-e-nvme-20-irp-ssdpr-p54s-1k0-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "ADATA Legend 710 3D NAND 2TB M.2 (2280 PCI-E) (ALEG-710-2TCS)",
+    "Brand": "ADATA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/480926-618375-category_page/adata-legend-710-3d-nand-2tb-m2-2280-pci-e-aleg-710-2tcs.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red SA500 NAS 2TB M.2 (2280 SATA) (WDS200T1R0B-68A4Z0)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/747483-924107-category_page/western-digital-red-sa500-nas-2tb-m2-2280-sata-wds200t1r0b-68a4z0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "ATRIA XT200 3D NAND TLC 512GB 2.5\\",
+    "Brand": "ATRIA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627353-774053-category_page/atria-xt200-3d-nand-tlc-512gb-25-atsatxt200512.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "GoodRAM HX200 500GB USB 3.2 (SSDPR-HX200-500) Black",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763924-951708-category_page/goodram-hx200-500gb-usb-32-ssdpr-hx200-500-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD240C 240GB USB 3.1 (TS240GESD240C)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/206410-502364-category_page/transcend-esd240c-240gb-usb-31-ts240gesd240c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 192,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P310 1.92TB M.2 (2280 PCI-E) NVMe 1.3 (P310P192TM28)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444220-666638-category_page/patriot-p310-192tb-m2-2280-pci-e-nvme-13-p310p192tm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot Viper VP4300 2TB M.2 (2280 PCI-E) NVMe x4 (VP4300-2TBM28H)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/369904-515906-category_page/patriot-viper-vp4300-2tb-m2-2280-pci-e-nvme-x4-vp4300-2tbm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 500GB USB 3.2 (MU-PC500H/WW) Blue",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/289327-457435-category_page/samsung-t7-500gb-usb-32-mu-pc500hww-blue.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung V-NAND TLC 990 Pro 4TB M.2 with heatsink (2280 PCI-E) NVMe x4 (MZ-V9P4T0GW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627380-774447-category_page/samsung-v-nand-tlc-990-pro-4tb-m2-with-heatsink-2280-pci-e-nvme-x4-mz-v9p4t0gw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 192,
+    "FormFactor": "2.5″",
+    "Name": "Samsung V-NAND TLC PM893 1.92TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627378-774458-category_page/samsung-v-nand-tlc-pm893-192tb-25-mz7l31t9hblt-00a07.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 4TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467627-604533-category_page/samsung-870-evo-v-nand-4tb-25-mz-77e4t0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 825S 3D NAND 500GB M.2 (2280 SATA) (TS500GMTS825S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627424-774484-category_page/transcend-825s-3d-nand-500gb-m2-2280-sata-ts500gmts825s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte Gen4 4000E 3D NAND 1TB M.2 (2280 PCI-E) NVMe 1.4 (G440E1TB)",
+    "Brand": "Gigabyte",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/659850-815424-category_page/gigabyte-gen4-4000e-3d-nand-1tb-m2-2280-pci-e-nvme-14-g440e1tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SA510 2TB M.2 (2280 SATA) (WDS200T3B0B)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762351-949356-category_page/western-digital-blue-sa510-2tb-m2-2280-sata-wds200t3b0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "GoodRAM CX400 Gen.2 3D NAND 2TB 2.5\\",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591667-735517-category_page/goodram-cx400-gen2-3d-nand-2tb-25-ssdpr-cx400-02t-g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (AP2TBAS2280P4U-1)",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591653-735478-category_page/apacer-as2280p4u-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-ap2tbas2280p4u-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS350X 3D NAND 2TB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763906-951644-category_page/apacer-as350x-3d-nand-2tb-25-ap2tbas350xr-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "ADATA Elite SE880 500GB USB 3.2 (AELI-SE880-500GCGY)",
+    "Brand": "ADATA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/564631-712635-category_page/adata-elite-se880-500gb-usb-32-aeli-se880-500gcgy.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD410C 3D NAND 4TB USB Type-C (TS4TESD410C)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/760071-945817-category_page/transcend-esd410c-3d-nand-4tb-usb-type-c-ts4tesd410c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 512GB USB + USB Type-C (TS512GESD310P) Pink",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627416-774497-category_page/transcend-esd310-3d-nand-512gb-usb-usb-type-c-ts512gesd310p-pink.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD220Q 3D NAND 2TB 2.5\\'\\' (TS2TSSD220Q)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/320866-477359-category_page/transcend-ssd220q-3d-nand-2tb-25-ts2tssd220q.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red SA500 NAS 1TB M.2 (2280 SATA) (WDS100T1R0B-68A4Z0)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/747486-924105-category_page/western-digital-red-sa500-nas-1tb-m2-2280-sata-wds100t1r0b-68a4z0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 480,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD240C 480GB USB 3.1 (TS480GESD240C)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/206409-502368-category_page/transcend-esd240c-480gb-usb-31-ts480gesd240c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung Portable SSD T7 Shield 2TB USB 3.2 Type-C (MU-PE2T0S/EU) Black",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/486874-625790-category_page/samsung-portable-ssd-t7-shield-2tb-usb-32-type-c-mu-pe2t0seu-black.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD380C 3D NAND 2TB USB Type-C (TS2TESD380C) Military Green",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444246-586816-category_page/transcend-esd380c-3d-nand-2tb-usb-type-c-ts2tesd380c-military-green.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U Pro 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (AP512GAS2280P4UPRO-1)",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/517565-663793-category_page/apacer-as2280p4u-pro-3d-nand-512gb-m2-2280-pci-e-nvme-x4-ap512gas2280p4upro-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD330C 3D NAND 512GB USB Type-C (TS512GESD330C) Dark Grayish Brown",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627420-774519-category_page/transcend-esd330c-3d-nand-512gb-usb-type-c-ts512gesd330c-dark-grayish-brown.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD380C 3D NAND 1TB USB Type-C (TS1TESD380C) Military Green",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444244-586811-category_page/transcend-esd380c-3d-nand-1tb-usb-type-c-ts1tesd380c-military-green.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 64,
+    "FormFactor": "mSATA",
+    "Name": "Transcend 230S 3D NAND 64GB mSATA (TS64GMSA230S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/149652-408593-category_page/transcend-230s-3d-nand-64gb-msata-ts64gmsa230s.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 192,
+    "FormFactor": "2.5″",
+    "Name": "Samsung PM897 1.92TB SATA 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/550281-698735-category_page/samsung-pm897-192tb-sata-25-mz7l31t9hbna-00a07-oem.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 768,
+    "FormFactor": "2.5″",
+    "Name": "Kingston DC600M 3D NAND TLC 7.68TB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762616-949001-category_page/kingston-dc600m-3d-nand-tlc-768tb-25-sedc600m7680g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 384,
+    "FormFactor": "2.5″",
+    "Name": "Kingston DC600M 3D NAND TLC 3.84TB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762614-948995-category_page/kingston-dc600m-3d-nand-tlc-384tb-25-sedc600m3840g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Sandisk Portable E30 2TB USB 3.2 Type-C (SDSSDE30-2T00-G26)",
+    "Brand": "Sandisk",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/550284-698978-category_page/sandisk-portable-e30-2tb-usb-32-type-c-sdssde30-2t00-g26.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Transcend SSD230S 3D NAND 2TB 2.5\\",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/205781-393045-category_page/transcend-ssd230s-3d-nand-2tb-25-ts2tssd230s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 820S 3D NAND 960GB M.2 (2280 SATA) (TS960GMTS820S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/289334-457499-category_page/transcend-820s-3d-nand-960gb-m2-2280-sata-ts960gmts820s.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Apacer AS2280P4U Pro 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (AP2TBAS2280P4UPRO-1)",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591654-735479-category_page/apacer-as2280p4u-pro-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-ap2tbas2280p4upro-1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Red SA500 NAS 4TB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762353-949360-category_page/western-digital-red-sa500-nas-4tb-25-wds400t2r0a.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "ATRIA XT200 3D NAND TLC 256GB 2.5\\",
+    "Brand": "ATRIA",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627351-774041-category_page/atria-xt200-3d-nand-tlc-256gb-25-atsatxt200256.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Crucial BX500 3D NAND 2TB 2.5\\",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/238216-425039-category_page/crucial-bx500-3d-nand-2tb-25-ct2000bx500ssd1.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red 2TB M.2 (2280 SATA) (WDS200T1R0B)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/238255-425095-category_page/western-digital-red-2tb-m2-2280-wds200t1r0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 192,
+    "FormFactor": "2.5″",
+    "Name": "Kingston DC600M 3D NAND TLC 1.92TB 2.5\\",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762613-948992-category_page/kingston-dc600m-3d-nand-tlc-192tb-25-sedc600m1920g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 825S 3D NAND 250GB M.2 (2280 SATA) (TS250GMTS825S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/550300-698989-category_page/transcend-825s-3d-nand-250gb-m2-2280-sata-ts250gmts825s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2230",
+    "Name": "Crucial P310 3D NAND 1TB M.2 (2230 PCI-E) NVMe x4 (CT1000P310SSD2)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/745732-920877-category_page/crucial-p310-3d-nand-1tb-m2-2230-pci-e-nvme-x4-ct1000p310ssd2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN850X 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T2XHE)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/517577-664561-category_page/western-digital-black-sn850x-1tb-m2-2280-pci-e-nvme-x4-wds100t2xhe.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 850 3D V-NAND MLC 120GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/829201-1067405-category_page/samsung-850-3d-v-nand-mlc-120gb-25-mz-7ln120bw-829201.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV2 3D NAND 500GB M.2 (2280 PCI-E) NVMe x4 (SNV2S/500G) (Восстановлено продавцом, 838605)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/838605-1079539-category_page/kingston-nv2-3d-nand-500gb-m2-2280-pci-e-nvme-x4-snv2s500g-838605.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Red SA500 NAS 500GB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/747484-924109-category_page/western-digital-red-sa500-nas-500gb-25-wds500g1r0a-68a4w0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Black SN850X 4TB with Heatsink M.2 (2280 PCI-E) NVMe x4 (WDS400T2XHE)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762642-950383-category_page/western-digital-black-sn850x-4tb-with-heatsink-m2-2280-pci-e-nvme-x4-wds400t2xhe.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN550 500GB M.2 (2280 PCI-E) NVMe x4 (WDS500G2B0C) (Восстановлено продавцом, 835504)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/835504-1074735-category_page/western-digital-blue-sn550-500gb-m2-2280-pci-e-nvme-x4-wds500g2b0c-835504.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV1 500GB M.2 (2280 PCI-E) NVMe x4 (SNVS/500G) (Восстановлено продавцом, 838680)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/838680-1079652-category_page/kingston-nv1-500gb-m2-2280-pci-e-nvme-x4-snvs500g-838680.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Kingston SSDNow A400 TLC 120GB 2.5\\'\\' (SA400S37/120G) (Восстановлено продавцом, 832780)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/832780-1070661-category_page/kingston-ssdnow-a400-tlc-120gb-25-sa400s37120g-832780.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red SN700 2TB M.2 (2280 PCI-E) NVMe x4 (WDS200T1R0C)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762638-950409-category_page/western-digital-red-sn700-2tb-m2-2280-pci-e-nvme-x4-wds200t1r0c.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Red SN700 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T1R0C-68BDK0)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/747487-924111-category_page/western-digital-red-sn700-1tb-m2-2280-pci-e-nvme-x4-wds100t1r0c-68bdk0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 240,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 240GB 2.5\\",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811386-1031169-category_page/amd-radeon-r3-3d-nand-240gb-25-r3sl0240g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 256GB 2.5\\",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811387-1031171-category_page/amd-radeon-r3-3d-nand-256gb-25-r3sl0256g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 512GB 2.5\\",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811389-1031180-category_page/amd-radeon-r3-3d-nand-512gb-25-r3sl0512g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "2.5″",
+    "Name": "AMD Radeon R3 3D NAND 960GB 2.5\\",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811390-1031183-category_page/amd-radeon-r3-3d-nand-960gb-25-r3sl0960g2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen3 3D NAND 512GB M.2 (2280 PCI-E) (R3MP30512G8)",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/811395-1031194-category_page/amd-radeon-r3-gen3-3d-nand-512gb-m2-2280-pci-e-r3mp30512g8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 120,
+    "FormFactor": "2.5″",
+    "Name": "Apacer AS340 Panther 3D TLC 120GB 2.5\\",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762275-947825-category_page/apacer-as340-panther-3d-tlc-120gb-25-ap120gas340g-oem.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 PRO 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F4000GBMP600PRO)",
+    "Brand": "Corsair",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/487280-626182-category_page/corsair-mp600-pro-3d-nand-tlc-4tb-m2-2280-pci-e-nvme-x4-cssd-f4000gbmp600pro.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 8,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP600 PRO NH 3D NAND TLC 8TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F8000GBMP600PNH)",
+    "Brand": "Corsair",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763911-951666-category_page/corsair-mp600-pro-nh-3d-nand-tlc-8tb-m2-2280-pci-e-nvme-x4-cssd-f8000gbmp600pnh.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Corsair MP700 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (CSSD-F1000GBMP700R2)",
+    "Brand": "Corsair",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/564643-712685-category_page/corsair-mp700-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-cssd-f1000gbmp700r2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T705 3D NAND TLC 1TB M.2 with heatsink (2280 PCI-E) NVMe x4 (CT1000T705SSD5)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/745734-920925-category_page/crucial-t705-3d-nand-tlc-1tb-m2-with-heatsink-2280-pci-e-nvme-x4-ct1000t705ssd5.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Crucial T705 3D NAND TLC 4TB M.2 with heatsink (2280 PCI-E) NVMe x4 (CT4000T705SSD5)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/745736-920943-category_page/crucial-t705-3d-nand-tlc-4tb-m2-with-heatsink-2280-pci-e-nvme-x4-ct4000t705ssd5.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Crucial X6 Portable 1TB USB 3.2 (CT1000X6SSD9)",
+    "Brand": "Crucial",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591660-735499-category_page/crucial-x6-portable-1tb-usb-32-ct1000x6ssd9.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte AORUS Gen4 5000E 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe 1.4 (AG450E2TB-G)",
+    "Brand": "Gigabyte",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591661-735510-category_page/gigabyte-aorus-gen4-5000e-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-14-ag450e2tb-g.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Gigabyte AORUS Gen5 14000 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe 2.0 (AG514K4TB)",
+    "Brand": "Gigabyte",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/662401-817520-category_page/gigabyte-aorus-gen5-14000-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-20-ag514k4tb.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM IRDM Pro 3D TLC 4TB M.2 (2280 PCI-E) NVMe 1.4 (IRP-SSDPR-P44A-4K0-80)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/444211-586633-category_page/goodram-irdm-pro-3d-tlc-4tb-m2-2280-pci-e-nvme-14-irp-ssdpr-p44a-4k0-80.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "KLEVV CRAS C910 3D NAND TLC 2TB M.2 (2280 PCI-E) NVMe x4 (K02TBM2SP0-C91)",
+    "Brand": "KLEVV",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/829568-1067758-category_page/klevv-cras-c910-3d-nand-tlc-2tb-m2-2280-pci-e-nvme-x4-k02tbm2sp0-c91.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 8,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston FURY Renegade G5 3D NAND TLC 8TB M.2 (2280 PCI-E) NVMe x4 (SFYR2D/8T1)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/819566-1050544-category_page/kingston-fury-renegade-g5-3d-nand-tlc-8tb-m2-2280-pci-e-nvme-x4-sfyr2d8t1.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 960,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Kingston IronKey Vault Privacy 80 960GB USB 3.2 Gen 1 (IKVP80ES/960G)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763914-951724-category_page/kingston-ironkey-vault-privacy-80-960gb-usb-32-gen-1-ikvp80es960g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston KC3000 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (SKC3000S/4096G)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/390092-542540-category_page/kingston-kc3000-3d-nand-tlc-4tb-m2-2280-pci-e-nvme-x4-skc3000s4096g.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2230",
+    "Name": "Kingston NV3 3D NAND 2TB M.2 (2230 PCI-E) NVMe x4 (SNV3SM3/2T0)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/786535-991785-category_page/kingston-nv3-3d-nand-2tb-m2-2230-pci-e-nvme-x4-snv3sm32t0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Kioxia Exceria Plus G3 2TB M.2 (2280 PCI-E) (LSD10Z002TG8)",
+    "Brand": "Kioxia",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/822612-1055671-category_page/kioxia-exceria-plus-g3-2tb-m2-2280-pci-e-lsd10z002tg8.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Mobile Secure 500GB USB (STKH500800)",
+    "Brand": "LaCie",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762619-949125-category_page/lacie-mobile-secure-500gb-usb-stkh500800.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 500,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Portable 500GB USB (STKS500400)",
+    "Brand": "LaCie",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763927-952608-category_page/lacie-portable-500gb-usb-stks500400.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Rugged Mini 1TB USB (STMF1000400)",
+    "Brand": "LaCie",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762620-949139-category_page/lacie-rugged-mini-1tb-usb-stmf1000400.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "LaCie Rugged Pro 1TB USB (STHZ1000800)",
+    "Brand": "LaCie",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763926-952627-category_page/lacie-rugged-pro-1tb-usb-sthz1000800.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM1090 PCIe 5.0 3D NAND TLC 4TB M.2 (2280 PCI-E) NVMe x4 (LNM1090004T-RNANG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/698289-865889-category_page/lexar-nm1090-pcie-50-3d-nand-tlc-4tb-m2-2280-pci-e-nvme-x4-lnm1090004t-rnang.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM760 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (LNM760X001T-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627273-773715-category_page/lexar-nm760-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-lnm760x001t-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM760 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (LNM760X512G-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627274-773724-category_page/lexar-nm760-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-lnm760x512g-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM790 3D NAND TLC 512GB M.2 (2280 PCI-E) NVMe x4 (LNM790X512G-RNNNG)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/627281-773805-category_page/lexar-nm790-3d-nand-tlc-512gb-m2-2280-pci-e-nvme-x4-lnm790x512g-rnnng.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M470 3D NAND 1TB M.2 (2280 PCI-E) NVMe 1.3 (S78-440L420-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/435481-579693-category_page/msi-spatium-m470-3d-nand-1tb-m2-2280-pci-e-nvme-13-s78-440l420-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M470 3D NAND 2TB M.2 (2280 PCI-E) NVMe 1.3 (S78-440Q090-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/435482-579697-category_page/msi-spatium-m470-3d-nand-2tb-m2-2280-pci-e-nvme-13-s78-440q090-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M480 3D NAND 2TB M.2 (2280 PCI-E) NVMe 1.4 (S78-440Q480-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/564646-712960-category_page/msi-spatium-m480-3d-nand-2tb-m2-2280-pci-e-nvme-14-s78-440q480-p83.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M580 FROZR PCIe 5.0 3D NAND 2TB M.2 (2280 PCI-E) NVMe 2.0 (S78-440Q780-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/665028-820967-category_page/msi-spatium-m580-frozr-pcie-50-3d-nand-2tb-m2-2280-pci-e-nvme-20-s78-440q780-p83.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "M.2 2280",
+    "Name": "MSI SPATIUM M580 FROZR PCIe 5.0 3D NAND 4TB M.2 (2280 PCI-E) NVMe 2.0 (S78-440R110-P83)",
+    "Brand": "MSI",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/665029-820972-category_page/msi-spatium-m580-frozr-pcie-50-3d-nand-4tb-m2-2280-pci-e-nvme-20-s78-440r110-p83.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P320 128GB M.2 (2280 PCI-E) NVMe x4 (P320P128GM28)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763936-951727-category_page/patriot-p320-128gb-m2-2280-pci-e-nvme-x4-p320p128gm28.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P410 2TB M.2 (2280 PCI-E) NVMe x4 (P410P2TBM28H)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/838344-1080116-category_page/patriot-p410-2tb-m2-2280-pci-e-nvme-x4-p410p2tbm28h.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Patriot Transporter 1TB USB Type-C (PTP1TBPEC)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762341-949264-category_page/patriot-transporter-1tb-usb-type-c-ptp1tbpec.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 2TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/467626-604528-category_page/samsung-870-evo-v-nand-2tb-25-mz-77e2t0b.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 8,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 9100 PRO V-NAND TLC 8TB with Heatsink M.2 (2280 PCI-E) NVMe 2.0 (MZ-VAP8T0CW)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/750572-931419-category_page/samsung-9100-pro-v-nand-tlc-8tb-with-heatsink-m2-2280-pci-e-nvme-20-mz-vap8t0cw.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "2.5″",
+    "Name": "Samsung PM871b TLC 128GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/761349-946673-category_page/samsung-pm871b-tlc-128gb-25-mz7ln128hahq-000l2.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 1TB USB 3.2 (MU-PE1T0S) Black",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/591684-735624-category_page/samsung-t7-1tb-usb-32-mu-pe1t0s-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Samsung T7 Shield 2TB USB 3.2 (MU-PE2T0K/WW) Beige",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/760075-945729-category_page/samsung-t7-shield-2tb-usb-32-mu-pe2t0kww-beige.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Team NV5000 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (TM8FGM001T0C101)",
+    "Brand": "Team",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/837547-1078178-category_page/team-nv5000-3d-nand-1tb-m2-2280-pci-e-nvme-x4-tm8fgm001t0c101.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 245S 3D NAND 2TB M.2 (2280 PCI-E) NVMe x4 (TS2TMTE245S)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762623-949309-category_page/transcend-245s-3d-nand-2tb-m2-2280-pci-e-nvme-x4-ts2tmte245s.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD265C 3D NAND 2TB USB 3.2 (TS2TESD265C) Iron Gray",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762348-949314-category_page/transcend-esd265c-3d-nand-2tb-usb-32-ts2tesd265c-iron-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 2TB USB + USB Type-C (TS2TESD310C) Black",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762347-949323-category_page/transcend-esd310-3d-nand-2tb-usb-usb-type-c-ts2tesd310c-black.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD310 3D NAND 2TB USB + USB Type-C (TS2TESD310P) Pink",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762346-949331-category_page/transcend-esd310-3d-nand-2tb-usb-usb-type-c-ts2tesd310p-pink.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD320A 2TB USB (TS2TESD320A) Gray",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762350-949339-category_page/transcend-esd320a-2tb-usb-ts2tesd320a-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Transcend ESD360C 3D NAND 4TB USB (TS4TESD360C) Gray",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/762349-949348-category_page/transcend-esd360c-3d-nand-4tb-usb-ts4tesd360c-gray.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 4,
+    "FormFactor": "2.5″",
+    "Name": "Western Digital Blue SA510 4TB 2.5\\",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/763934-951770-category_page/western-digital-blue-sa510-4tb-25-wds400t3b0a.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN5100 3D NAND QLC 1TB M.2 (2280 PCI-E) NVMe x4 (WDS100T5B0E-00CPE0)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/837561-1078187-category_page/western-digital-blue-sn5100-3d-nand-qlc-1tb-m2-2280-pci-e-nvme-x4-wds100t5b0e-00cpe0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "M.2 2280",
+    "Name": "Western Digital Blue SN5100 3D NAND QLC 2TB M.2 (2280 PCI-E) NVMe x4 (WDS200T5B0E-00CPE0)",
+    "Brand": "Western Digital",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/837549-1078192-category_page/western-digital-blue-sn5100-3d-nand-qlc-2tb-m2-2280-pci-e-nvme-x4-wds200t5b0e-00cpe0.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Kingston NV2 3D NAND 1TB M.2 (2280 PCI-E) NVMe x4 (SNV2S/1000G) (Восстановлено продавцом, 838613)",
+    "Brand": "Kingston",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/838613-1079551-category_page/kingston-nv2-3d-nand-1tb-m2-2280-pci-e-nvme-x4-snv2s1000g-838613.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "M.2 2280",
+    "Name": "Patriot P300 128GB M.2 (2280 PCI-E) NVMe x4 (P300P128GM28) OEM (Восстановлено продавцом, 841016)",
+    "Brand": "Patriot",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/841016-1083855-category_page/patriot-p300-128gb-m2-2280-pci-e-nvme-x4-p300p128gm28-oem-841016.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 250,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 860 EVO V-NAND MLC 250GB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/840342-1082486-category_page/samsung-860-evo-v-nand-mlc-250gb-25-mz-76e250bw-840342.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 60,
+    "FormFactor": "2.5″",
+    "Name": "Team L5 Lite MLC 60GB 2.5\\'\\' (T2535T060G0C101) (Восстановлено продавцом, 840343)",
+    "Brand": "Team",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/840343-1082489-category_page/team-l5-lite-mlc-60gb-25-t2535t060g0c101-840343.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "M.2 2280",
+    "Name": "Transcend 220s 3D NAND 512GB M.2 (2280 PCI-E) NVMe x4 (TS512GMTE220S) (Восстановлено продавцом, 840652)",
+    "Brand": "Transcend",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/840652-1083013-category_page/transcend-220s-512gb-m2-2280-nvme-x4-ts512gmte220s-840652.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 128,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 3D NAND 128GB M.2 (2280 SATA) (R3MS0128G8) (Вскрытая упаковка, 823366)",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/823366-1056197-category_page/amd-radeon-r3-3d-nand-128gb-m2-2280-sata-r3ms0128g8-823366.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "AMD Radeon R3 Gen3 3D NAND 256GB M.2 (2280 PCI-E) (R3MP30256G8) (Вскрытая упаковка, 837164)",
+    "Brand": "AMD",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/837164-1076885-category_page/amd-radeon-r3-gen3-3d-nand-256gb-m2-2280-pci-e-r3mp30256g8-837164.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 512,
+    "FormFactor": "Зовнішній SSD",
+    "Name": "Apacer AS725 512GB USB 3.2 (AP1TBAS725B-1) Black (Повреждена упаковка, 838926)",
+    "Brand": "Apacer",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/838926-1080422-category_page/apacer-as725-512gb-usb-32-ap1tbas725b-1-black-838926.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 256,
+    "FormFactor": "M.2 2280",
+    "Name": "GoodRAM PX500 Gen.3 3D NAND 256GB M.2 (2280 PCI-E) NVMe x4 (SSDPR-PX500-256-80-G3) (Вскрытая упаковка, 829070)",
+    "Brand": "GoodRAM",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/829070-1066780-category_page/goodram-px500-gen3-3d-nand-256gb-m2-2280-pci-e-nvme-x4-ssdpr-px500-256-80-g3-829070.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Lexar NM710 3D NAND TLC 1TB M.2 (2280 PCI-E) NVMe x4 (LNM710X001T-RNNNG) (Вскрытая упаковка, 824079)",
+    "Brand": "Lexar",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/824079-1057920-category_page/lexar-nm710-3d-nand-tlc-1tb-m2-2280-pci-e-nvme-x4-lnm710x001t-rnnng-824079.jpg"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 2,
+    "FormFactor": "2.5″",
+    "Name": "Samsung 870 EVO V-NAND 2TB 2.5\\",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/837049-1076360-category_page/samsung-870-evo-v-nand-2tb-25-mz-77e2t0beu-837049.png"
+  },
+  {
+    "$type": "HDD",
+    "Capacity": 1,
+    "FormFactor": "M.2 2280",
+    "Name": "Samsung 990 PRO V-NAND 3-bit MLC 1TB M.2 (2280 PCI-E) NVMe 2.0 (MZ-V9P1T0BW) (Следы использования, 841372)",
+    "Brand": "Samsung",
+    "Price": 0,
+    "IsAvailable": false,
+    "URL": "https://img.telemart.ua/841372-1084075-category_page/samsung-990-pro-v-nand-3-bit-mlc-1tb-m2-2280-pci-e-nvme-20-mz-v9p1t0bw-841372.jpg"
+  }
+]
