@@ -6,7 +6,7 @@ namespace main.Models
 {
     class CPU : Product
     {
-        public CPU(string name, int price, string brand, int cores, string socket) : base(name, price, brand)
+        public CPU(string name, int price, string brand, bool isAvailable, int cores, string socket) : base(name, price, brand, isAvailable)
         {
             Socket = socket;
             Cores = cores;

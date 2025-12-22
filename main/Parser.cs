@@ -98,36 +98,37 @@ namespace main
             string brand = productNode.GetAttributeValue("data-prod-brand", "Назву не знайдено");
             int price = productNode.GetAttributeValue("data-prod-price", 0);
             int type = productNode.GetAttributeValue("data-hd-id_category", 0);
+            bool isAvailable = !productNode.ParentNode.GetAttributeValue("class","").Contains("product-item--not-available");
 
             var attributes = productNode.SelectNodes(".//div[contains(@class, 'product-short-char__item')]");
 
             switch (type)
             {
                 case 397:
-                    return new GPU(name, price, brand,
+                    return new GPU(name, price, brand, isAvailable,
                         GetIntAttribule("обсяг", attributes),
                         SearchAttribute("тип", attributes));
                 case 398:
-                    return new CPU(name, price, brand,
+                    return new CPU(name, price, brand, isAvailable,
                         GetIntAttribule("кількість", attributes),
                         SearchAttribute("роз'єм", attributes));
                 case 399:
-                    return new HDD(name, price, brand,
+                    return new HDD(name, price, brand, isAvailable,
                         ParseCapacity(SearchAttribute("обсяг", attributes)),
                         SearchAttribute("форм-фактор", attributes));
                 case 400:
-                    return new Motherboard(name, price, brand,
+                    return new Motherboard(name, price, brand, isAvailable,
                         SearchAttribute("форм-фактор", attributes),
                         SearchAttribute("роз'єм", attributes),
                         SearchAttribute("тип", attributes),
                         SearchAttribute("сумісні", attributes));
                 case 403:
-                    return new RAM(name, price, brand,
+                    return new RAM(name, price, brand, isAvailable,
                         GetIntAttribule("Обсяг одного модуля", attributes), 
                         SearchAttribute("тип", attributes),
                         GetIntAttribule("частота",attributes));
                 case 407:
-                    return new HDD(name, price, brand,
+                    return new HDD(name, price, brand, isAvailable,
                         ParseCapacity(SearchAttribute("обсяг", attributes)),
                         SearchAttribute("форм-фактор", attributes));
                 default:
@@ -165,7 +166,7 @@ namespace main
                         }
                         foreach (var productNode in productNodes)
                         {
-                            products.Add(CreateProduct(productNode) ?? new RAM("1",1,"1",1,"1",1));  //заглушка тимчасова на випадок null
+                            products.Add(CreateProduct(productNode) ?? new RAM("1",1,"1",false,1,"1",1));  //заглушка тимчасова на випадок null
                         }
                     }
                 }

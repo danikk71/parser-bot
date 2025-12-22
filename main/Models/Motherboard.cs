@@ -6,7 +6,7 @@ namespace main.Models
 {
     class Motherboard : Product
     {
-        public Motherboard(string name, int price, string brand, string formfactor, string socket,string cpu,string ram) : base(name, price, brand)
+        public Motherboard(string name, int price, string brand,bool isAvailable, string formfactor, string socket,string cpu,string ram) : base(name, price, brand, isAvailable)
         {
             Socket = socket;
             FormFactor = formfactor;

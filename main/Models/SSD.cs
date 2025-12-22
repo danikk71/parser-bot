@@ -6,7 +6,7 @@ namespace main.Models
 {
     class SSD : Product
     {
-        public SSD(string name, int price, string brand, int capacity) : base(name, price, brand)
+        public SSD(string name, int price, string brand, bool isAvailable, int capacity) : base(name, price, brand, isAvailable)
         {
             Capacity = capacity;
         }
