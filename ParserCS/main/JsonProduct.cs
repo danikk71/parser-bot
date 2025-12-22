@@ -12,9 +12,20 @@ namespace main
 {
     class JSONProduct
     {
-        private static string GetDirectoryPath()
+        private static string? GetDirectoryPath()
         {
-            string folderPath = Path.Combine(Directory.GetCurrentDirectory(), $"DataJSON/{DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year}/{DateTime.Now.Hour}-Hour");
+            var baseDir = AppContext.BaseDirectory;
+            DirectoryInfo? projectRoot = Directory.GetParent(baseDir);
+            while (projectRoot != null && projectRoot.Name != "parser")
+            {
+                projectRoot = projectRoot.Parent;
+            }
+            if (projectRoot == null)
+            {
+                Console.WriteLine("Не знайшов кореневу папку 'parser'!");
+                return null;
+            }
+            string folderPath = Path.Combine(projectRoot.FullName, $"Data/{DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year}/{DateTime.Now.Hour}-Hour");
             if (!Directory.Exists(folderPath))
             {
                 Directory.CreateDirectory(folderPath);
@@ -23,7 +34,8 @@ namespace main
         }
         public static async Task Serialize(string key,List<Product> products)
         {
-            string fileName = Path.Combine(GetDirectoryPath(), $"{key}.json");
+            string directoryPath = GetDirectoryPath() ?? string.Empty;
+            string fileName = Path.Combine(directoryPath, $"{key}.json");
             
             var options = new JsonSerializerOptions
             {
