@@ -25,17 +25,12 @@ namespace main
                 Console.WriteLine("Не знайшов кореневу папку 'parser'!");
                 return null;
             }
-            string folderPath = Path.Combine(projectRoot.FullName, $"Data/{DateTime.Now.Day}.{DateTime.Now.Month}.{DateTime.Now.Year}/{DateTime.Now.Hour}-Hour");
-            if (!Directory.Exists(folderPath))
-            {
-                Directory.CreateDirectory(folderPath);
-            }
+            string folderPath = Path.Combine(projectRoot.FullName,"Data","latest.json");
             return folderPath;
         }
-        public static async Task Serialize(string key,List<Product> products)
+        public static async Task Serialize(List<Product> products)
         {
-            string directoryPath = GetDirectoryPath() ?? string.Empty;
-            string fileName = Path.Combine(directoryPath, $"{key}.json");
+            string fileName = GetDirectoryPath() ?? string.Empty;
             
             var options = new JsonSerializerOptions
             {
@@ -47,14 +42,6 @@ namespace main
 
             Console.WriteLine("\nДані збережено!\n");
         }
-        //public static async Task<List<Product>> Deserialize()
-        //{
-        //    if (!File.Exists(path)) return new List<Product>();
-        //    string json = await File.ReadAllTextAsync(path);
 
-        //    var products = JsonSerializer.Deserialize<List<Product>>(json);
-        //    Console.WriteLine("\nДані повернено!\n");
-        //    return products ?? new List<Product>();
-        //}
     }
 }

@@ -13,18 +13,20 @@ namespace main.Models
     [JsonDerivedType(typeof(HDD), "HDD")]
     abstract class Product
     {
-        public Product(string name, int price, string brand,bool isAvailable,string url)
+        public Product(string name, int price, string brand,bool isAvailable,string imageURL,string productURL)
         {
             Name = name;
             Price = price;
             Brand = brand;
             IsAvailable = isAvailable;
-            URL = url;
+            ImageURL = imageURL;
+            ProductURL = productURL;
         }
         public string Name { get; set; }
         public string Brand { get; set; }
         public int Price { get; set; }
         public bool IsAvailable { get; set; }
-        public string URL { get; set; }
+        public string ImageURL { get; set; }
+        public string ProductURL { get; set; }
     }
 }
