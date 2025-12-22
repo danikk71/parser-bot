@@ -70,6 +70,17 @@ namespace main
             }
             return $"{attribute} Атрибут не знайдено";
         }
+        static int ParseCapacity(string capacity)
+        {
+            string capacityNumber = Regex.Replace(capacity, @"\D+", "");
+            if (!int.TryParse(capacityNumber, out int number)) return 0;
+
+            if (capacity.Contains("TB", StringComparison.OrdinalIgnoreCase))
+            {
+                return number * 1024;
+            }
+            return number;
+        }
         static int GetIntAttribule(string attribute,HtmlNodeCollection? htmlNodes)
         {
             string value = SearchAttribute(attribute, htmlNodes);
@@ -102,7 +113,7 @@ namespace main
                         SearchAttribute("роз'єм", attributes));
                 case 399:
                     return new HDD(name, price, brand,
-                        GetIntAttribule("обсяг", attributes),
+                        ParseCapacity(SearchAttribute("обсяг", attributes)),
                         SearchAttribute("форм-фактор", attributes));
                 case 400:
                     return new Motherboard(name, price, brand,
@@ -117,7 +128,7 @@ namespace main
                         GetIntAttribule("частота",attributes));
                 case 407:
                     return new HDD(name, price, brand,
-                        GetIntAttribule("обсяг", attributes),
+                        ParseCapacity(SearchAttribute("обсяг", attributes)),
                         SearchAttribute("форм-фактор", attributes));
                 default:
                     return null;
