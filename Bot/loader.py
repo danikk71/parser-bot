@@ -52,6 +52,8 @@ def load_data():
     conn = databases_init()
     cursor = conn.cursor()
 
+    now = datetime.now()
+
     for item in products:
         url = item.get("ProductURL")
         imageURL = item.get("ImageURL")
@@ -61,7 +63,6 @@ def load_data():
         brand = item.get("Brand")
         price = item.get("Price")
         is_available = item.get("IsAvailable")
-        now = f"{datetime.now().day}-{datetime.now().month}-{datetime.now().year}"
 
         if not url:
             print(f"Пропущено товар без URL: {name}")
