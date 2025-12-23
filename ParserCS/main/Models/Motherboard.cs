@@ -6,8 +6,8 @@ namespace main.Models
 {
     class Motherboard : Product
     {
-        public Motherboard(string name, int price, string brand,bool isAvailable, string url, string formfactor, string socket,string cpu,string ram) 
-            : base(name, price, brand, isAvailable, url)
+        public Motherboard(string name, int price, string brand,bool isAvailable, string url, string productURL, string formfactor, string socket,string cpu,string ram) 
+            : base(name, price, brand, isAvailable, url, productURL)
         {
             Socket = socket;
             FormFactor = formfactor;
