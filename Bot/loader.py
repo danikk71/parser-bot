@@ -9,7 +9,7 @@ JSON_PATH = os.path.join(DATA_DIRECTORY, "latest.json")
 DB_PATH = os.path.join(DATA_DIRECTORY, "ActualProducts.db")
 
 
-def database_init():
+def databases_init():
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
@@ -27,23 +27,30 @@ def database_init():
         time_updated DATETIME)
         """
     )
-
+    cursor.execute(
+        """
+        CREATE TABLE IF NOT EXISTS PriceHistory(
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            product_id INTEGER,
+            price INTEGER,
+            date_recorded DATETIME,
+            FOREIGN KEY(product_id) REFERENCES Products(id)
+        )
+        """
+    )
     conn.commit()
     return conn
 
 
 def load_data():
     if not os.path.exists(JSON_PATH):
-        print(f"Файл{JSON_PATH} не знайдено!")
+        print(f"Файл {JSON_PATH} не знайдено!")
         return
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         products = json.load(f)
 
-    conn = database_init()
+    conn = databases_init()
     cursor = conn.cursor()
-
-    count_new = 0
-    count_updated = 0
 
     for item in products:
         url = item.get("ProductURL")
@@ -54,7 +61,7 @@ def load_data():
         brand = item.get("Brand")
         price = item.get("Price")
         is_available = item.get("IsAvailable")
-        now = datetime.now()
+        now = f"{datetime.now().day}-{datetime.now().month}-{datetime.now().year}"
 
         if not url:
             print(f"Пропущено товар без URL: {name}")
@@ -72,7 +79,18 @@ def load_data():
         """,
             (url, prod_type, name, brand, price, imageURL, is_available, now),
         )
+        cursor.execute("SELECT id FROM Products WHERE url = ?", (url,))
+        result = cursor.fetchone()
 
+        if result:
+            product_id = result[0]
+            cursor.execute(
+                """
+                INSERT INTO PriceHistory (product_id, price, date_recorded)
+                VALUES (?, ?, ?)
+                """,
+                (product_id, price, now),
+            )
     conn.commit()
     conn.close()
 

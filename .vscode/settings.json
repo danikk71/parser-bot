@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "\"D:\\projects\\site_parser_project\\parser\\Data\\ActualProducts.db\"",
+            "name": "products"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
