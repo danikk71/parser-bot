@@ -15,7 +15,7 @@ def databases_init():
 
     cursor.execute(
         """
-        CREATE TABLE IF NOT EXISTS products(
+        CREATE TABLE IF NOT EXISTS Products(
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         url TEXT UNIQUE,
         type TEXT,
@@ -24,7 +24,8 @@ def databases_init():
         price INTEGER,
         imageURL TEXT,
         is_available BOOLEAN,
-        time_updated DATETIME)
+        time_updated DATETIME,
+        specs TEXT)
         """
     )
     cursor.execute(
@@ -54,6 +55,8 @@ def load_data():
 
     now = datetime.now()
 
+    KEYS = ["ProductURL", "ImageURL", "$type", "Name", "Brand", "Price", "IsAvailable"]
+
     for item in products:
         url = item.get("ProductURL")
         imageURL = item.get("ImageURL")
@@ -64,21 +67,37 @@ def load_data():
         price = item.get("Price")
         is_available = item.get("IsAvailable")
 
+        specs = item.copy()
+        for key in KEYS:
+            if key in specs:
+                del specs[key]
+        specs_json = json.dumps(specs, ensure_ascii=False)
+
         if not url:
             print(f"Пропущено товар без URL: {name}")
             continue
 
         cursor.execute(
             """
-            INSERT INTO Products (url, type, name, brand, price, imageURL, is_available, time_updated)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            INSERT INTO Products (url, type, name, brand, price, imageURL, is_available, time_updated, specs)
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(url) DO UPDATE SET
                 price = excluded.price,
                 is_available = excluded.is_available,
                 imageURL = excluded.imageURL,
                 time_updated = excluded.time_updated
         """,
-            (url, prod_type, name, brand, price, imageURL, is_available, now),
+            (
+                url,
+                prod_type,
+                name,
+                brand,
+                price,
+                imageURL,
+                is_available,
+                now,
+                specs_json,
+            ),
         )
         cursor.execute("SELECT id FROM Products WHERE url = ?", (url,))
         result = cursor.fetchone()
@@ -96,6 +115,21 @@ def load_data():
     conn.close()
 
 
+def erase_db():
+    conn = sqlite3.connect(DB_PATH)
+    cursor = conn.cursor()
+    cursor.executescript(
+        """
+        DROP TABLE IF EXISTS PriceHistory;
+        DROP TABLE IF EXISTS Products;
+    """
+    )
+    print("db erased")
+    conn.commit()
+    conn.close()
+
+
 if __name__ == "__main__":
+    erase_db()
     load_data()
     print("db created")
