@@ -140,9 +140,8 @@ namespace main
                         SearchAttribute("тип", attributes),
                         GetIntAttribule("частота",attributes));
                 case 407:
-                    return new HDD(name, price, brand, isAvailable, imageURL, URL,
-                        ParseCapacity(SearchAttribute("обсяг", attributes)),
-                        SearchAttribute("форм-фактор", attributes));
+                    return new SSD(name, price, brand, isAvailable, imageURL, URL,
+                        ParseCapacity(SearchAttribute("обсяг", attributes)));
                 default:
                     return null;
             }

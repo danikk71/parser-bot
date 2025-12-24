@@ -24,8 +24,8 @@ def databases_init():
         price INTEGER,
         imageURL TEXT,
         is_available BOOLEAN,
-        time_updated DATETIME,
-        specs TEXT)
+        specs TEXT,
+        time_updated DATETIME)
         """
     )
     cursor.execute(
@@ -53,7 +53,7 @@ def load_data():
     conn = databases_init()
     cursor = conn.cursor()
 
-    now = datetime.now()
+    now = f"{datetime.now().year}-{datetime.now().month}-{datetime.now().day}"
 
     KEYS = ["ProductURL", "ImageURL", "$type", "Name", "Brand", "Price", "IsAvailable"]
 
@@ -79,7 +79,7 @@ def load_data():
 
         cursor.execute(
             """
-            INSERT INTO Products (url, type, name, brand, price, imageURL, is_available, time_updated, specs)
+            INSERT INTO Products (url, type, name, brand, price, imageURL, is_available, specs, time_updated)
             VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
             ON CONFLICT(url) DO UPDATE SET
                 price = excluded.price,
@@ -95,27 +95,34 @@ def load_data():
                 price,
                 imageURL,
                 is_available,
-                now,
                 specs_json,
+                now,
             ),
         )
         cursor.execute("SELECT id FROM Products WHERE url = ?", (url,))
         result = cursor.fetchone()
 
-        if result:
+        if result and is_available == True:
             product_id = result[0]
+
             cursor.execute(
-                """
-                INSERT INTO PriceHistory (product_id, price, date_recorded)
-                VALUES (?, ?, ?)
-                """,
-                (product_id, price, now),
+                "SELECT 1 FROM PriceHistory WHERE product_id = ? AND date_recorded = ?",
+                (product_id, now),
             )
+            is_recorded_today = cursor.fetchone()
+            if is_recorded_today is None:
+                cursor.execute(
+                    """
+                    INSERT INTO PriceHistory (product_id, price, date_recorded)
+                    VALUES (?, ?, ?)
+                    """,
+                    (product_id, price, now),
+                )
     conn.commit()
     conn.close()
 
 
-def erase_db():
+def erase_db():  # для тестів
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
     cursor.executescript(
@@ -130,6 +137,5 @@ def erase_db():
 
 
 if __name__ == "__main__":
-    erase_db()
     load_data()
     print("db created")
