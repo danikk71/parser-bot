@@ -25,22 +25,33 @@ namespace main
                 Console.WriteLine("Не знайшов кореневу папку 'parser'!");
                 return null;
             }
-            string folderPath = Path.Combine(projectRoot.FullName,"Data","latest.json");
-            return folderPath;
+            return projectRoot.FullName;
         }
         public static async Task Serialize(List<Product> products)
         {
-            string fileName = GetDirectoryPath() ?? string.Empty;
-            
+            string? directoryName = GetDirectoryPath();
+            if (string.IsNullOrEmpty(directoryName)) return;
+
+            string dataFolder = Path.Combine(directoryName, "Data");
+            string archiveFolder = Path.Combine(dataFolder, "Archive");
+            if (!Directory.Exists(archiveFolder))
+            {
+                Directory.CreateDirectory(archiveFolder);
+            }
+            string actualPathName = Path.Combine(dataFolder, "latest.json");
+            string archivePathName = Path.Combine(archiveFolder, $"{DateTime.Now:yyyy-MM-dd}.json");
+
             var options = new JsonSerializerOptions
             {
                 WriteIndented = true,
                 Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
             };
             string json = JsonSerializer.Serialize(products,options);
-            await File.WriteAllTextAsync(fileName, json);
 
-            Console.WriteLine("\nДані збережено!\n");
+            await File.WriteAllTextAsync(actualPathName, json);
+            Console.WriteLine("\nДані збережено у актуальні!\n");
+            await File.WriteAllTextAsync(archivePathName, json);
+            Console.WriteLine("\nДані збережено у архів!\n");
         }
 
     }
