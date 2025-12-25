@@ -367,3 +367,6 @@ Data/*.db
 Data/*.json
 Data/Archive/*.json
 .vscode/
+
+# --- Env ---
+.env
