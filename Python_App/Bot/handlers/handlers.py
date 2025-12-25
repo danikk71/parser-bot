@@ -4,6 +4,7 @@ from aiogram.fsm.context import FSMContext
 from Bot.states.user_states import SearchStates
 from Bot.services.db import get_product_by_name, get_product_by_type
 from Bot.keyboards.keyboards import keyboardButtons, pages_kb
+import json
 
 user_router = Router()
 
@@ -34,7 +35,7 @@ async def search_input(message: types.Message, state: FSMContext):
             await message.answer(
                 f"<b>{product['name']}</b>\n"
                 f"Ціна: {product['price']}\n"
-                f"<a href='{product['url']}'>Посилання</a>",
+                f"{product['specs']}\n",
                 parse_mode="HTML",
             )
     await state.clear()

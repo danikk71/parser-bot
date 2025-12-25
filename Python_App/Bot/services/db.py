@@ -26,8 +26,8 @@ def get_product_by_type(type: str):
     cursor = conn.cursor()
 
     cursor.execute(
-        "SELECT * FROM Products WHERE type LIKE ? AND is_available",
-        (type,),
+        "SELECT * FROM Products WHERE type LIKE ? AND is_available = 1",
+        (type, True),
     )
     products = cursor.fetchall()
     conn.close()
