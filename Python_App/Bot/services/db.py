@@ -2,7 +2,7 @@ from config import DB_PATH
 import sqlite3
 
 
-def get_product(name: str):
+def get_product_by_name(name: str):
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
@@ -17,4 +17,18 @@ def get_product(name: str):
     products = cursor.fetchall()
     conn.close()
 
+    return [dict(row) for row in products]
+
+
+def get_product_by_type(type: str):
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "SELECT * FROM Products WHERE type LIKE ? AND is_available",
+        (type,),
+    )
+    products = cursor.fetchall()
+    conn.close()
     return [dict(row) for row in products]
