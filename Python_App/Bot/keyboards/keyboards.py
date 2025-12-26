@@ -15,14 +15,16 @@ def keyboardButtons() -> ReplyKeyboardMarkup:
     return builder.as_markup(resize_keyboards=True, one_time_keyboard=False)
 
 
-def pages_kb(page: int, total_pages: int, product_type: str) -> InlineKeyboardBuilder:
+def pages_kb(
+    page: int, total_pages: int, product_type: str, mode: str
+) -> InlineKeyboardBuilder:
     builder = InlineKeyboardBuilder()
 
     if page > 0:
-        builder.button(text="⬅️", callback_data=f"page_{product_type}_{page-1}")
+        builder.button(text="⬅️", callback_data=f"page_{mode}_{product_type}_{page-1}")
     builder.button(text=f"{page+1}/{total_pages}", callback_data="ignore")
 
     if page < total_pages - 1:
-        builder.button(text="➡️", callback_data=f"page_{product_type}_{page+1}")
+        builder.button(text="➡️", callback_data=f"page_{mode}_{product_type}_{page+1}")
 
     return builder.as_markup()
