@@ -4,6 +4,7 @@ from aiogram.fsm.context import FSMContext
 from Bot.states.user_states import SearchStates
 from Bot.services.db import get_product_by_name, get_product_by_type, get_product_by_id
 from Bot.keyboards.keyboards import keyboardButtons, pages_kb, back_btn, product_btn
+import json
 
 user_router = Router()
 
@@ -114,14 +115,26 @@ async def get_product(callback: types.CallbackQuery):
         await callback.answer("Продукт не знайдено")
         return
 
+    specs_text = ""
+    try:
+        specs = json.loads(product["specs"])
+        if isinstance(specs, dict):
+            for key, value in specs.items():
+                specs_text += f"<b>{key}:</b> {value}\n"
+        else:
+            specs_text = str(specs)
+    except json.JSONDecodeError:
+        specs_text += f"{product['specs']}"
+
     text = (
         f"<b>Детальна інформація:</b>\n\n"
         f"<b>{product['name']}</b>\n"
         f"Ціна: {product['price']} грн\n"
         f"Тип: {product['type']}\n"
         f"Бренд: {product['brand']}\n"
-        f"<i>Характеристики: {product['specs']}</i>"
+        f"{specs_text}"
     )
+
     try:
         await callback.message.answer_photo(
             photo=product["imageURL"],

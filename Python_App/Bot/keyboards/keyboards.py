@@ -49,6 +49,7 @@ def pages_kb(
             )
         )
     builder.row(*nav_buttons)
+    builder.row(types.InlineKeyboardButton(text="Повернутись", callback_data="back"))
     return builder.as_markup()
 
 
