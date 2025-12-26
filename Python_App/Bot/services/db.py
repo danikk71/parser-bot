@@ -7,11 +7,11 @@ def get_product_by_name(name: str):
     conn.row_factory = sqlite3.Row
     cursor = conn.cursor()
 
-    # search = f"%{name}%"
+    search = f"%{name}%"
 
     cursor.execute(
-        "SELECT * FROM Products WHERE name LIKE ?",
-        (name,),
+        "SELECT * FROM Products WHERE name LIKE ? AND is_available = 1",
+        (search,),
     )
 
     products = cursor.fetchall()
@@ -26,9 +26,25 @@ def get_product_by_type(type: str):
     cursor = conn.cursor()
 
     cursor.execute(
-        "SELECT * FROM Products WHERE type LIKE ? AND is_available",
+        "SELECT * FROM Products WHERE type LIKE ? AND is_available = 1",
         (type,),
     )
     products = cursor.fetchall()
     conn.close()
     return [dict(row) for row in products]
+
+
+def get_product_by_id(id: int):
+    conn = sqlite3.connect(DB_PATH)
+    conn.row_factory = sqlite3.Row
+    cursor = conn.cursor()
+
+    cursor.execute(
+        "SELECT * FROM Products WHERE id LIKE ?",
+        (id,),
+    )
+    product = cursor.fetchone()
+    conn.close()
+    if product:
+        return dict(product)
+    return None
