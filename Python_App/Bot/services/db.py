@@ -77,17 +77,10 @@ def get_favourites_list(id: int):
         cursor = conn.cursor()
 
         cursor.execute(
-            """SELECT * FROM Favourites WHERE user_id LIKE ?""",
+            """SELECT Products.* FROM Products
+            JOIN Favourites ON Products.id = Favourites.product_id
+            WHERE Favourites.user_id LIKE ?""",
             (id,),
         )
-        text = "<b>Улюблені:</b>\n"
         products = cursor.fetchall()
-        for p in products:
-            id = p["product_id"]
-            cursor.execute("SELECT * FROM Products WHERE id LIKE ?", (id,))
-            product = cursor.fetchone()
-            name = product["name"]
-            if len(name) > 48:
-                name = f"{name[:48]}..."
-            text += f"{name} - {product['price']}грн\n"
-        return text
+    return [dict(row) for row in products]

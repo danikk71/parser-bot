@@ -63,9 +63,14 @@ async def search_input(message: types.Message, state: FSMContext):
 @user_router.message(F.text == "Улюблені")
 async def favourites_list(message: types.Message):
     user_id = message.from_user.id
-    await message.answer(
-        text=get_favourites_list(user_id), reply_markup=back_btn(), parse_mode="HTML"
-    )
+    products = get_favourites_list(user_id)
+    if not products:
+        await message.answer("Улюблених ще немає!")
+    else:
+        first_page_products = products[:ITEMS_PER_PAGE]
+        total_pages = (len(products) + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE
+        kb = pages_kb(first_page_products, 0, total_pages, user_id, "fav")
+        await message.answer("<b>Улюблені</b>", reply_markup=kb, parse_mode="HTML")
 
 
 @user_router.callback_query(F.data.startswith("page_"))
@@ -79,6 +84,8 @@ async def change_page(callback: types.CallbackQuery):
             all_products = get_product_by_type(product)
         case "name":
             all_products = get_product_by_name(product)
+        case "fav":
+            all_products = get_favourites_list(product)
         case _:
             await callback.answer("Невідомий режим", show_alert=True)
             return
@@ -124,9 +131,9 @@ async def get_product(callback: types.CallbackQuery):
     text = (
         f"<b>Детальна інформація:</b>\n\n"
         f"<b>{product['name']}</b>\n"
-        f"Ціна: {product['price']} грн\n"
-        f"Тип: {product['type']}\n"
-        f"Бренд: {product['brand']}\n"
+        f"<b>Ціна: {product['price']} грн</b>\n"
+        f"<b>Тип: {product['type']}</b>\n"
+        f"<b>Бренд: {product['brand']}</b>\n"
         f"{specs_text}"
     )
 
