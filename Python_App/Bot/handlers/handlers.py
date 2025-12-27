@@ -2,7 +2,7 @@ from aiogram import Router, types, F
 from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from Bot.states.user_states import SearchStates
-from Bot.services.db import get_product_by_name, get_product_by_type, get_product_by_id
+from Bot.services.db import *
 from Bot.keyboards.keyboards import keyboardButtons, pages_kb, back_btn, product_btn
 import json
 
@@ -60,17 +60,12 @@ async def search_input(message: types.Message, state: FSMContext):
     await state.clear()
 
 
-def get_page_content(products, page):
-    start = page * ITEMS_PER_PAGE
-    end = start + ITEMS_PER_PAGE
-    current_products = products[start:end]
-
-    text = f"<b>Сторінка {page+1}</b>\n\n"
-
-    for p in current_products:
-        if p["is_available"]:
-            text += f"/id_{p['id']}<b>{p['name']}</b>\n"
-    return text
+@user_router.message(F.text == "Улюблені")
+async def favourites_list(message: types.Message):
+    user_id = message.from_user.id
+    await message.answer(
+        text=get_favourites_list(user_id), reply_markup=back_btn(), parse_mode="HTML"
+    )
 
 
 @user_router.callback_query(F.data.startswith("page_"))
@@ -140,14 +135,14 @@ async def get_product(callback: types.CallbackQuery):
             photo=product["imageURL"],
             caption=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product["url"]),
+            reply_markup=product_btn(product),
         )
     except Exception as ex:
         print(f"Помилка {ex}")
         await callback.message.answer(
             text=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product["url"]),
+            reply_markup=product_btn(product),
         )
     await callback.answer()
 
@@ -155,3 +150,14 @@ async def get_product(callback: types.CallbackQuery):
 @user_router.callback_query(F.data == "back")
 async def delete_msg(callback: types.CallbackQuery):
     await callback.message.delete()
+
+
+@user_router.callback_query(F.data.startswith("favorites_"))
+async def add_favourites(callback: types.CallbackQuery):
+    product_id = callback.data.split("_")[1]
+    user_id = callback.from_user.id
+    rows_added = add_to_favourites(product_id, user_id)
+    if rows_added > 0:
+        await callback.answer("Товар додано до улюблених!", show_alert=True)
+    else:
+        await callback.answer("Товар уже в улюблених!", show_alert=True)

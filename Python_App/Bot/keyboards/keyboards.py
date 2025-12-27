@@ -8,8 +8,7 @@ def keyboardButtons() -> ReplyKeyboardMarkup:
 
     builder.add(KeyboardButton(text="Шукати товар"))
     builder.add(KeyboardButton(text="Шукати за типом"))
-    builder.add(KeyboardButton(text="Ага"))
-    builder.add(KeyboardButton(text="Угу"))
+    builder.add(KeyboardButton(text="Улюблені"))
 
     builder.adjust(2)
 
@@ -26,7 +25,13 @@ def pages_kb(
     builder = InlineKeyboardBuilder()
 
     for p in products_on_page:
-        builder.button(text=f"{p['name']}", callback_data=f"get_{p['id']}")
+        name = p["name"]
+        if len(name) > 48:
+            name = f"{name[:48]}..."
+        builder.button(
+            text=f"{name} - {p['price']}грн",
+            callback_data=f"get_{p['id']}",
+        )
     builder.adjust(1)
 
     nav_buttons = []
@@ -59,10 +64,13 @@ def back_btn():
     return builder.as_markup()
 
 
-def product_btn(product_url: str):
+def product_btn(product: dict):
     builder = InlineKeyboardBuilder()
-    if product_url:
-        builder.button(text="Детальніше", url=product_url)
+    if product.get("url"):
+        builder.button(text="Детальніше", url=product["url"])
+    builder.button(
+        text="Додати до улюблених", callback_data=f"favorites_{product['id']}"
+    )
     builder.button(text="Повернутись", callback_data="back")
     builder.adjust(1)
     return builder.as_markup()
