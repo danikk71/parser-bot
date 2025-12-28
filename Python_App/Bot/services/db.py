@@ -10,7 +10,11 @@ def get_product_by_name(name: str):
     search = f"%{name}%"
 
     cursor.execute(
-        "SELECT * FROM Products WHERE name LIKE ? AND is_available = 1",
+        """
+        SELECT * FROM Products 
+        WHERE name LIKE ? 
+        AND is_available = 1
+        AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
         (search,),
     )
 
@@ -26,7 +30,11 @@ def get_product_by_type(type: str):
     cursor = conn.cursor()
 
     cursor.execute(
-        "SELECT * FROM Products WHERE type LIKE ? AND is_available = 1",
+        """
+        SELECT * FROM Products 
+        WHERE type LIKE ? 
+        AND is_available = 1
+        AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
         (type,),
     )
     products = cursor.fetchall()

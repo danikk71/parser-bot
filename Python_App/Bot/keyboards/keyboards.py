@@ -83,9 +83,7 @@ def product_btn(product: dict, is_favorite: bool, back_to: str = "catalog"):
         )
     builder.button(
         text="Повернутись",
-        callback_data=(
-            "back_fav" if back_to == "fav" and is_favorite == False else "back"
-        ),
+        callback_data=("back_fav" if back_to == "fav" and not is_favorite else "back"),
     )
     builder.adjust(1)
     return builder.as_markup()
