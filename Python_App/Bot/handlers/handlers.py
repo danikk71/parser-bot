@@ -203,3 +203,15 @@ async def do_favourites(callback: types.CallbackQuery):
                 await callback.answer(
                     "Товар уже видалений з улюблених!", show_alert=True
                 )
+
+
+@user_router.callback_query(F.data.startswith("history_"))
+async def price_history(callback: types.CallbackQuery):
+    id = callback.data.split("_")[1]
+    pricelist = get_prices(id)
+    text = "<b>Історія цін</b>\n"
+    for p in pricelist:
+        text += f"<b>{p['price']}грн - {p['date_recorded']}</b>\n"
+
+    await callback.message.answer(text, parse_mode="HTML")
+    await callback.answer()

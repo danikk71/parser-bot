@@ -117,3 +117,19 @@ def is_favourite(user_id: int, product_id: int):
             (user_id, product_id),
         )
         return cursor.fetchone() is not None
+
+
+def get_prices(product_id: int):
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        cursor.execute(
+            """ SELECT price, date_recorded
+                FROM PriceHistory 
+                WHERE product_id = ? 
+                ORDER BY date_recorded ASC""",
+            (product_id,),
+        )
+        products = cursor.fetchall()
+        return [dict(row) for row in products]
