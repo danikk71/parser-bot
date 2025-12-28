@@ -24,13 +24,15 @@ def pages_kb(
 ) -> InlineKeyboardBuilder:
     builder = InlineKeyboardBuilder()
 
+    source = "fav" if mode == "fav" else "catalog"
+
     for p in products_on_page:
         name = p["name"]
         if len(name) > 48:
             name = f"{name[:48]}..."
         builder.button(
             text=f"{name} - {p['price']}грн",
-            callback_data=f"get_{p['id']}",
+            callback_data=f"get_{source}_{p['id']}",
         )
     builder.adjust(1)
 
@@ -64,19 +66,25 @@ def back_btn():
     return builder.as_markup()
 
 
-def product_btn(product: dict, is_favorite: bool):
+def product_btn(product: dict, is_favorite: bool, back_to: str = "catalog"):
     builder = InlineKeyboardBuilder()
+    changes = False
     if product.get("url"):
         builder.button(text="Детальніше", url=product["url"])
     if is_favorite:
         builder.button(
             text="Видалити з улюблених",
-            callback_data=f"favorites_remove_{product['id']}",
+            callback_data=f"favorites_remove_{product['id']}_{back_to}",
         )
+        changes = True
     else:
         builder.button(
-            text="Додати до улюблених", callback_data=f"favorites_add_{product['id']}"
+            text="Додати до улюблених",
+            callback_data=f"favorites_add_{product['id']}_{back_to}",
         )
-    builder.button(text="Повернутись", callback_data="back")
+    builder.button(
+        text="Повернутись",
+        callback_data="back_fav" if back_to == "fav" and changes == True else "back",
+    )
     builder.adjust(1)
     return builder.as_markup()

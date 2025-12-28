@@ -40,7 +40,7 @@ def get_product_by_id(id: int):
     cursor = conn.cursor()
 
     cursor.execute(
-        "SELECT * FROM Products WHERE id LIKE ?",
+        "SELECT * FROM Products WHERE id = ?",
         (id,),
     )
     product = cursor.fetchone()
@@ -92,7 +92,7 @@ def get_favourites_list(id: int):
         cursor.execute(
             """SELECT Products.* FROM Products
             JOIN Favourites ON Products.id = Favourites.product_id
-            WHERE Favourites.user_id LIKE ?""",
+            WHERE Favourites.user_id = ?""",
             (id,),
         )
         products = cursor.fetchall()

@@ -61,16 +61,25 @@ async def search_input(message: types.Message, state: FSMContext):
 
 
 @user_router.message(F.text == "Улюблені")
-async def favourites_list(message: types.Message):
-    user_id = message.from_user.id
+@user_router.callback_query(F.data == "back_fav")
+async def favourites_list(event: types.Message | types.CallbackQuery):
+    user_id = event.from_user.id
+
+    if isinstance(event, types.Message):
+        answer = event.answer
+    else:
+        answer = event.message.answer
+        await event.message.delete()
+        await event.answer()
+
     products = get_favourites_list(user_id)
     if not products:
-        await message.answer("Улюблених ще немає!")
+        await answer("Улюблених ще немає!")
     else:
         first_page_products = products[:ITEMS_PER_PAGE]
         total_pages = (len(products) + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE
-        kb = pages_kb(first_page_products, 0, total_pages, user_id, "fav")
-        await message.answer("<b>Улюблені</b>", reply_markup=kb, parse_mode="HTML")
+        kb = pages_kb(first_page_products, 0, total_pages, str(user_id), "fav")
+        await answer("<b>Улюблені</b>", reply_markup=kb, parse_mode="HTML")
 
 
 @user_router.callback_query(F.data.startswith("page_"))
@@ -109,7 +118,9 @@ async def change_page(callback: types.CallbackQuery):
 
 @user_router.callback_query(F.data.startswith("get_"))
 async def get_product(callback: types.CallbackQuery):
-    id = callback.data.split("_")[1]
+    data_parts = callback.data.split("_")
+    source = data_parts[1]
+    id = data_parts[2]
 
     product = get_product_by_id(id)
 
@@ -143,14 +154,14 @@ async def get_product(callback: types.CallbackQuery):
             photo=product["imageURL"],
             caption=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product, is_fav),
+            reply_markup=product_btn(product, is_fav, back_to=source),
         )
     except Exception as ex:
         print(f"Помилка {ex}")
         await callback.message.answer(
             text=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product, is_fav),
+            reply_markup=product_btn(product, is_fav, back_to=source),
         )
     await callback.answer()
 
@@ -163,16 +174,19 @@ async def delete_msg(callback: types.CallbackQuery):
 @user_router.callback_query(F.data.startswith("favorites_"))
 async def do_favourites(callback: types.CallbackQuery):
     data_parts = callback.data.split("_")
+
     mode = data_parts[1]
-    product_id = data_parts[2]
+    product_id = int(data_parts[2])
+    source = data_parts[3]
     user_id = callback.from_user.id
+
     match mode:
         case "add":
             rows_added = add_to_favourites(product_id, user_id)
             if rows_added > 0:
                 product = get_product_by_id(product_id)
                 await callback.message.edit_reply_markup(
-                    reply_markup=product_btn(product, is_favorite=True)
+                    reply_markup=product_btn(product, is_favorite=True, back_to=source)
                 )
                 await callback.answer("Товар додано до улюблених!", show_alert=True)
             else:
@@ -182,7 +196,7 @@ async def do_favourites(callback: types.CallbackQuery):
             if rows_removed > 0:
                 product = get_product_by_id(product_id)
                 await callback.message.edit_reply_markup(
-                    reply_markup=product_btn(product, is_favorite=False)
+                    reply_markup=product_btn(product, is_favorite=False, back_to=source)
                 )
                 await callback.answer("Товар видалено з улюблених!", show_alert=True)
             else:
