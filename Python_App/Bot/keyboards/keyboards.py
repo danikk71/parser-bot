@@ -8,8 +8,7 @@ def keyboardButtons() -> ReplyKeyboardMarkup:
 
     builder.add(KeyboardButton(text="Шукати товар"))
     builder.add(KeyboardButton(text="Шукати за типом"))
-    builder.add(KeyboardButton(text="Ага"))
-    builder.add(KeyboardButton(text="Угу"))
+    builder.add(KeyboardButton(text="Улюблені"))
 
     builder.adjust(2)
 
@@ -25,8 +24,16 @@ def pages_kb(
 ) -> InlineKeyboardBuilder:
     builder = InlineKeyboardBuilder()
 
+    source = "fav" if mode == "fav" else "catalog"
+
     for p in products_on_page:
-        builder.button(text=f"{p['name']}", callback_data=f"get_{p['id']}")
+        name = p["name"]
+        if len(name) > 48:
+            name = f"{name[:48]}..."
+        builder.button(
+            text=f"{name} - {p['price']}грн",
+            callback_data=f"get_{source}_{p['id']}",
+        )
     builder.adjust(1)
 
     nav_buttons = []
@@ -59,10 +66,26 @@ def back_btn():
     return builder.as_markup()
 
 
-def product_btn(product_url: str):
+def product_btn(product: dict, is_favorite: bool, back_to: str = "catalog"):
     builder = InlineKeyboardBuilder()
-    if product_url:
-        builder.button(text="Детальніше", url=product_url)
-    builder.button(text="Повернутись", callback_data="back")
+    if product.get("url"):
+        builder.button(text="Детальніше", url=product["url"])
+    if is_favorite:
+        builder.button(
+            text="Видалити з улюблених",
+            callback_data=f"favorites_remove_{product['id']}_{back_to}",
+        )
+        changes = True
+    else:
+        builder.button(
+            text="Додати до улюблених",
+            callback_data=f"favorites_add_{product['id']}_{back_to}",
+        )
+    builder.button(
+        text="Повернутись",
+        callback_data=(
+            "back_fav" if back_to == "fav" and is_favorite == False else "back"
+        ),
+    )
     builder.adjust(1)
     return builder.as_markup()

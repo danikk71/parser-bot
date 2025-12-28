@@ -2,7 +2,7 @@ from aiogram import Router, types, F
 from aiogram.filters import Command, CommandStart
 from aiogram.fsm.context import FSMContext
 from Bot.states.user_states import SearchStates
-from Bot.services.db import get_product_by_name, get_product_by_type, get_product_by_id
+from Bot.services.db import *
 from Bot.keyboards.keyboards import keyboardButtons, pages_kb, back_btn, product_btn
 import json
 
@@ -60,17 +60,26 @@ async def search_input(message: types.Message, state: FSMContext):
     await state.clear()
 
 
-def get_page_content(products, page):
-    start = page * ITEMS_PER_PAGE
-    end = start + ITEMS_PER_PAGE
-    current_products = products[start:end]
+@user_router.message(F.text == "Улюблені")
+@user_router.callback_query(F.data == "back_fav")
+async def favourites_list(event: types.Message | types.CallbackQuery):
+    user_id = event.from_user.id
 
-    text = f"<b>Сторінка {page+1}</b>\n\n"
+    if isinstance(event, types.Message):
+        answer = event.answer
+    else:
+        answer = event.message.answer
+        await event.message.delete()
+        await event.answer()
 
-    for p in current_products:
-        if p["is_available"]:
-            text += f"/id_{p['id']}<b>{p['name']}</b>\n"
-    return text
+    products = get_favourites_list(user_id)
+    if not products:
+        await answer("Улюблених ще немає!")
+    else:
+        first_page_products = products[:ITEMS_PER_PAGE]
+        total_pages = (len(products) + ITEMS_PER_PAGE - 1) // ITEMS_PER_PAGE
+        kb = pages_kb(first_page_products, 0, total_pages, str(user_id), "fav")
+        await answer("<b>Улюблені</b>", reply_markup=kb, parse_mode="HTML")
 
 
 @user_router.callback_query(F.data.startswith("page_"))
@@ -84,6 +93,8 @@ async def change_page(callback: types.CallbackQuery):
             all_products = get_product_by_type(product)
         case "name":
             all_products = get_product_by_name(product)
+        case "fav":
+            all_products = get_favourites_list(product)
         case _:
             await callback.answer("Невідомий режим", show_alert=True)
             return
@@ -107,7 +118,9 @@ async def change_page(callback: types.CallbackQuery):
 
 @user_router.callback_query(F.data.startswith("get_"))
 async def get_product(callback: types.CallbackQuery):
-    id = callback.data.split("_")[1]
+    data_parts = callback.data.split("_")
+    source = data_parts[1]
+    id = data_parts[2]
 
     product = get_product_by_id(id)
 
@@ -115,6 +128,7 @@ async def get_product(callback: types.CallbackQuery):
         await callback.answer("Продукт не знайдено")
         return
 
+    is_fav = is_favourite(callback.from_user.id, id)
     specs_text = ""
     try:
         specs = json.loads(product["specs"])
@@ -129,9 +143,9 @@ async def get_product(callback: types.CallbackQuery):
     text = (
         f"<b>Детальна інформація:</b>\n\n"
         f"<b>{product['name']}</b>\n"
-        f"Ціна: {product['price']} грн\n"
-        f"Тип: {product['type']}\n"
-        f"Бренд: {product['brand']}\n"
+        f"<b>Ціна: {product['price']} грн</b>\n"
+        f"<b>Тип: {product['type']}</b>\n"
+        f"<b>Бренд: {product['brand']}</b>\n"
         f"{specs_text}"
     )
 
@@ -140,14 +154,14 @@ async def get_product(callback: types.CallbackQuery):
             photo=product["imageURL"],
             caption=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product["url"]),
+            reply_markup=product_btn(product, is_fav, back_to=source),
         )
     except Exception as ex:
         print(f"Помилка {ex}")
         await callback.message.answer(
             text=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product["url"]),
+            reply_markup=product_btn(product, is_fav, back_to=source),
         )
     await callback.answer()
 
@@ -155,3 +169,37 @@ async def get_product(callback: types.CallbackQuery):
 @user_router.callback_query(F.data == "back")
 async def delete_msg(callback: types.CallbackQuery):
     await callback.message.delete()
+
+
+@user_router.callback_query(F.data.startswith("favorites_"))
+async def do_favourites(callback: types.CallbackQuery):
+    data_parts = callback.data.split("_")
+
+    mode = data_parts[1]
+    product_id = int(data_parts[2])
+    source = data_parts[3]
+    user_id = callback.from_user.id
+
+    match mode:
+        case "add":
+            rows_added = add_to_favourites(product_id, user_id)
+            if rows_added > 0:
+                product = get_product_by_id(product_id)
+                await callback.message.edit_reply_markup(
+                    reply_markup=product_btn(product, is_favorite=True, back_to=source)
+                )
+                await callback.answer("Товар додано до улюблених!", show_alert=True)
+            else:
+                await callback.answer("Товар уже в улюблених!", show_alert=True)
+        case "remove":
+            rows_removed = remove_from_favourites(product_id, user_id)
+            if rows_removed > 0:
+                product = get_product_by_id(product_id)
+                await callback.message.edit_reply_markup(
+                    reply_markup=product_btn(product, is_favorite=False, back_to=source)
+                )
+                await callback.answer("Товар видалено з улюблених!", show_alert=True)
+            else:
+                await callback.answer(
+                    "Товар уже видалений з улюблених!", show_alert=True
+                )
