@@ -68,7 +68,6 @@ def back_btn():
 
 def product_btn(product: dict, is_favorite: bool, back_to: str = "catalog"):
     builder = InlineKeyboardBuilder()
-    changes = False
     if product.get("url"):
         builder.button(text="Детальніше", url=product["url"])
     if is_favorite:
@@ -84,7 +83,9 @@ def product_btn(product: dict, is_favorite: bool, back_to: str = "catalog"):
         )
     builder.button(
         text="Повернутись",
-        callback_data="back_fav" if back_to == "fav" and changes == True else "back",
+        callback_data=(
+            "back_fav" if back_to == "fav" and is_favorite == False else "back"
+        ),
     )
     builder.adjust(1)
     return builder.as_markup()
