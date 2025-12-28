@@ -64,13 +64,19 @@ def back_btn():
     return builder.as_markup()
 
 
-def product_btn(product: dict):
+def product_btn(product: dict, is_favorite: bool):
     builder = InlineKeyboardBuilder()
     if product.get("url"):
         builder.button(text="Детальніше", url=product["url"])
-    builder.button(
-        text="Додати до улюблених", callback_data=f"favorites_{product['id']}"
-    )
+    if is_favorite:
+        builder.button(
+            text="Видалити з улюблених",
+            callback_data=f"favorites_remove_{product['id']}",
+        )
+    else:
+        builder.button(
+            text="Додати до улюблених", callback_data=f"favorites_add_{product['id']}"
+        )
     builder.button(text="Повернутись", callback_data="back")
     builder.adjust(1)
     return builder.as_markup()

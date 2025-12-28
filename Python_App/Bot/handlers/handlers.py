@@ -117,6 +117,7 @@ async def get_product(callback: types.CallbackQuery):
         await callback.answer("Продукт не знайдено")
         return
 
+    is_fav = is_favourite(callback.from_user.id, id)
     specs_text = ""
     try:
         specs = json.loads(product["specs"])
@@ -142,14 +143,14 @@ async def get_product(callback: types.CallbackQuery):
             photo=product["imageURL"],
             caption=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product),
+            reply_markup=product_btn(product, is_fav),
         )
     except Exception as ex:
         print(f"Помилка {ex}")
         await callback.message.answer(
             text=text,
             parse_mode="HTML",
-            reply_markup=product_btn(product),
+            reply_markup=product_btn(product, is_fav),
         )
     await callback.answer()
 
@@ -160,11 +161,31 @@ async def delete_msg(callback: types.CallbackQuery):
 
 
 @user_router.callback_query(F.data.startswith("favorites_"))
-async def add_favourites(callback: types.CallbackQuery):
-    product_id = callback.data.split("_")[1]
+async def do_favourites(callback: types.CallbackQuery):
+    data_parts = callback.data.split("_")
+    mode = data_parts[1]
+    product_id = data_parts[2]
     user_id = callback.from_user.id
-    rows_added = add_to_favourites(product_id, user_id)
-    if rows_added > 0:
-        await callback.answer("Товар додано до улюблених!", show_alert=True)
-    else:
-        await callback.answer("Товар уже в улюблених!", show_alert=True)
+    match mode:
+        case "add":
+            rows_added = add_to_favourites(product_id, user_id)
+            if rows_added > 0:
+                product = get_product_by_id(product_id)
+                await callback.message.edit_reply_markup(
+                    reply_markup=product_btn(product, is_favorite=True)
+                )
+                await callback.answer("Товар додано до улюблених!", show_alert=True)
+            else:
+                await callback.answer("Товар уже в улюблених!", show_alert=True)
+        case "remove":
+            rows_removed = remove_from_favourites(product_id, user_id)
+            if rows_removed > 0:
+                product = get_product_by_id(product_id)
+                await callback.message.edit_reply_markup(
+                    reply_markup=product_btn(product, is_favorite=False)
+                )
+                await callback.answer("Товар видалено з улюблених!", show_alert=True)
+            else:
+                await callback.answer(
+                    "Товар уже видалений з улюблених!", show_alert=True
+                )

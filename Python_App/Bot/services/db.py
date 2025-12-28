@@ -71,6 +71,19 @@ def add_to_favourites(product_id: int, user_id: int):
     return cursor.rowcount > 0
 
 
+def remove_from_favourites(product_id: int, user_id: int):
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "DELETE FROM Favourites WHERE user_id = ? AND product_id = ?",
+            (user_id, product_id),
+        )
+        conn.commit()
+    return cursor.rowcount > 0
+
+
 def get_favourites_list(id: int):
     with sqlite3.connect(DB_PATH) as conn:
         conn.row_factory = sqlite3.Row
@@ -84,3 +97,15 @@ def get_favourites_list(id: int):
         )
         products = cursor.fetchall()
     return [dict(row) for row in products]
+
+
+def is_favourite(user_id: int, product_id: int):
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        cursor.execute(
+            "SELECT 1 FROM Favourites WHERE user_id = ? AND product_id = ?",
+            (user_id, product_id),
+        )
+        return cursor.fetchone() is not None
