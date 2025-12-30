@@ -82,10 +82,11 @@ def product_btn(product: dict, is_favorite: bool, back_to: str = "catalog"):
             callback_data=f"favorites_add_{product['id']}_{back_to}",
         )
     builder.button(
+        text="Дивитись історію цін", callback_data=f"history_{product['id']}"
+    )
+    builder.button(
         text="Повернутись",
-        callback_data=(
-            "back_fav" if back_to == "fav" and is_favorite == False else "back"
-        ),
+        callback_data=("back_fav" if back_to == "fav" and not is_favorite else "back"),
     )
     builder.adjust(1)
     return builder.as_markup()

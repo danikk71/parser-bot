@@ -10,7 +10,11 @@ def get_product_by_name(name: str):
     search = f"%{name}%"
 
     cursor.execute(
-        "SELECT * FROM Products WHERE name LIKE ? AND is_available = 1",
+        """
+        SELECT * FROM Products 
+        WHERE name LIKE ? 
+        AND is_available = 1
+        AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
         (search,),
     )
 
@@ -26,7 +30,11 @@ def get_product_by_type(type: str):
     cursor = conn.cursor()
 
     cursor.execute(
-        "SELECT * FROM Products WHERE type LIKE ? AND is_available = 1",
+        """
+        SELECT * FROM Products 
+        WHERE type LIKE ? 
+        AND is_available = 1
+        AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
         (type,),
     )
     products = cursor.fetchall()
@@ -109,3 +117,19 @@ def is_favourite(user_id: int, product_id: int):
             (user_id, product_id),
         )
         return cursor.fetchone() is not None
+
+
+def get_prices(product_id: int):
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
+
+        cursor.execute(
+            """ SELECT price, date_recorded
+                FROM PriceHistory 
+                WHERE product_id = ? 
+                ORDER BY date_recorded ASC""",
+            (product_id,),
+        )
+        products = cursor.fetchall()
+        return [dict(row) for row in products]
