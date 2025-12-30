@@ -4,6 +4,7 @@ from aiogram.fsm.context import FSMContext
 from Bot.states.user_states import SearchStates
 from Bot.services.db import *
 from Bot.keyboards.keyboards import keyboardButtons, pages_kb, back_btn, product_btn
+from Bot.services.plot import *
 import json
 
 user_router = Router()
@@ -209,9 +210,15 @@ async def do_favourites(callback: types.CallbackQuery):
 async def price_history(callback: types.CallbackQuery):
     id = callback.data.split("_")[1]
     pricelist = get_prices(id)
-    text = "<b>Історія цін</b>\n"
-    for p in pricelist:
-        text += f"<b>{p['price']}грн - {p['date_recorded']}</b>\n"
 
-    await callback.message.answer(text, parse_mode="HTML")
+    plot_buf = create_price_plot(pricelist)
+
+    photo = types.BufferedInputFile(plot_buf.read(), filename="history.png")
+
+    await callback.message.answer_photo(
+        photo=photo,
+        caption=f"<b>Графік зміни ціни</b>",
+        parse_mode="HTML",
+        reply_markup=back_btn(),
+    )
     await callback.answer()
