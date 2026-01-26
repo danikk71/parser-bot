@@ -49,7 +49,7 @@ def load_data():
     conn = databases_init()
     cursor = conn.cursor()
 
-    now = f"{datetime.now().year}-{datetime.now().month}-{datetime.now().day}"
+    now = datetime.now().strftime("%Y-%m-%d")
 
     KEYS = ["ProductURL", "ImageURL", "$type", "Name", "Brand", "Price", "IsAvailable"]
 
