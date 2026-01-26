@@ -1,4 +1,5 @@
 from config import DB_PATH
+from datetime import datetime
 import sqlite3
 
 
@@ -128,8 +129,10 @@ def get_prices(product_id: int):
             """ SELECT price, date_recorded
                 FROM PriceHistory 
                 WHERE product_id = ? 
-                ORDER BY date_recorded ASC""",
+            """,
             (product_id,),
         )
         products = cursor.fetchall()
-        return [dict(row) for row in products]
+        data = [dict(row) for row in products]
+        data.sort(key=lambda x: datetime.strptime(x["date_recorded"], "%Y-%m-%d"))
+        return data
