@@ -12,24 +12,9 @@ namespace main
 {
     class JSONProduct
     {
-        private static string? GetDirectoryPath()
-        {
-            var baseDir = AppContext.BaseDirectory;
-            DirectoryInfo? projectRoot = Directory.GetParent(baseDir);
-            while (projectRoot != null && projectRoot.Name != "parser")
-            {
-                projectRoot = projectRoot.Parent;
-            }
-            if (projectRoot == null)
-            {
-                Console.WriteLine("Не знайшов кореневу папку 'parser'!");
-                return null;
-            }
-            return projectRoot.FullName;
-        }
         public static async Task Serialize(List<Product> products)
         {
-            string? directoryName = GetDirectoryPath();
+            string? directoryName = Directory.GetCurrentDirectory();
             if (string.IsNullOrEmpty(directoryName)) return;
 
             string dataFolder = Path.Combine(directoryName, "Data");
