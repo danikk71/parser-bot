@@ -35,6 +35,14 @@ def databases_init():
         )
         """
     )
+    cursor.execute(
+        """CREATE TABLE IF NOT EXISTS Favourites(
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                product_id INTEGER NOT NULL,
+                UNIQUE(user_id,product_id),
+                FOREIGN KEY(product_id) REFERENCES Products(id) ON DELETE CASCADE);"""
+    )
     conn.commit()
     return conn
 
