@@ -4,56 +4,53 @@ import sqlite3
 
 
 def get_product_by_name(name: str):
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    cursor = conn.cursor()
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
 
-    search = f"%{name}%"
+        search = f"%{name}%"
 
-    cursor.execute(
-        """
-        SELECT * FROM Products 
-        WHERE name LIKE ? 
-        AND is_available = 1
-        AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
-        (search,),
-    )
+        cursor.execute(
+            """
+            SELECT * FROM Products 
+            WHERE name LIKE ? 
+            AND is_available = 1
+            AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
+            (search,),
+        )
 
-    products = cursor.fetchall()
-    conn.close()
+        products = cursor.fetchall()
 
     return [dict(row) for row in products]
 
 
 def get_product_by_type(type: str):
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    cursor = conn.cursor()
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
 
-    cursor.execute(
-        """
-        SELECT * FROM Products 
-        WHERE type LIKE ? 
-        AND is_available = 1
-        AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
-        (type,),
-    )
-    products = cursor.fetchall()
-    conn.close()
+        cursor.execute(
+            """
+            SELECT * FROM Products 
+            WHERE type LIKE ? 
+            AND is_available = 1
+            AND time_updated = (SELECT MAX(time_updated) FROM Products)""",
+            (type,),
+        )
+        products = cursor.fetchall()
     return [dict(row) for row in products]
 
 
 def get_product_by_id(id: int):
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
-    cursor = conn.cursor()
+    with sqlite3.connect(DB_PATH) as conn:
+        conn.row_factory = sqlite3.Row
+        cursor = conn.cursor()
 
-    cursor.execute(
-        "SELECT * FROM Products WHERE id = ?",
-        (id,),
-    )
-    product = cursor.fetchone()
-    conn.close()
+        cursor.execute(
+            "SELECT * FROM Products WHERE id = ?",
+            (id,),
+        )
+        product = cursor.fetchone()
     if product:
         return dict(product)
     return None

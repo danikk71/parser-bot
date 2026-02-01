@@ -35,21 +35,32 @@ def databases_init():
         )
         """
     )
+    cursor.execute(
+        """CREATE TABLE IF NOT EXISTS Favourites(
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                user_id INTEGER NOT NULL,
+                product_id INTEGER NOT NULL,
+                UNIQUE(user_id,product_id),
+                FOREIGN KEY(product_id) REFERENCES Products(id) ON DELETE CASCADE);"""
+    )
     conn.commit()
     return conn
 
 
-def load_data():
-    if not os.path.exists(JSON_PATH):
-        print(f"Файл {JSON_PATH} не знайдено!")
+def load_data(PATH: str, cursor: sqlite3.Cursor):
+    if not os.path.exists(PATH):
+        print(f"Файл {PATH} не знайдено!")
         return
-    with open(JSON_PATH, "r", encoding="utf-8") as f:
+    with open(PATH, "r", encoding="utf-8") as f:
         products = json.load(f)
 
-    conn = databases_init()
-    cursor = conn.cursor()
-
-    now = datetime.now().strftime("%Y-%m-%d")
+    file = os.path.basename(PATH)
+    filedate = os.path.splitext(file)[0]
+    if filedate == "latest":
+        date = datetime.now().strftime("%Y-%m-%d")
+    else:
+        date_obj = datetime.strptime(filedate, "%Y-%m-%d")
+        date = date_obj.strftime("%Y-%m-%d")
 
     KEYS = ["ProductURL", "ImageURL", "$type", "Name", "Brand", "Price", "IsAvailable"]
 
@@ -92,7 +103,7 @@ def load_data():
                 imageURL,
                 is_available,
                 specs_json,
-                now,
+                date,
             ),
         )
         cursor.execute("SELECT id FROM Products WHERE url = ?", (url,))
@@ -103,7 +114,7 @@ def load_data():
 
             cursor.execute(
                 "SELECT 1 FROM PriceHistory WHERE product_id = ? AND date_recorded = ?",
-                (product_id, now),
+                (product_id, date),
             )
             is_recorded_today = cursor.fetchone()
             if is_recorded_today is None:
@@ -112,26 +123,46 @@ def load_data():
                     INSERT INTO PriceHistory (product_id, price, date_recorded)
                     VALUES (?, ?, ?)
                     """,
-                    (product_id, price, now),
+                    (product_id, price, date),
                 )
-    conn.commit()
-    conn.close()
 
 
 def erase_db():  # для тестів
-    conn = sqlite3.connect(DB_PATH)
-    cursor = conn.cursor()
-    cursor.executescript(
+    with sqlite3.connect(DB_PATH) as conn:
+        cursor = conn.cursor()
+        cursor.executescript(
+            """
+            DROP TABLE IF EXISTS PriceHistory;
+            DROP TABLE IF EXISTS Products;
+            DROP TABLE IF EXISTS Favourites
         """
-        DROP TABLE IF EXISTS PriceHistory;
-        DROP TABLE IF EXISTS Products;
-    """
-    )
-    print("db erased")
-    conn.commit()
-    conn.close()
+        )
+        print("db erased")
+        conn.commit()
+
+
+def load_all_jsons():
+    with databases_init() as conn:
+        cursor = conn.cursor()
+        try:
+            if os.path.exists(JSON_DIRECTORY):
+                for file in os.listdir(JSON_DIRECTORY):
+                    if file.endswith(".json"):
+                        JSON_PATH = os.path.join(JSON_DIRECTORY, file)
+                        load_data(JSON_PATH, cursor)
+            else:
+                print("directory not found")
+            conn.commit()
+        except Exception as ex:
+            print("error in loading jsons...")
+            conn.rollback()
 
 
 if __name__ == "__main__":
-    load_data()
-    print("db created")
+    with databases_init() as conn:
+        cursor = conn.cursor()
+        load_data(LATEST_JSON_PATH, cursor)
+        conn.commit()
+    # erase_db()
+    # load_all_jsons()
+    print("db updated")
