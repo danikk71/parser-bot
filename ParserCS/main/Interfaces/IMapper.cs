@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace main
+namespace main.Interfaces
 {
-    public interface IImporter<out T>
+    public interface IMapper<in TIn,out TOut>
     {
-        IEnumerable<T> Import();
+        TOut? Map(TIn? source);
     }
 }

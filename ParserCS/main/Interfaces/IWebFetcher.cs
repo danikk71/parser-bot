@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace main
+namespace main.Interfaces
 {
-    public interface IExporter<in T>
+    public interface IWebFetcher
     {
-        Task ExportAsync(IEnumerable<T> products);
     }
 }

@@ -6,7 +6,7 @@ using System.Text.RegularExpressions;
 using HtmlAgilityPack;
 using main.Models;
 
-namespace main
+namespace main.Services
 {
     class Parser
     {

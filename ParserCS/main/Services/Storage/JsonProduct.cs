@@ -6,9 +6,10 @@ using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.Unicode;
+using main.Interfaces;
 using main.Models;
 
-namespace main
+namespace main.Services.Storage
 {
     class JSONProduct<T> : IExporter<T>
     {
