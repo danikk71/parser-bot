@@ -10,34 +10,36 @@ using main.Models;
 
 namespace main
 {
-    class JSONProduct
+    class JSONProduct<T> : IExporter<T>
     {
-        public static async Task Serialize(List<Product> products)
+        readonly JsonSerializerOptions _options = new()
+        {
+            WriteIndented = true,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        };
+
+        public async Task ExportAsync(IEnumerable<T> products)
         {
             string? directoryName = Directory.GetCurrentDirectory();
-            if (string.IsNullOrEmpty(directoryName)) return;
+            if (string.IsNullOrEmpty(directoryName))
+                throw new Exception("Шляху до поточної папки не існує!");
 
             string dataFolder = Path.Combine(directoryName, "Data");
+            Directory.CreateDirectory(dataFolder);
             string archiveFolder = Path.Combine(dataFolder, "Archive");
-            if (!Directory.Exists(archiveFolder))
-            {
-                Directory.CreateDirectory(archiveFolder);
-            }
+            Directory.CreateDirectory(archiveFolder);
+
             string actualPathName = Path.Combine(dataFolder, "latest.json");
             string archivePathName = Path.Combine(archiveFolder, $"{DateTime.Now:yyyy-MM-dd}.json");
 
-            var options = new JsonSerializerOptions
+            await using (FileStream fileStream = File.Create(actualPathName))
             {
-                WriteIndented = true,
-                Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-            };
-            string json = JsonSerializer.Serialize(products,options);
-
-            await File.WriteAllTextAsync(actualPathName, json);
+                await JsonSerializer.SerializeAsync(fileStream, products, _options);
+            }
             Console.WriteLine("\nДані збережено у актуальні!\n");
-            await File.WriteAllTextAsync(archivePathName, json);
+
+            File.Copy(actualPathName, archivePathName, overwrite: true);
             Console.WriteLine("\nДані збережено у архів!\n");
         }
-
     }
 }
