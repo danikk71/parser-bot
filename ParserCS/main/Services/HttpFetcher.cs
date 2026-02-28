@@ -18,11 +18,13 @@ namespace main.Services
         public async Task<string> FetchHTMLAsync(string url)
         {
             var response = await _client.GetAsync(url);
+
+            if (response.StatusCode == System.Net.HttpStatusCode.Gone ||
+                response.StatusCode == System.Net.HttpStatusCode.NotFound)
+                    return string.Empty;
             response.EnsureSuccessStatusCode();
-            var html = await response.Content.ReadAsStringAsync();
-            if (string.IsNullOrEmpty(html))
-                throw new Exception($"Сайт видав пусту сторінку на {url}");
-            return html;
+
+            return await response.Content.ReadAsStringAsync();
         }
     }
 }

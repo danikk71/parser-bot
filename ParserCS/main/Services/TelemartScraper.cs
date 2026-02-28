@@ -45,6 +45,11 @@ namespace main.Services
             await Task.WhenAll(parsingTasks);
         }
 
+        public List<Product> GetProductsList()
+        {
+            return _products.Values.SelectMany(x => x).ToList() ;
+        }
+
         private async Task GetCategoryAsync(ProductType type, string url)
         {
             await _semaphore.WaitAsync();
@@ -56,13 +61,19 @@ namespace main.Services
                 {
                     Console.WriteLine($"Waiting for response at page {pageCount} - {type}");
                     string html = await _fetcher.FetchHTMLAsync(url + $"?page={pageCount}");
+                    if (string.IsNullOrEmpty(html))
+                    {
+                        Console.WriteLine($"End of parse (end of pages) - {type}");
+                        break;
+                    }
 
                     var productNodes = ExtractProductNodes(html);
                     if (productNodes == null || productNodes.Count == 0)
                     {
-                        Console.WriteLine($"End of parse - {type}");
+                        Console.WriteLine($"End of parse (no items found) - {type}");
                         break;
                     }
+
                     foreach(var productNode in productNodes)
                     {
                         var product = _mapper.Map(productNode);

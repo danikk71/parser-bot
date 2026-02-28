@@ -8,6 +8,6 @@ namespace main.Interfaces
 {
     public interface IExporter<in T>
     {
-        Task ExportAsync(IEnumerable<T> products);
+        Task ExportAsync(T products);
     }
 }

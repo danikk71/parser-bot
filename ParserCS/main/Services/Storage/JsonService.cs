@@ -11,7 +11,7 @@ using main.Models;
 
 namespace main.Services.Storage
 {
-    class JSONProduct<T> : IExporter<T>
+    class JsonService<T> : IExporter<T> , IImporter<T>
     {
         readonly JsonSerializerOptions _options = new()
         {
@@ -19,13 +19,9 @@ namespace main.Services.Storage
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
         };
 
-        public async Task ExportAsync(IEnumerable<T> products)
+        public async Task ExportAsync(T products)
         {
-            string? directoryName = Directory.GetCurrentDirectory();
-            if (string.IsNullOrEmpty(directoryName))
-                throw new Exception("Шляху до поточної папки не існує!");
-
-            string dataFolder = Path.Combine(directoryName, "Data");
+            string dataFolder = PathHelper.GetDataFolderPath();
             Directory.CreateDirectory(dataFolder);
             string archiveFolder = Path.Combine(dataFolder, "Archive");
             Directory.CreateDirectory(archiveFolder);
@@ -37,10 +33,15 @@ namespace main.Services.Storage
             {
                 await JsonSerializer.SerializeAsync(fileStream, products, _options);
             }
-            Console.WriteLine("\nДані збережено у актуальні!\n");
+            Console.WriteLine("\nДанi збережено у актуальнi!\n");
 
             File.Copy(actualPathName, archivePathName, overwrite: true);
-            Console.WriteLine("\nДані збережено у архів!\n");
+            Console.WriteLine("\nДанi збережено у архiв!\n");
+        }
+
+        public T Import()
+        {
+            throw new NotImplementedException();
         }
     }
 }

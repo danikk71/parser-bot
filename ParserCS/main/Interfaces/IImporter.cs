@@ -8,6 +8,6 @@ namespace main.Interfaces
 {
     public interface IImporter<out T>
     {
-        IEnumerable<T> Import();
+        T Import();
     }
 }
