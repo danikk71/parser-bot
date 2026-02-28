@@ -13,7 +13,7 @@ var services = new ServiceCollection();
 
 services.AddHttpClient<IWebFetcher, HttpFetcher>();
 services.AddSingleton<IMapper<HtmlNode, Product>, TelemartMapper>();
-services.AddTransient<IScraperService, TelemartScraper>();
+services.AddSingleton<IScraperService, TelemartScraper>();
 services.AddJsonService();
 
 var serviceProvider = services.BuildServiceProvider();
