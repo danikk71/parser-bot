@@ -1,20 +1,28 @@
 ﻿using System.Collections.Concurrent;
-using main;
+using HtmlAgilityPack;
+using main.Interfaces;
 using main.Models;
+using main.Services.Fetcher;
+using main.Services.Mappers;
+using main.Services.Scrapers;
+using main.Services.Storage;
+using Microsoft.Extensions.DependencyInjection;
 
-class Program {
-    static async Task Main()
-    {
-        ConcurrentDictionary<string, List<Product>> products = new ConcurrentDictionary<string, List<Product>>();
-        await Parser.CreateTasks("https://telemart.ua/ua/city-1482/",products);
-        foreach (var productKey in products.Values)
-        {
-            foreach(var product in productKey)
-            {
-                Console.WriteLine($"Name: {product.Name}, Price: {product.Price}");
-            }
-        }
-        List<Product> allProducts = products.Values.SelectMany(x => x).ToList();
-        await JSONProduct.Serialize(allProducts);
-    }
-}
+
+var services = new ServiceCollection();
+
+services.AddHttpClient<IWebFetcher, HttpFetcher>();
+services.AddSingleton<IMapper<HtmlNode, Product>, TelemartMapper>();
+services.AddSingleton<IScraperService, TelemartScraper>();
+services.AddJsonService();
+
+var serviceProvider = services.BuildServiceProvider();
+
+var jsonExportService = serviceProvider.GetRequiredService<IExporter<List<Product>>>();
+var scraper = serviceProvider.GetRequiredService<IScraperService>();
+
+Console.WriteLine("Початок програми: ");
+await scraper.RunScraperAsync();
+
+var products = scraper.GetProductsList();
+await jsonExportService.ExportAsync(products);

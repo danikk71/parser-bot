@@ -5,15 +5,16 @@ using System.Text.Json.Serialization;
 
 namespace main.Models
 {
-    [JsonDerivedType(typeof(CPU), "CPU")]
-    [JsonDerivedType(typeof(GPU), "GPU")]
-    [JsonDerivedType(typeof(Motherboard), "Motherboard")]
-    [JsonDerivedType(typeof(RAM), "RAM")]
-    [JsonDerivedType(typeof(SSD), "SSD")]
-    [JsonDerivedType(typeof(HDD), "HDD")]
-    abstract class Product
+    [JsonPolymorphic(TypeDiscriminatorPropertyName = "$type")]
+    [JsonDerivedType(typeof(CPU), nameof(ProductType.CPU))]
+    [JsonDerivedType(typeof(GPU), nameof(ProductType.GPU))]
+    [JsonDerivedType(typeof(Motherboard), nameof(ProductType.Motherboard))]
+    [JsonDerivedType(typeof(RAM), nameof(ProductType.RAM))]
+    [JsonDerivedType(typeof(SSD), nameof(ProductType.SSD))]
+    [JsonDerivedType(typeof(HDD), nameof(ProductType.HDD))]
+    public abstract class Product
     {
-        public Product(string name, int price, string brand,bool isAvailable,string imageURL,string productURL)
+        protected Product(string name, int price, string brand,bool isAvailable,string imageURL,string productURL)
         {
             Name = name;
             Price = price;
