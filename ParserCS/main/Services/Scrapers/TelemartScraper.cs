@@ -67,19 +67,15 @@ namespace main.Services.Scrapers
                         break;
                     }
 
-                    var productNodes = ExtractProductNodes(html);
-                    if (productNodes == null || productNodes.Count == 0)
+                    var productsFromPage = ExtractProductNodes(html);
+
+                    if (productsFromPage == null || productsFromPage.Count == 0)
                     {
                         Console.WriteLine($"End of parse (no items found) - {type}");
                         break;
                     }
 
-                    foreach(var productNode in productNodes)
-                    {
-                        var product = _mapper.Map(productNode);
-                        if (product != null)
-                            categoryProducts.Add(product);
-                    }
+                    categoryProducts.AddRange(productsFromPage);
                     pageCount++;
                     await Task.Delay(1000);
                 }
@@ -92,12 +88,22 @@ namespace main.Services.Scrapers
             }
         }
 
-        private HtmlNodeCollection? ExtractProductNodes(string html) 
+        private List<Product>? ExtractProductNodes(string html) 
         {
             var htmlDoc = new HtmlDocument();
             htmlDoc.LoadHtml(html);
 
-            return htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'product-item col-lg-3')]");
+            var nodes = htmlDoc.DocumentNode.SelectNodes("//div[contains(@class, 'product-item col-lg-3')]");
+            if (nodes == null) return null;
+
+            List<Product> result = new();
+            foreach(var node in nodes)
+            {
+                var product = _mapper.Map(node);
+                if (product != null)
+                    result.Add(product);
+            }
+            return result;
         }
     }
 }
