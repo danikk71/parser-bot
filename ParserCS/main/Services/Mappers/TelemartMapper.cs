@@ -8,7 +8,7 @@ using HtmlAgilityPack;
 using main.Interfaces;
 using main.Models;
 
-namespace main.Services
+namespace main.Services.Mappers
 {
     public class TelemartMapper : IMapper<HtmlNode, Product>
     {

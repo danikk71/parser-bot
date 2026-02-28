@@ -2,7 +2,9 @@
 using HtmlAgilityPack;
 using main.Interfaces;
 using main.Models;
-using main.Services;
+using main.Services.Fetcher;
+using main.Services.Mappers;
+using main.Services.Scrapers;
 using main.Services.Storage;
 using Microsoft.Extensions.DependencyInjection;
 

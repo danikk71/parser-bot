@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using main.Interfaces;
 
-namespace main.Services
+namespace main.Services.Fetcher
 {
     public class HttpFetcher : IWebFetcher
     {

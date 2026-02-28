@@ -9,7 +9,7 @@ using main.Interfaces;
 using main.Models;
 using main.Services.Storage;
 
-namespace main.Services
+namespace main.Services.Scrapers
 {
     public class TelemartScraper : IScraperService
     {
