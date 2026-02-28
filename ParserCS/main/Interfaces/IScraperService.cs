@@ -6,8 +6,7 @@ using System.Threading.Tasks;
 
 namespace main.Interfaces
 {
-    public interface IWebFetcher
+    public interface IScraperService
     {
-        Task<string> FetchHTMLAsync(string url);
     }
 }
