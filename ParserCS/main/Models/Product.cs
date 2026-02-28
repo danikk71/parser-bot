@@ -12,7 +12,7 @@ namespace main.Models
     [JsonDerivedType(typeof(RAM), nameof(ProductType.RAM))]
     [JsonDerivedType(typeof(SSD), nameof(ProductType.SSD))]
     [JsonDerivedType(typeof(HDD), nameof(ProductType.HDD))]
-    abstract class Product
+    public abstract class Product
     {
         protected Product(string name, int price, string brand,bool isAvailable,string imageURL,string productURL)
         {

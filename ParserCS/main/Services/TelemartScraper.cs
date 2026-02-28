@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 using HtmlAgilityPack;
 using main.Interfaces;
 using main.Models;
+using main.Services.Storage;
 
 namespace main.Services
 {
     public class TelemartScraper : IScraperService
     {
-        private const string url = "https://telemart.ua/ua/city-1482/";
+        private const string url = "https://telemart.ua/ua/city-1482";
         private readonly Dictionary<ProductType, string> _urls = new()
         {
             { ProductType.RAM,$"{url}/ram/" },
@@ -23,22 +24,25 @@ namespace main.Services
             { ProductType.HDD,$"{url}/hard-drive/" }
         };
 
+        private readonly ConcurrentDictionary<ProductType, List<Product>> _products = new();
         private readonly SemaphoreSlim _semaphore = new(5);
-        private readonly HttpFetcher _fetcher;
+        private readonly IWebFetcher _fetcher;
+        private readonly IMapper<HtmlNode,Product> _mapper;
         
-        public TelemartScraper(HttpFetcher fetcher)
+        public TelemartScraper(IWebFetcher fetcher, IMapper<HtmlNode, Product> mapper)
         {
             _fetcher = fetcher;
+            _mapper = mapper;
         }
 
-        public Task RunScraperAsync()
+        public async Task RunScraperAsync()
         {
             var parsingTasks = new List<Task>();
 
             foreach(var item in _urls)
-            {
                 parsingTasks.Add(GetCategoryAsync(item.Key, item.Value));
-            }
+
+            await Task.WhenAll(parsingTasks);
         }
 
         private async Task GetCategoryAsync(ProductType type, string url)
@@ -46,6 +50,7 @@ namespace main.Services
             await _semaphore.WaitAsync();
             try
             {
+                List<Product> categoryProducts = new();
                 int pageCount = 1;
                 while (true)
                 {
@@ -60,11 +65,15 @@ namespace main.Services
                     }
                     foreach(var productNode in productNodes)
                     {
-                        //mapper
+                        var product = _mapper.Map(productNode);
+                        if (product != null)
+                            categoryProducts.Add(product);
                     }
                     pageCount++;
                     await Task.Delay(1000);
                 }
+
+                _products.TryAdd(type, categoryProducts);
             }
             finally
             {

@@ -8,6 +8,6 @@ namespace main.Interfaces
 {
     public interface IMapper<in TIn,out TOut>
     {
-        TOut? Map(TIn? source);
+        public TOut? Map(TIn source);
     }
 }
