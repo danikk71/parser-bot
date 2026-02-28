@@ -8,5 +8,6 @@ namespace main.Interfaces
 {
     public interface IScraperService
     {
+        public Task RunScraperAsync();
     }
 }
