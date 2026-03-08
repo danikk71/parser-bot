@@ -4,16 +4,16 @@ using System.Text;
 
 namespace main.Models
 {
-    class RAM : Product
+    public class RAM : Product
     {
-        public RAM(string name, int price, string brand,bool isAvailable,string url, string productURL, int memory,string memory_type,int frequency) 
+        public RAM(string name, int price, string brand,bool isAvailable,string url, string productURL, int memory,string memoryType,int frequency) 
             : base(name, price, brand, isAvailable,url,productURL)
         {
             Memory = memory;
-            Memory_type = memory_type;
+            MemoryType = memoryType;
             Frequency = frequency;
         }
-        public string Memory_type { get; set; }
+        public string MemoryType { get; set; }
         public int Memory { get; set; }
         public int Frequency { get; set; }
     }
