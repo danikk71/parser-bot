@@ -13,5 +13,23 @@ namespace main.Services.Storage
         public DbSet<Product> Products { get; set; }
         public DbSet<PriceHistory> PriceHistories { get; set; }
         public DbSet<Favourite> Favourites { get; set; }
+
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>()
+                .HasIndex(p => p.ProductURL)
+                .IsUnique();
+
+            modelBuilder.Entity<Product>()
+                .HasDiscriminator<ProductType>("Type")
+                .HasValue<GPU>(ProductType.GPU)
+                .HasValue<CPU>(ProductType.CPU)
+                .HasValue<RAM>(ProductType.RAM)
+                .HasValue<SSD>(ProductType.SSD)
+                .HasValue<HDD>(ProductType.HDD)
+                .HasValue<Motherboard>(ProductType.Motherboard);
+        }
     }
 }

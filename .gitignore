@@ -370,3 +370,6 @@ Data/Archive/*.json
 
 # --- Env ---
 .env
+
+# --- appsettings ---
+**/appsettings.json
