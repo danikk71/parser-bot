@@ -32,4 +32,4 @@ namespace main.Services.Storage
                 .HasValue<Motherboard>(ProductType.Motherboard);
         }
     }
-}
+}   

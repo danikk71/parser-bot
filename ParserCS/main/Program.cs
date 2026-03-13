@@ -21,19 +21,23 @@ var configurations = new ConfigurationBuilder()
 services.AddHttpClient<IWebFetcher, HttpFetcher>();
 services.AddSingleton<IMapper<HtmlNode, Product>, TelemartMapper>();
 services.AddSingleton<IScraperService, TelemartScraper>();
+
+services.AddJsonService();
 services.AddDbContext<AppDbContext>(options =>
 {
     options.UseNpgsql(configurations.GetConnectionString("DefaultConnection"));
 });
-services.AddJsonService();
+services.AddScoped<IExporter<List<Product>>, DbStorageService>();
 
 var serviceProvider = services.BuildServiceProvider();
 
-var jsonExportService = serviceProvider.GetRequiredService<IExporter<List<Product>>>();
+var exporters = serviceProvider.GetServices<IExporter<List<Product>>>();
 var scraper = serviceProvider.GetRequiredService<IScraperService>();
 
 Console.WriteLine("Початок програми: ");
 await scraper.RunScraperAsync();
 
 var products = scraper.GetProductsList();
-await jsonExportService.ExportAsync(products);
+foreach (var exporter in exporters)
+    await exporter.ExportAsync(products);
+
