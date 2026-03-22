@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using main.Models;
 using main.Interfaces;
+using Microsoft.EntityFrameworkCore;
 
 namespace main.Services.Storage
 {
@@ -18,15 +19,53 @@ namespace main.Services.Storage
         }
         public async Task ExportAsync(List<Product> products)
         {
-            try
+            var today = DateTime.UtcNow.Date;
+
+            foreach(var item in products)
             {
-                await _context.Products.AddRangeAsync(products);
-                await _context.SaveChangesAsync();
+                try
+                {
+                    var existingProduct = await _context.Products
+                        .FirstOrDefaultAsync(p => p.ProductURL == item.ProductURL);
+
+                    if(existingProduct != null)
+                    {
+                        existingProduct.Price = item.Price;
+                        existingProduct.IsAvailable = item.IsAvailable;
+                        existingProduct.ImageURL = item.ImageURL;
+
+                        bool isRecordedToday = existingProduct.PriceHistories
+                            .Any(ph => ph.DateRecorded.Date == today);
+
+                        if(!isRecordedToday && item.IsAvailable)
+                        {
+                            existingProduct.PriceHistories.Add(new PriceHistory
+                            {
+                                Price = item.Price,
+                                DateRecorded = today
+                            });
+                        }
+                    }
+                    else
+                    {
+                        if (item.IsAvailable)
+                        {
+                            existingProduct.PriceHistories.Add(new PriceHistory
+                            {
+                                Price = item.Price,
+                                DateRecorded = today
+                            });
+                        }
+                        await _context.Products.AddAsync(item);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Помилка при запису до бази : {ex.Message}");
+                }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Помилка при запису до бази : {ex.Message}");
-            }
+
+            await _context.SaveChangesAsync();
         }
     }
 }

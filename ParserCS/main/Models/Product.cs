@@ -22,6 +22,7 @@ namespace main.Models
             IsAvailable = isAvailable;
             ImageURL = imageURL;
             ProductURL = productURL;
+            PriceHistories = new List<PriceHistory>();
         }
         [JsonIgnore]
         public int Id { get; set; }
@@ -31,5 +32,8 @@ namespace main.Models
         public bool IsAvailable { get; set; }
         public string ImageURL { get; set; }
         public string ProductURL { get; set; }
+
+        [JsonIgnore]
+        public virtual ICollection<PriceHistory> PriceHistories { get; set; }
     }
 }

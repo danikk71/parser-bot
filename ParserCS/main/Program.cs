@@ -10,34 +10,58 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
+//var configurations = new ConfigurationBuilder()
+//    .SetBasePath(Directory.GetCurrentDirectory())
+//    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+//    .Build();
 
-var services = new ServiceCollection();
+var builder = WebApplication.CreateBuilder(args);
 
-var configurations = new ConfigurationBuilder()
-    .SetBasePath(Directory.GetCurrentDirectory())
-    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
-    .Build();
+builder.Services.AddHttpClient<IWebFetcher, HttpFetcher>();
+builder.Services.AddSingleton<IMapper<HtmlNode, Product>, TelemartMapper>();
+builder.Services.AddSingleton<IScraperService, TelemartScraper>();
+builder.Services.AddScoped<IExporter<List<Product>>, DbStorageService>();
+builder.Services.AddJsonService();
 
-services.AddHttpClient<IWebFetcher, HttpFetcher>();
-services.AddSingleton<IMapper<HtmlNode, Product>, TelemartMapper>();
-services.AddSingleton<IScraperService, TelemartScraper>();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
-services.AddJsonService();
-services.AddDbContext<AppDbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    options.UseNpgsql(configurations.GetConnectionString("DefaultConnection"));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
-services.AddScoped<IExporter<List<Product>>, DbStorageService>();
 
-var serviceProvider = services.BuildServiceProvider();
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 
-var exporters = serviceProvider.GetServices<IExporter<List<Product>>>();
-var scraper = serviceProvider.GetRequiredService<IScraperService>();
+var app = builder.Build();
 
-Console.WriteLine("Початок програми: ");
-await scraper.RunScraperAsync();
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
 
-var products = scraper.GetProductsList();
-foreach (var exporter in exporters)
-    await exporter.ExportAsync(products);
+app.UseCors();
+app.MapControllers();
+
+app.Run();
+
+//var exporters = serviceProvider.GetServices<IExporter<List<Product>>>();
+//var scraper = serviceProvider.GetRequiredService<IScraperService>();
+
+//Console.WriteLine("Початок програми: ");
+//await scraper.RunScraperAsync();
+
+//var products = scraper.GetProductsList();
+//foreach (var exporter in exporters)
+//    await exporter.ExportAsync(products);
 

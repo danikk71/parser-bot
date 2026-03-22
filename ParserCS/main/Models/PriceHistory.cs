@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace main.Models
@@ -11,8 +12,10 @@ namespace main.Models
         public int Id { get; set; }
 
         public int ProductId { get; set; }
-        public Product Product { get; set; } = null!;
         public int Price { get; set; }
         public DateTime DateRecorded { get; set; }
+
+        [JsonIgnore]
+        public Product Product { get; set; } = null!;
     }
 }
