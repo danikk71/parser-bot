@@ -66,20 +66,5 @@ namespace main.Controlers
                 .ToListAsync();
             return Ok(products);
         }
-
-        [HttpPost("Scrape")]
-        public async Task<IActionResult> Scrape()
-        {
-            var scraper = HttpContext.RequestServices.GetRequiredService<IScraperService>();
-            var exporters = HttpContext.RequestServices.GetServices<IExporter<List<Product>>>();
-
-            await scraper.RunScraperAsync();
-
-            var products = scraper.GetProductsList();
-            foreach (var exporter in exporters)
-                await exporter.ExportAsync(products);
-
-            return Ok(new { Message = "Successfully scraped and saved products", Count = products.Count });
-        }
     }
 }
