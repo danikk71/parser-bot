@@ -6,8 +6,8 @@ namespace main.Models
 {
     public class GPU : Product
     {
-        public GPU(string name, int price, string brand, bool isAvailable, string url, string productURL, int memory, string memorytype) 
-            : base(name, price, brand, isAvailable, url, productURL)
+        public GPU(string name, int price, string brand, bool isAvailable, string imageURL, string productURL, int memory, string memorytype) 
+            : base(name, price, brand, isAvailable, imageURL, productURL)
         {
             Memorytype = memorytype;
             Memory = memory;

@@ -6,8 +6,8 @@ namespace main.Models
 {
     public class RAM : Product
     {
-        public RAM(string name, int price, string brand,bool isAvailable,string url, string productURL, int memory,string memoryType,int frequency) 
-            : base(name, price, brand, isAvailable,url,productURL)
+        public RAM(string name, int price, string brand,bool isAvailable,string imageURL, string productURL, int memory,string memoryType,int frequency) 
+            : base(name, price, brand, isAvailable, imageURL, productURL)
         {
             Memory = memory;
             MemoryType = memoryType;

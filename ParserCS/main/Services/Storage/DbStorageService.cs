@@ -50,7 +50,7 @@ namespace main.Services.Storage
                     {
                         if (item.IsAvailable)
                         {
-                            existingProduct.PriceHistories.Add(new PriceHistory
+                            item.PriceHistories.Add(new PriceHistory
                             {
                                 Price = item.Price,
                                 DateRecorded = today

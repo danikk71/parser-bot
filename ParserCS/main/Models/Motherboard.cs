@@ -6,17 +6,17 @@ namespace main.Models
 {
     public class Motherboard : Product
     {
-        public Motherboard(string name, int price, string brand,bool isAvailable, string url, string productURL, string formfactor, string socket,string cpu,string ram) 
-            : base(name, price, brand, isAvailable, url, productURL)
+        public Motherboard(string name, int price, string brand,bool isAvailable, string imageURL, string productURL, string formFactor, string socket,string cpu,string ram) 
+            : base(name, price, brand, isAvailable, imageURL, productURL)
         {
             Socket = socket;
-            FormFactor = formfactor;
-            CPU = cpu;
-            RAM = ram;
+            FormFactor = formFactor;
+            Cpu = cpu;
+            Ram = ram;
         }
         public string Socket { get; set; }
         public string FormFactor { get; set; }
-        public string CPU { get; set; }
-        public string RAM { get; set; }
+        public string Cpu { get; set; }
+        public string Ram { get; set; }
     }
 }
